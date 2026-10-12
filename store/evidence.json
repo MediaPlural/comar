@@ -1,0 +1,26 @@
+{
+  "sidebar": [
+    {"app": "Telegram", "classes": ["LeftSidebarView", "LeftSidebarFolderView", "SidebarCapView"],
+     "state": ["ChatPresentationInterfaceState.sidebarShown", "ChatPresentationInterfaceState.sidebarEnabled"],
+     "methods": ["AccountContext.checkSidebarShouldEnable"]}
+  ],
+  "message-bubble": [
+    {"app": "Telegram", "classes": ["ChatBubbleAccessoryForward", "ChatBubbleViaAccessory", "ChannelCommentsBubbleControl"],
+     "members": ["bubbleView", "isBubbled", "bubbleMode"]}
+  ],
+  "swipe-gesture": [
+    {"app": "Telegram", "classes": ["TGUIKit.SwipeHandler", "ChatSwipeToReplyView"],
+     "methods": ["swipeWithEvent:", "playedSwipeToReplyHaptic"]}
+  ],
+  "story": [
+    {"app": "Telegram", "classes": ["StoryStealthModeView", "StoryStealthModeController", "StoryListChatListRowItem", "StoryListContainer"]}
+  ],
+  "wallet": [
+    {"app": "Telegram", "classes": ["TelegramIconsTheme"],
+     "members": ["_wallet_send", "_wallet_settings", "_wallet_passcode_visible", "_wallet_passcode_hidden", "_wallet_update"]}
+  ],
+  "premium-tier": [
+    {"app": "Telegram", "classes": ["PremiumBoardingController", "PremiumBoardingView", "PremiumBoardingHeaderView", "PremiumBoardingRowView", "PremiumAboutRowView"],
+     "members": ["openPremium", "isPremium"], "methods": ["setPremiumRate:"]}
+  ]
+}
