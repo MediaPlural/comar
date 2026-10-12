@@ -65,7 +65,6 @@
       "category": "commerce",
       "description": "Stored value / payment / balance surface.",
       "aliases": [
-        "pay",
         "payment",
         "balance",
         "_wallet_send",
@@ -79,7 +78,6 @@
       "description": "Paid subscription tier with gated features and upsell.",
       "aliases": [
         "premium",
-        "pro",
         "paid tier",
         "subscription",
         "PremiumBoardingController",
@@ -94,7 +92,6 @@
       "description": "Kanban-style board of tasks/quests (estate term for kanban).",
       "aliases": [
         "kanban",
-        "board",
         "task board",
         "todo board",
         "quest board"

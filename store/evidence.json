@@ -2,31 +2,24 @@
   "sidebar": [
     {
       "app": "Telegram",
-      "classes": [
-        "LeftSidebarView",
-        "LeftSidebarFolderView",
-        "SidebarCapView"
-      ],
-      "state": [
+      "members": [
+        "AccountContext.checkSidebarShouldEnable",
+        "ChatPresentationInterfaceState.sidebarEnabled",
         "ChatPresentationInterfaceState.sidebarShown",
-        "ChatPresentationInterfaceState.sidebarEnabled"
-      ],
-      "methods": [
-        "AccountContext.checkSidebarShouldEnable"
+        "LeftSidebarFolderItem",
+        "LeftSidebarFolderView",
+        "LeftSidebarView",
+        "SidebarCapView",
+        "toggleSidebar"
       ]
     },
     {
       "app": "Obsidian",
       "members": [
-        "slidingSidebar",
-        "sidebar-toggle-button",
+        "Sidebar",
         "sidebar",
-        "Sidebar"
-      ]
-    },
-    {
-      "app": "Obsidian",
-      "members": [
+        "sidebar-toggle-button",
+        "slidingSidebar",
         "workspace-drawer",
         "workspace-drawer-ribbon",
         "workspace-drawer-vault-switcher",
@@ -45,74 +38,45 @@
     {
       "app": "1Password",
       "members": [
+        "Drawer.Footer.Cancel",
+        "Drawer.Footer.PrimaryAction",
         "Sidebar",
         "SidebarCategory",
         "VaultSidebar"
       ]
     },
     {
-      "app": "1Password",
-      "members": [
-        "Drawer.Footer.PrimaryAction",
-        "Drawer.Footer.Cancel"
-      ]
-    },
-    {
       "app": "Visual Studio Code",
       "members": [
-        "workbench.parts.sidebar",
-        "sideBarPartView",
-        "workbench.sideBar.location"
-      ]
-    },
-    {
-      "app": "Visual Studio Code",
-      "members": [
-        "toggleMobileSidebarDrawer",
+        "closeMobileSidebarDrawer",
         "openMobileSidebarDrawer",
-        "closeMobileSidebarDrawer"
+        "sideBarPartView",
+        "toggleMobileSidebarDrawer",
+        "workbench.parts.sidebar",
+        "workbench.sideBar.location"
       ]
     },
     {
       "app": "Cursor",
       "members": [
         "agent-sidebar-cell",
+        "createDrawerInstance",
         "cursor-settings-sidebar-compact",
+        "groupPinnedModelsWithDrawer",
+        "isDrawer",
         "part.unifiedsidebar"
       ]
     },
     {
-      "app": "Cursor",
-      "members": [
-        "createDrawerInstance",
-        "isDrawer",
-        "groupPinnedModelsWithDrawer"
-      ]
-    },
-    {
       "app": "Snagit",
       "members": [
-        "toggleSidebar",
-        "sidebarWidth",
-        "sidebarViews",
-        "hideSidebarView"
-      ]
-    },
-    {
-      "app": "Snagit",
-      "members": [
-        "CutoutStyleDrawer",
         "CursorGraphicDrawer",
+        "CutoutStyleDrawer",
         "EraserGraphicDrawer",
-        "MagnifyGraphicDrawer"
-      ]
-    },
-    {
-      "app": "Telegram",
-      "members": [
-        "LeftSidebarView",
-        "LeftSidebarFolderItem",
-        "SidebarCapView",
+        "MagnifyGraphicDrawer",
+        "hideSidebarView",
+        "sidebarViews",
+        "sidebarWidth",
         "toggleSidebar"
       ]
     }
@@ -120,15 +84,14 @@
   "message-bubble": [
     {
       "app": "Telegram",
-      "classes": [
+      "members": [
         "ChatBubbleAccessoryForward",
         "ChatBubbleViaAccessory",
-        "ChannelCommentsBubbleControl"
-      ],
-      "members": [
+        "ChatHeaderBubblesView",
+        "ChatMessageBubbleBackdrop",
+        "bubbleMode",
         "bubbleView",
-        "isBubbled",
-        "bubbleMode"
+        "isBubbled"
       ]
     },
     {
@@ -149,17 +112,17 @@
     {
       "app": "Visual Studio Code",
       "members": [
-        "chat-requestBubbleBackground",
         "_updateSpeechBubblePosition",
-        "chat-pet-speech-bubble"
+        "chat-pet-speech-bubble",
+        "chat-requestBubbleBackground"
       ]
     },
     {
       "app": "Cursor",
       "members": [
         "bubble_id",
-        "server_bubble_id",
-        "glass-chat-bubble-background"
+        "glass-chat-bubble-background",
+        "server_bubble_id"
       ]
     },
     {
@@ -168,15 +131,6 @@
         "BasicSpeechBubble1BodyStyle",
         "BasicThoughtBubble1BodyStyle",
         "OvalBubbleTailStyle"
-      ]
-    },
-    {
-      "app": "Telegram",
-      "members": [
-        "ChatHeaderBubblesView",
-        "ChatMessageBubbleBackdrop",
-        "ChatBubbleViaAccessory",
-        "ChatBubbleAccessoryForward"
       ]
     },
     {
@@ -195,29 +149,29 @@
   "swipe-gesture": [
     {
       "app": "Telegram",
-      "classes": [
+      "members": [
+        "ChatSwipeToReplyView",
+        "SwipeHandler",
         "TGUIKit.SwipeHandler",
-        "ChatSwipeToReplyView"
-      ],
-      "methods": [
-        "swipeWithEvent:",
-        "playedSwipeToReplyHaptic"
+        "playedSwipeToReplyHaptic",
+        "swipeState",
+        "swipeWithEvent:"
       ]
     },
     {
       "app": "Obsidian",
       "members": [
+        "has-swipe",
         "isSwipeGesture",
         "swipeOffset",
-        "swipeVelocityX",
-        "has-swipe"
+        "swipeVelocityX"
       ]
     },
     {
       "app": "Visual Studio Code",
       "members": [
-        "workbench.editor.swipeToNavigate",
-        "registerSwipeListener"
+        "registerSwipeListener",
+        "workbench.editor.swipeToNavigate"
       ]
     },
     {
@@ -231,38 +185,24 @@
       "members": [
         "swipeWithEvent:"
       ]
-    },
-    {
-      "app": "Telegram",
-      "members": [
-        "SwipeHandler",
-        "ChatSwipeToReplyView",
-        "swipeWithEvent:",
-        "swipeState"
-      ]
     }
   ],
   "story": [
     {
       "app": "Telegram",
-      "classes": [
-        "StoryStealthModeView",
-        "StoryStealthModeController",
+      "members": [
+        "AvatarStoryIndicatorComponent",
+        "StoryLayoutView",
         "StoryListChatListRowItem",
-        "StoryListContainer"
+        "StoryListContainer",
+        "StoryStealthModeController",
+        "StoryStealthModeView"
       ]
     },
     {
       "app": "Spotify",
       "members": [
         "STORYLINES"
-      ]
-    },
-    {
-      "app": "Telegram",
-      "members": [
-        "StoryLayoutView",
-        "AvatarStoryIndicatorComponent"
       ]
     },
     {
@@ -277,9 +217,7 @@
         "clearCutHistory",
         "cutHistory",
         "deleteShareHistoryItem:",
-        "initWithMinValue:maxValue:startTime:endTime:currentTime:cutHistory:",
-        "openShareHistoryWindow:",
-        "setCutHistory:"
+        "openShareHistoryWindow:"
       ]
     },
     {
@@ -294,9 +232,7 @@
         "itemHistory:",
         "kr.ItemHistory",
         "kr.ShareHistory",
-        "search_history_cleared",
-        "shareHistory",
-        "shareHistory:"
+        "search_history_cleared"
       ]
     },
     {
@@ -311,9 +247,7 @@
         "this.history.filter",
         "this.history.length",
         "this.history.length-1",
-        "this.history.push",
-        "this.history.slice",
-        "this.historyIndex"
+        "this.history.push"
       ]
     },
     {
@@ -328,9 +262,7 @@
         "history",
         "history.inputbox.hint.suffix.inparens",
         "history.inputbox.hint.suffix.noparens",
-        "history.never",
-        "istory",
-        "nd.history.workspace"
+        "history.never"
       ]
     },
     {
@@ -345,50 +277,39 @@
         "session.history.listRewindPoints",
         "session.history.previewRewind",
         "session.history.rewind",
-        "session.history.truncate",
-        "story...",
-        "workspacehistorystate"
+        "session.history.truncate"
       ]
     }
   ],
   "wallet": [
     {
       "app": "Telegram",
-      "classes": [
-        "TelegramIconsTheme"
-      ],
       "members": [
+        "_wallet_passcode_hidden",
+        "_wallet_passcode_visible",
+        "_wallet_qr",
+        "_wallet_receive",
         "_wallet_send",
         "_wallet_settings",
-        "_wallet_passcode_visible",
-        "_wallet_passcode_hidden",
-        "_wallet_update"
+        "_wallet_update",
+        "settingsWallet",
+        "settingsWalletActive"
       ]
     },
     {
       "app": "1Password",
       "members": [
+        "CRYPTO_WALLET",
         "CryptoWallet",
-        "tabBarWallet",
-        "CRYPTO_WALLET"
+        "tabBarWallet"
       ]
     },
     {
       "app": "Cursor",
       "members": [
-        "prepaid-wallet",
         "getPrepaidWalletQueryKey",
-        "getWallet"
-      ]
-    },
-    {
-      "app": "Telegram",
-      "members": [
-        "settingsWallet",
-        "settingsWalletActive",
-        "_wallet_qr",
-        "_wallet_send",
-        "_wallet_receive"
+        "getWallet",
+        "prepaid-wallet"
       ]
     },
     {
@@ -403,23 +324,13 @@
         "payload",
         "payload:u",
         "wallet-2",
-        "wallet-cards",
-        "wallet-minimal",
-        "wallet:"
+        "wallet-cards"
       ]
     },
     {
       "app": "Visual Studio Code",
       "members": [
-        "CAHEI4CIAUpAzAgBSkDOIRCAFKtIAUpAyAgBSkDEISEIQsgBSkDKCAFKQMYhCEBIAUpAwAhAi",
-        "EAgAEGN9wBBABAWQQAPCyAAKAIAIAApAyAQMSIBRQ0AIAAQEkUEQCABDwsgACgCACABEBMLQQ",
-        "EEAIAcgBEEQaiAEQQxqEPMCRQRAIAQpAyAMAQsgBEKAgICAMDcDIEKAgICAMAtBhIABEK8BQQ",
-        "ICAgHBUDQAgAqciAy8BBkEKRw0AIAMpAyAiAkIgiKciA0EAIANBC2pBEkkbDQAgACABIAIQQg",
-        "QFqNgIACyABIQIgABCiAQ0HDAgLIAApAyAiASECIAAQogENBgwHCyAAKAIgQQFrIgRBAksNAS",
-        "QYiBUEFRgRAIARBAXFFDQFBACEJIAMpAyAiF0KAgICAcINCgICAgJB",
-        "QxrIgcQZyAFIAdrIQUgBikDKCEEIAYpAyAhAgwBCyAJIAp8IgIgCVStIAEgDHx8IgRCgICAgI",
         "darwinProfilePayloadUUID",
-        "gAgAEGOlQEgBRAWDBYLAkACQAJAIAApAyAiDEIgiKciAUF3RwRAIAENASAAQQEQECAAQUBrKA",
         "isKwallet",
         "kwallet",
         "payload"
@@ -429,18 +340,12 @@
   "premium-tier": [
     {
       "app": "Telegram",
-      "classes": [
-        "PremiumBoardingController",
-        "PremiumBoardingView",
-        "PremiumBoardingHeaderView",
-        "PremiumBoardingRowView",
-        "PremiumAboutRowView"
-      ],
       "members": [
+        "GiftPremiumShareObject",
+        "PremiumAboutRowItem",
+        "PremiumBoardingController",
+        "isPremium",
         "openPremium",
-        "isPremium"
-      ],
-      "methods": [
         "setPremiumRate:"
       ]
     },
@@ -448,32 +353,24 @@
       "app": "Spotify",
       "members": [
         "Premium",
+        "get-premium",
         "navbar.premium",
-        "premium-upsell-page",
-        "get-premium"
+        "premium-upsell-page"
       ]
     },
     {
       "app": "Visual Studio Code",
       "members": [
-        "premiumChat",
-        "_quotas.premiumChat"
+        "_quotas.premiumChat",
+        "premiumChat"
       ]
     },
     {
       "app": "Cursor",
       "members": [
-        "usage_based_premium_requests",
         "fast_premium_requests",
-        "premium-pill"
-      ]
-    },
-    {
-      "app": "Telegram",
-      "members": [
-        "PremiumBoardingController",
-        "PremiumAboutRowItem",
-        "GiftPremiumShareObject"
+        "premium-pill",
+        "usage_based_premium_requests"
       ]
     },
     {
@@ -488,9 +385,7 @@
         "CaptureInfoPropertiesViewController",
         "ColorAdjustEffectPropertiesViewController",
         "ConverterProgressDelegateProtocol",
-        "CropStateProtocol",
-        "Snagit.BrushToolPropertyViewController",
-        "Snagit.CalloutToolPropertyViewController"
+        "CropStateProtocol"
       ]
     },
     {
@@ -505,9 +400,7 @@
         "owerCompromised",
         "profile_card",
         "profile_view",
-        "watchtowerCompromised",
-        "watchtowerCompromisedDomain:",
-        "yX6ymoJwpDNGIUIsZJBUiRPROmGiEjhP0onHotuvA6HUs"
+        "watchtowerCompromised"
       ]
     },
     {
@@ -522,9 +415,7 @@
         "String.prototype.inclu",
         "ay.prototype",
         "t.prototyp",
-        "t.prototype.",
-        "t.prototype.disconnect",
-        "t.prototype.observe"
+        "t.prototype."
       ]
     }
   ],
@@ -532,42 +423,42 @@
     {
       "app": "Obsidian",
       "members": [
-        "getThemeFolder",
-        "themeVariables",
         "baseTheme",
-        "theme-dark"
+        "getThemeFolder",
+        "theme-dark",
+        "themeVariables"
       ]
     },
     {
       "app": "Spotify",
       "members": [
+        "data-theme",
         "encore-dark-theme",
-        "encore-light-theme",
-        "data-theme"
+        "encore-light-theme"
       ]
     },
     {
       "app": "1Password",
       "members": [
-        "setTheme",
         "ThemedIcon",
         "forceColorThemeDark",
+        "setTheme",
         "themeOverride"
       ]
     },
     {
       "app": "Visual Studio Code",
       "members": [
+        "ThemeIcon",
         "_themeService",
-        "getColorTheme",
-        "ThemeIcon"
+        "getColorTheme"
       ]
     },
     {
       "app": "Cursor",
       "members": [
-        "ThemeIcon",
         "ThemeColor",
+        "ThemeIcon",
         "supportThemeIcons"
       ]
     },
@@ -575,18 +466,18 @@
       "app": "Snagit",
       "members": [
         "ToolTheme",
-        "ToolThemeManager",
         "ToolThemeExporter",
-        "ToolThemeImporter"
+        "ToolThemeImporter",
+        "ToolThemeManager"
       ]
     },
     {
       "app": "Telegram",
       "members": [
-        "PresentationTheme",
         "ChartTheme",
+        "ColorPalette",
         "InstantPageTheme",
-        "ColorPalette"
+        "PresentationTheme"
       ]
     }
   ],
@@ -603,25 +494,25 @@
       "app": "Spotify",
       "members": [
         "Search",
-        "search.title.top-results",
-        "playlist.search_in_playlist"
+        "playlist.search_in_playlist",
+        "search.title.top-results"
       ]
     },
     {
       "app": "1Password",
       "members": [
+        "Search",
         "SearchBox",
-        "searchText",
-        "Search"
+        "searchText"
       ]
     },
     {
       "app": "Visual Studio Code",
       "members": [
-        "search-view",
-        "textSearchProvider",
         "fileSearchProvider",
-        "searchWidget"
+        "search-view",
+        "searchWidget",
+        "textSearchProvider"
       ]
     },
     {
@@ -644,10 +535,10 @@
     {
       "app": "Telegram",
       "members": [
-        "SearchView",
-        "SearchTextField",
         "ChatSearchHeader",
-        "CustomSearchController"
+        "CustomSearchController",
+        "SearchTextField",
+        "SearchView"
       ]
     }
   ],
@@ -664,23 +555,21 @@
       "app": "Visual Studio Code",
       "members": [
         "CommandPalette",
-        "menuId:CommandPalette",
-        "commandPaletteSuggestedCommandIds"
+        "commandPaletteSuggestedCommandIds",
+        "menuId:CommandPalette"
       ]
     },
     {
       "app": "Cursor",
       "members": [
+        "commandPalette",
         "openActionsPalette",
-        "openFilePrioritizedPalette",
-        "commandPalette"
+        "openFilePrioritizedPalette"
       ]
     },
     {
       "app": "Telegram",
       "members": [
-        "+ 0x10434487c _OBJC_METACLASS_$__TtCs12_SwiftObject togglePalette",
-        "ColorPalette.(MojavePalette in _0FA3053E9DDD4281048529F8DA5D30D3)",
         "ColorPalette.ColorPalette",
         "ColorPalette.InputViewTheme",
         "ColorPalette.InputViewTheme.Quote",
@@ -689,8 +578,7 @@
         "ThemeSettings.PaletteAccentColorNativeCodable",
         "_TtC12ColorPalette12ColorPalette",
         "_TtC12ColorPalette14InputViewTheme",
-        "_TtC12ColorPalette14PeerNameColors",
-        "_TtC12ColorPaletteP33_0FA3053E9DDD4281048529F8DA5D30D313MojavePalette"
+        "_TtC12ColorPalette14PeerNameColors"
       ]
     },
     {
@@ -711,9 +599,7 @@
         "_TtC6Snagit20SimplifyColorPalette",
         "_TtC6Snagit22SimplifyPaletteManager",
         "_TtC6Snagit24SimplifyColorPaletteView",
-        "_TtC6Snagit30SimplifyColorPaletteSaveDialog",
-        "_TtC6Snagit32SimplifyColorPaletteMenuItemView",
-        "_TtC6Snagit35SimplifyColorPalettePopUpButtonCell"
+        "_TtC6Snagit30SimplifyColorPaletteSaveDialog"
       ]
     }
   ],
@@ -721,10 +607,10 @@
     {
       "app": "Spotify",
       "members": [
-        "shelf.see-all",
-        "playlist.shelf.related-playlists",
+        "carousel-shelf",
         "data-shelf",
-        "carousel-shelf"
+        "playlist.shelf.related-playlists",
+        "shelf.see-all"
       ]
     },
     {
@@ -737,12 +623,7 @@
       "app": "Cursor",
       "members": [
         "SHELF",
-        "U_MODIFIER_LETTER_OPEN_SHELF",
-        "U_MODIFIER_LETTER_SHELF",
-        "e.U_MODIFIER_LETTER_OPEN_SHELF",
-        "e.U_MODIFIER_LETTER_SHELF",
-        "t.U_MODIFIER_LETTER_OPEN_SHELF",
-        "t.U_MODIFIER_LETTER_SHELF"
+        "U_MODIFIER_LETTER_SHELF"
       ]
     }
   ],
@@ -750,18 +631,12 @@
     {
       "app": "Telegram",
       "members": [
-        "(0x104d8d828) readSelectionFromPasteboard:",
-        "(0x104d94060) pasteboard:item:provideDataForType:",
-        "(0x104d95c60) writableTypesForPasteboard:",
-        "(0x104d95c68) pasteboardPropertyListForType:",
-        "(0x104d95c70) writingOptionsForType:pasteboard:",
-        "(0x104d95fb8) textView:writablePasteboardTypesForCell:atIndex:",
-        "Telegram.(GifKeyboardTabRowView in _286A4BD7A35CD1674E408EC5AF081077)",
-        "Telegram.(PremiumBoardingDoubleRowView in _6C5F3775310B03FEC2AC7C142536577F)",
-        "Telegram.(PremiumBoardingDoubleRowView in _6C5F3775310B03FEC2AC7C142536577F).LineView",
-        "Telegram.(PremiumBoardingHeaderView in _98F3BEF1E1066F1B1C45664B5720AF93)",
-        "Telegram.(PremiumBoardingRowView in _E0C227D5B55ED5545BB71A32FF175CFD)",
-        "Telegram.(PremiumBoardingStoriesRowView in _7ECBAFD11423387C0F77BDA85AA263D5)"
+        "pasteboard:item:provideDataForType:",
+        "pasteboardPropertyListForType:",
+        "readSelectionFromPasteboard:",
+        "textView:writablePasteboardTypesForCell:atIndex:",
+        "writableTypesForPasteboard:",
+        "writingOptionsForType:pasteboard:"
       ]
     },
     {
@@ -782,9 +657,7 @@
         "PasteboardHelpers",
         "PasteboardManager",
         "PasteboardReaderProtocol",
-        "SmacitDocumentPboardReader",
-        "SmacitPboardReader",
-        "Snagit.ContextualOnboardingController"
+        "SmacitDocumentPboardReader"
       ]
     },
     {
@@ -799,9 +672,7 @@
         "e.OnboardingModal",
         "e.VerifierBillboards",
         "ifierBillboards",
-        "nearby_onboarding_set_lo",
-        "nearby_onboarding_set_location",
-        "onboarding_modal"
+        "nearby_onboarding_set_lo"
       ]
     },
     {
@@ -816,9 +687,7 @@
         "kanbanItem",
         "kanbanItem:Qse",
         "kanbanSection",
-        "kanbanSection:wze",
-        "square-dashed-kanban",
-        "square-kanban"
+        "kanbanSection:wze"
       ]
     },
     {
@@ -833,9 +702,7 @@
         "diff.clipboard.copyDeletedLineContent.label",
         "diff.clipboard.copyDeletedLinesContent.label",
         "diff.clipboard.copyDeletedLinesContent.single.label",
-        "emptySelectionClipboard",
-        "find.globalFindClipboard",
-        "ms-toolsai.tensorboard"
+        "emptySelectionClipboard"
       ]
     },
     {
@@ -850,9 +717,7 @@
         "onboarding.promptStrategy",
         "onboarding.scenarioOutcome",
         "onboarding.scenarioShown",
-        "onboarding.tryoutOutcome",
-        "onboarding.tryoutStarted",
-        "voiceModeOnboarding.action"
+        "onboarding.tryoutOutcome"
       ]
     }
   ],
@@ -860,11 +725,9 @@
     {
       "app": "Telegram",
       "members": [
-        "Telegram.(InstantPageV2ThinkingContentView in _1AFF1F1969CB782C3C4B76339E1F5894)",
         "Telegram.InstantPageV2ThinkingView",
         "TelegramApi.Api.PageBlock.Cons_pageBlockThinking",
         "_TtC8Telegram25InstantPageV2ThinkingView",
-        "_TtC8TelegramP33_1AFF1F1969CB782C3C4B76339E1F589432InstantPageV2ThinkingContentView",
         "_TtCOO11TelegramApi3Api9PageBlock22Cons_pageBlockThinking",
         "revealWithThinkingHost",
         "thinkingViews",
@@ -881,14 +744,12 @@
       "app": "Cursor",
       "members": [
         "1.ThinkingStyle",
-        "COMPOSER_CAPABILITY_TYPE_THINKING",
         "ITY_TYPE_THINKING",
         "THINKING",
         "THINKING_STYLE_CODEX",
         "THINKING_STYLE_DEFAULT",
         "THINKING_STYLE_GPT5",
         "THINKING_STYLE_UNSPE",
-        "THINKING_STYLE_UNSPECIFIED",
         "agent.v1.ThinkingMessage",
         "agent.v1.ThinkingStyle",
         "thinking_message"
@@ -906,9 +767,7 @@
         "inthinking",
         "languageModelThinkingPart",
         "thinking",
-        "thinking.",
-        "thinking.type",
-        "thinkingstyle"
+        "thinking."
       ]
     }
   ],
@@ -916,8 +775,6 @@
     {
       "app": "Telegram",
       "members": [
-        "(0x104d962c0) application:didRegisterForRemoteNotificationsWithDeviceToken:",
-        "(0x104d962c8) application:didFailToRegisterForRemoteNotificationsWithError:",
         "+ 0x104f83050 __objc_empty_cache notificationSettings",
         "Postbox.MutablePeerNotificationSettingsBehaviorTimestampView",
         "Postbox.MutablePeerNotificationSettingsView",
@@ -933,8 +790,6 @@
     {
       "app": "Spotify",
       "members": [
-        "application:didFailToRegisterForRemoteNotificationsWithError:",
-        "application:didRegisterForRemoteNotificationsWithDeviceToken:",
         "getNotificationSettingsWithCompletionHandler:"
       ]
     },
@@ -947,8 +802,6 @@
         "_TtC6Snagit34ScreencastNotificationsHostingView",
         "_ignoreDocumentAddedNotifications",
         "_notifications",
-        "application:didFailToRegisterForRemoteNotificationsWithError:",
-        "application:didRegisterForRemoteNotificationsWithDeviceToken:",
         "bannerNotificationsChanged",
         "fetchNotifications",
         "ignoreDocumentAddedNotifications",
@@ -967,9 +820,7 @@
         "ettingsNotifications",
         "inbox",
         "kr.Notifications",
-        "notifications",
-        "notifications:",
-        "settingsNotifications"
+        "notifications"
       ]
     },
     {
@@ -984,9 +835,7 @@
         "notifications:o",
         "r.notificationsEnabled",
         "r.notificationsEnabled:",
-        "t.getAllInBox",
-        "thinbox",
-        "this.notifications"
+        "t.getAllInBox"
       ]
     },
     {
@@ -1001,9 +850,7 @@
         "inboxTwo:f",
         "inboxTwo:i",
         "inboxTwo:u",
-        "inbox_section_runs_only",
-        "local_interactive_child_inbox:",
-        "origin_inbox_osp_watch:"
+        "inbox_section_runs_only"
       ]
     },
     {
@@ -1018,9 +865,7 @@
         "inbox:m",
         "inbox:p",
         "inbox:v",
-        "new_inbox_",
-        "new_inbox_message",
-        "send_inbox"
+        "new_inbox_"
       ]
     }
   ],
@@ -1029,9 +874,6 @@
       "app": "Telegram",
       "members": [
         "$__lazy_storage_$_preferences",
-        "(0x104d94110) preferencesAction:",
-        "(0x104d94170) webView:decidePolicyForNavigationAction:preferences:decisionHandler:",
-        "(0x104d95bf0) setCodecPreferences:",
         "InAppSettings.AutoplayMediaPreferences",
         "Postbox.MutablePreferencesPrefixView",
         "Postbox.MutablePreferencesView",
@@ -1039,7 +881,8 @@
         "Postbox.PreferencesPrefixView",
         "Postbox.PreferencesTable",
         "Postbox.PreferencesView",
-        "TelegramCore.TelegramEngine.Preferences"
+        "TelegramCore.TelegramEngine.Preferences",
+        "preferencesAction:"
       ]
     },
     {
@@ -1054,9 +897,7 @@
         "preferences",
         "preferencesBeingClosed:",
         "preferencesKey",
-        "preferencesWithBundleExtension:",
-        "preferencesWithPanesSearchPath:",
-        "preferencesWithPanesSearchPath:bundleExtension:"
+        "preferencesWithBundleExtension:"
       ]
     },
     {
@@ -1071,9 +912,7 @@
         "e.TestUserPreferences",
         "testUserPreferences",
         "webPreferences:",
-        "x-apple.systempreferences:com.apple.Touch-ID-Settings.extension",
-        "x-apple.systempreferences:com.apple.preference.notifications",
-        "x-apple.systempreferences:com.apple.preference.security"
+        "x-apple.systempreferences:com.apple.preference.notifications"
       ]
     },
     {
@@ -1088,9 +927,7 @@
         "e.remote.systemPreferences.getUserDefault",
         "preferences-section",
         "setPreferences",
-        "t.preferences",
-        "this.setPreferences",
-        "webPreferences:"
+        "t.preferences"
       ]
     },
     {
@@ -1105,9 +942,7 @@
         "pasteAs.preferences",
         "preferences",
         "preferences.contribution",
-        "preferences.view.contribution",
-        "preferencesActions",
-        "preferencesIcons"
+        "preferences.view.contribution"
       ]
     },
     {
@@ -1122,9 +957,7 @@
         "noPreferences",
         "pasteAs.preferences",
         "preferences",
-        "preferences.",
-        "sessionsChanges.createPR.preferences",
-        "workspacePicker.locationPreferenceSavedNoProvider"
+        "preferences."
       ]
     }
   ],
@@ -1132,16 +965,14 @@
     {
       "app": "Telegram",
       "members": [
-        "(0x104d8c0d0) copyRenderedPixelBuffer:",
-        "(0x104d8d7c0) copy:",
-        "(0x104d8ec60) copy",
         "TelegramApi.Api.InlineButtonType.Cons_inlineButtonTypeCopy",
-        "TelegramCore.(MediaResourceDataCopyFile in _8CC4D96FB5CC97F78938AD5D69408D3A)",
+        "copy",
         "copy:",
         "copyAuthInfoFrom:toTempKeychain:",
         "copyCGImageAtTime:actualTime:error:",
         "copyItemAtPath:toPath:error:",
         "copyItemAtURL:toURL:error:",
+        "copyRenderedPixelBuffer:",
         "copyTextWithRTF:",
         "dataWithBytesNoCopy:length:freeWhenDone:"
       ]
@@ -1171,9 +1002,7 @@
         "canCopyAll",
         "canMakeACopyOfSourceFileWhenSavingToURL:",
         "copy:",
-        "copyAll:",
-        "copyAndBindEffectsControllerEffect:toDocumentAppliedEffect:",
-        "copyCGImageAtTime:actualTime:error:"
+        "copyAll:"
       ]
     },
     {
@@ -1188,9 +1017,7 @@
         "copy_snippet",
         "e.CopyEnvironmentId",
         "e.CopyLink",
-        "e.CopyRunCommandButton",
-        "e.CopySecretReference",
-        "e.CopySnippet"
+        "e.CopyRunCommandButton"
       ]
     },
     {
@@ -1205,9 +1032,7 @@
         "copy:",
         "copysr:",
         "f.copy",
-        "onCopy:",
-        "onCopy:null",
-        "oncopy"
+        "onCopy:"
       ]
     },
     {
@@ -1222,9 +1047,7 @@
         "diff.clipboard.copyChangedLinesContent.label",
         "diff.clipboard.copyChangedLinesContent.single.label",
         "diff.clipboard.copyDeletedLineContent.label",
-        "diff.clipboard.copyDeletedLinesContent.label",
-        "diff.clipboard.copyDeletedLinesContent.single.label",
-        "miCopy"
+        "diff.clipboard.copyDeletedLinesContent.label"
       ]
     },
     {
@@ -1239,9 +1062,7 @@
         "e.copy",
         "fs-copyfile",
         "i.copy",
-        "interactiveSessionCopy",
-        "t.copy",
-        "this._buff.copy"
+        "interactiveSessionCopy"
       ]
     }
   ],
@@ -1250,17 +1071,12 @@
       "app": "Telegram",
       "members": [
         "$__lazy_storage_$_calls",
-        "(0x104d8b2c8) randomCallsEmoji",
         "OngoingGroupCallSsrcGroup",
         "OngoingGroupCallStats",
-        "PrivateCallScreen.(ActiveCallView in _CABF240ACFDB7448C67CE622CC436EF4)",
-        "PrivateCallScreen.(BundleFinder in _5270665077B680B2E9F74D505B5904A4)",
-        "PrivateCallScreen.(InfoHelpView in _7E46FC7E3B3F6DAAAA1FA92B473E8A5B)",
-        "PrivateCallScreen.(ShadowView in _7E46FC7E3B3F6DAAAA1FA92B473E8A5B)",
-        "PrivateCallScreen.(SignalControl in _CABF240ACFDB7448C67CE622CC436EF4)",
         "PrivateCallScreen.Arguments",
         "PrivateCallScreen.PeerCallActionView",
-        "PrivateCallScreen.PeerCallArguments"
+        "PrivateCallScreen.PeerCallArguments",
+        "randomCallsEmoji"
       ]
     },
     {
@@ -1286,9 +1102,7 @@
         "cV.CallHierarchyIncomingCallsRequest",
         "incomingCalls",
         "outgoingCalls",
-        "tp.CallHierarchyIncomingCallsReq",
-        "tp.CallHierarchyIncomingCallsRequest",
-        "tp.CallHierarchyOutgoingCallsRequest"
+        "tp.CallHierarchyIncomingCallsReq"
       ]
     },
     {
@@ -1303,9 +1117,7 @@
         "callStackView",
         "callStackWidget",
         "callsTo",
-        "empt.callsFrom",
-        "empt.callsTo",
-        "omingCallsIcons"
+        "empt.callsFrom"
       ]
     },
     {
@@ -1320,9 +1132,7 @@
         "callstac",
         "callstack",
         "callstack.",
-        "numtoolcalls",
-        "providercallstate",
-        "roottoolcallsbeforefirsttext"
+        "numtoolcalls"
       ]
     }
   ],
@@ -1330,24 +1140,21 @@
     {
       "app": "Telegram",
       "members": [
-        "(0x104d8b250) encrypt:channelId:plaintextPrefixLength:",
-        "(0x104d8d578) channels",
-        "(0x104d8d750) setRequestedVideoChannels:",
-        "(0x104d8e018) _audioChannelsCountForPreset:",
-        "(0x104d8e890) channelId",
-        "(0x104d8ee80) dataChannelStateForNativeState:",
-        "(0x104d8fdd8) initWithFactory:nativeDataChannel:",
-        "(0x104d90e48) nativeDataChannelInit",
-        "(0x104d91b00) resetContextForChannelCount:",
-        "(0x104d92030) setChannelId:",
-        "Telegram.(BoostRowItemView in _B49B4D75345D015CF2FBD8F5ADA60A94).ChannelView",
-        "Telegram.(ChannelAdminControllerArguments in _2FFDA69D44869DB43631F731FB69050E)"
+        "_audioChannelsCountForPreset:",
+        "channelId",
+        "channels",
+        "dataChannelStateForNativeState:",
+        "encrypt:channelId:plaintextPrefixLength:",
+        "initWithFactory:nativeDataChannel:",
+        "nativeDataChannelInit",
+        "resetContextForChannelCount:",
+        "setChannelId:",
+        "setRequestedVideoChannels:"
       ]
     },
     {
       "app": "Spotify",
       "members": [
-        "branchShortUrlWithParams:andChannel:andFeature:andTags:andAlias:andCallback:",
         "peripheralManager:didOpenL2CAPChannel:error:",
         "peripheralManager:didPublishL2CAPChannel:error:",
         "peripheralManager:didUnpublishL2CAPChannel:error:",
@@ -1381,9 +1188,7 @@
         "channelStartRetr",
         "channelStartRetryCount:0",
         "channelStartRetryCount:u",
-        "e.ChannelClosed",
-        "e.activeChannelUuid",
-        "e.channelStartRetryCount"
+        "e.ChannelClosed"
       ]
     },
     {
@@ -1398,9 +1203,7 @@
         "ir.channel.hsl2rgb",
         "ir.channel.rgb2hsl",
         "xChannelSelector:null",
-        "xchannelselector",
-        "yChannelSelector:null",
-        "ychannelselector"
+        "xchannelselector"
       ]
     },
     {
@@ -1415,9 +1218,7 @@
         "renderChannelName",
         "showOutputChannels",
         "this.channels",
-        "this.channels.get",
-        "this.channels.set",
-        "update.channel"
+        "this.channels.get"
       ]
     },
     {
@@ -1432,9 +1233,7 @@
         "channels",
         "dataChannels",
         "devContainerOutputChannel",
-        "mainThreadDataChannels",
-        "per-channel",
-        "renderChannelName"
+        "mainThreadDataChannels"
       ]
     }
   ],
@@ -1442,10 +1241,6 @@
     {
       "app": "Telegram",
       "members": [
-        "(0x104d90770) isWhitespaceDisabled",
-        "(0x104d95210) setIsWhitespaceDisabled:",
-        "(0x104d97180) parser:foundIgnorableWhitespace:",
-        "+ 0x105175de5 _swift_deletedMethodError _isWhitespaceDisabled",
         "_isWhitespaceDisabled",
         "isWhitespaceDisabled",
         "parser:foundIgnorableWhitespace:",
@@ -1486,9 +1281,7 @@
         "highlightWhitespace:",
         "ingWhitespace:",
         "n.whiteSpace",
-        "whiteSpace:",
-        "whiteSpace_fallback:",
-        "whitespace"
+        "whiteSpace:"
       ]
     },
     {
@@ -1503,9 +1296,7 @@
         "experimentalWhitespaceRendering.svg",
         "ignoreTrimWhitespace",
         "selectLeadingAndTrailingWhitespace",
-        "tor.autoClosingBrackets.beforeWhitespace",
-        "tor.autoClosingComments.beforeWhitespace",
-        "trimAutoWhitespace"
+        "tor.autoClosingBrackets.beforeWhitespace"
       ]
     },
     {
@@ -1520,9 +1311,7 @@
         "nonwhitespace",
         "protectWhitespace",
         "r.Character.isWhiteSpace",
-        "this.protectWhitespace",
-        "whitespace",
-        "whitespace-only"
+        "this.protectWhitespace"
       ]
     }
   ],
@@ -1530,18 +1319,16 @@
     {
       "app": "Telegram",
       "members": [
-        "(0x104d8f240) documentNumber",
-        "(0x104d8f250) documentSubtype",
-        "(0x104d8f258) documentType",
-        "(0x104d8f260) documentVisibleRect",
-        "(0x104d8f268) documentsDirectory",
-        "(0x104d93ba8) moveToBeginningOfDocument:",
-        "(0x104d93bb0) moveToEndOfDocument:",
-        "(0x104d93bb8) moveToBeginningOfDocumentAndModifySelection:",
-        "(0x104d93bc0) moveToEndOfDocumentAndModifySelection:",
-        "(0x104d960c8) window:shouldPopUpDocumentPathMenu:",
         "RichTextEditorCore.RTFDocumentParser",
-        "RichTextEditorUI.DocumentCanvasView"
+        "RichTextEditorUI.DocumentCanvasView",
+        "documentNumber",
+        "documentSubtype",
+        "documentType",
+        "documentVisibleRect",
+        "documentsDirectory",
+        "moveToBeginningOfDocument:",
+        "moveToBeginningOfDocumentAndModifySelection:",
+        "moveToEndOfDocument:"
       ]
     },
     {
@@ -1556,9 +1343,7 @@
         "ImageDocumentData",
         "ImageDocumentRenderer",
         "SaveDialogDocumentProtocol",
-        "SmacitDocumentPboardReader",
-        "Snagit.CollectionImageDocument",
-        "Snagit.CombinedVideoTrayDocument"
+        "SmacitDocumentPboardReader"
       ]
     },
     {
@@ -1573,9 +1358,7 @@
         "documentSpreadsheet",
         "documentTex",
         "e.Document",
-        "e.DocumentImage",
-        "e.DocumentSpreadsh",
-        "e.DocumentSpreadsheet"
+        "e.DocumentImage"
       ]
     },
     {
@@ -1590,9 +1373,7 @@
         "document.createDocumentFragment",
         "document.createElement",
         "document.createTextNode",
-        "document.querySelector",
-        "document.querySelectorAll",
-        "this.ownerDocument"
+        "document.querySelector"
       ]
     },
     {
@@ -1607,9 +1388,7 @@
         "multiDocumentHighlightProvider",
         "notebookReplDocument",
         "wordBasedSuggestions.allDocuments",
-        "wordBasedSuggestions.currentDocument",
-        "wordBasedSuggestions.matchingDocument",
-        "wordBasedSuggestions.matchingDocuments"
+        "wordBasedSuggestions.currentDocument"
       ]
     },
     {
@@ -1624,9 +1403,7 @@
         "e.gradle.azure-ai-translation-document",
         "isforanotherdocument",
         "setUntitledDocumentLanguage",
-        "workspace.gradle.azure-ai-documentintelligence",
-        "workspace.gradle.azure-ai-documenttranslator",
-        "workspace.gradle.azure-search-documents"
+        "workspace.gradle.azure-ai-documentintelligence"
       ]
     }
   ],
@@ -1635,17 +1412,13 @@
       "app": "Telegram",
       "members": [
         "$__lazy_storage_$_ensureDirectoryCreated",
-        "(0x104d8f268) documentsDirectory",
-        "(0x104d8f8d8) getSRCDirectoryPath",
         "Postbox.TempBoxDirectory",
         "URLsForDirectory:inDomains:",
         "_TtC7Postbox16TempBoxDirectory",
         "contentsOfDirectoryAtPath:error:",
-        "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:",
-        "createDirectoryAtPath:withIntermediateDirectories:attributes:error:",
-        "createDirectoryAtURL:withIntermediateDirectories:attributes:error:",
         "directory",
-        "documentsDirectory"
+        "documentsDirectory",
+        "getSRCDirectoryPath"
       ]
     },
     {
@@ -1654,8 +1427,6 @@
         "URLByAppendingPathComponent:isDirectory:",
         "URLForDirectory:inDomain:appropriateForURL:create:error:",
         "URLsForDirectory:inDomains:",
-        "createDirectoryAtPath:withIntermediateDirectories:attributes:error:",
-        "createDirectoryAtURL:withIntermediateDirectories:attributes:error:",
         "fileURLWithPath:isDirectory:",
         "setCurrentDirectoryPath:",
         "setDirectoryURL:"
@@ -1666,16 +1437,12 @@
       "members": [
         "Snagit.TrayDirectoryWatcher",
         "URLsForDirectory:inDomains:",
-        "_$s12TechSmithKit19TSKFolderPermissionC6folderSo21NSSearchPathDirectoryVvg",
         "_TtC6Snagit20TrayDirectoryWatcher",
         "_previousAutosaveDirectory",
-        "addDirectoryItemWithBasePath:andCategorySubpath:andName:intoArray:",
         "copyFileToAutosaveDirectory:",
         "copyVideoToMoviesDirectory:",
         "createDirectoryAtPath:",
-        "createDirectoryAtPath:withIntermediateDirectories:attributes:error:",
-        "createDirectoryAtURL:",
-        "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+        "createDirectoryAtURL:"
       ]
     },
     {
@@ -1699,9 +1466,7 @@
         "directory.",
         "e.isDirectory",
         "i.isDirectory",
-        "n.isDirectory",
-        "openDirectory",
-        "optionChoiceSubdirectory:"
+        "n.isDirectory"
       ]
     },
     {
@@ -1716,9 +1481,7 @@
         "fileIsDirectoryWriteError",
         "goToRecentDirectory",
         "goToRecentDirectory.metadata",
-        "launchFail.cwdNotDirectory",
-        "nch.action.terminal.goToRecentDirectory",
-        "selectRecentDirectory"
+        "launchFail.cwdNotDirectory"
       ]
     },
     {
@@ -1733,9 +1496,7 @@
         "directory.",
         "isDirectory",
         "sendstageworkingdirectoryms",
-        "subdirectory",
-        "wicg-file-system-access",
-        "workingDirectoryMissing"
+        "subdirectory"
       ]
     }
   ],
@@ -1743,18 +1504,16 @@
     {
       "app": "Telegram",
       "members": [
-        "(0x104d8c678) setColor:forKeyPath:",
-        "(0x104d8c6f0) needsDisplayForKey:",
-        "(0x104d8cd58) didChangeValueForKey:",
-        "(0x104d8de30) automaticallyNotifiesObserversForKey:",
-        "(0x104d8ee28) currentStatsForKeys:",
-        "(0x104d8f110) dictionaryForKey:group:",
-        "(0x104d90b30) mediaTypeForKind:",
-        "(0x104d90e68) nativeEncryptionKeyTypeForKeyType:",
-        "(0x104d910b8) numberForKey:group:",
+        "automaticallyNotifiesObserversForKey:",
         "boolForKey:",
+        "currentStatsForKeys:",
         "decodeBoolForKey:",
-        "decodeIntForKey:"
+        "decodeIntForKey:",
+        "dictionaryForKey:group:",
+        "didChangeValueForKey:",
+        "mediaTypeForKind:",
+        "nativeEncryptionKeyTypeForKeyType:",
+        "needsDisplayForKey:"
       ]
     },
     {
@@ -1769,9 +1528,7 @@
         "removeObserver:forKeyPath:",
         "setBool:forKey:",
         "setObject:forKey:",
-        "setObject:forKeyedSubscript:",
-        "setProperty:forKey:inRequest:",
-        "setValue:forKey:"
+        "setObject:forKeyedSubscript:"
       ]
     },
     {
@@ -1786,9 +1543,7 @@
         "captureModeForKeyCodeKey:",
         "childGraphicForKnobUnderPoint:withCurrentHitGraphic:",
         "controlsForKeys:",
-        "cursorForKnob:",
-        "decodeBoolForKey:",
-        "decodeObjectOfClass:forKey:"
+        "cursorForKnob:"
       ]
     },
     {
@@ -1809,9 +1564,7 @@
         "forkv:",
         "git-fork",
         "lucide-git-fork",
-        "pitchfork:",
-        "topfork:",
-        "u.fork"
+        "pitchfork:"
       ]
     },
     {
@@ -1826,9 +1579,7 @@
         "gistFork:f",
         "glass_cloud_agent_fork_from_turn:",
         "i8e.fork",
-        "isable_context_ast_typescript_fork__",
-        "repoForked:f",
-        "searchForKernels"
+        "isable_context_ast_typescript_fork__"
       ]
     },
     {
@@ -1843,9 +1594,7 @@
         "fork",
         "fork:",
         "forked",
-        "forking",
-        "forkpty",
-        "sessions.fork"
+        "forking"
       ]
     }
   ],
@@ -1860,9 +1609,6 @@
     {
       "app": "Snagit",
       "members": [
-        "_$s12TechSmithKit21ColoredBackgroundViewC11strokeColorSo7NSColorCSgvs",
-        "_$s12TechSmithKit21ColoredBackgroundViewC11strokeWidth12CoreGraphics7CGFloatVvs",
-        "_$s12TechSmithKit21ColoredBackgroundViewC12cornerRadius12CoreGraphics7CGFloatVvM",
         "_coloredHeaderView",
         "colorEditing",
         "coloredBackgroundView",
@@ -1884,9 +1630,7 @@
         "coloredEmphasizedText",
         "coloredEmphasizedText--",
         "coloredEmphasizedText--PartitionedText_UTRGC",
-        "coloredEmphasizedText:",
-        "valore",
-        "verloren."
+        "coloredEmphasizedText:"
       ]
     },
     {
@@ -1901,9 +1645,7 @@
         "fileExplorer:",
         "l.optionRevealVaultInExplorerMac",
         "lphabetical:bd.plugins.fileExplorer.labelSortAToZ",
-        "optionRevealVaultInExplorer:",
-        "optionRevealVaultInExplorerMac:",
-        "plorer"
+        "optionRevealVaultInExplorer:"
       ]
     },
     {
@@ -1918,9 +1660,7 @@
         "focusFilesExplorerMetadata",
         "ms-vscode.remote-explorer",
         "openExplorerOnEnd",
-        "processExplorer",
-        "processExplorerMain",
-        "views.explorer"
+        "processExplorer"
       ]
     },
     {
@@ -1935,9 +1675,7 @@
         "vscode-component-explorer-cli-0.1",
         "vscode-component-explorer-cli-0.1.0.tgz",
         "vscode-component-explorer-vite-pl",
-        "vscode-component-explorer-vite-plugin-0.1.0.tgz",
-        "vscode-component-explorer-webpack",
-        "vscode-component-explorer-webpack-plugin-0.1.0.tgz"
+        "vscode-component-explorer-vite-plugin-0.1.0.tgz"
       ]
     }
   ],
@@ -1954,9 +1692,7 @@
         "TelegramApi.Api.ReplyMarkup.Cons_replyKeyboardForceReply",
         "TelegramApi.Api.ReplyMarkup.Cons_replyKeyboardHide",
         "TelegramApi.Api.ReplyMarkup.Cons_replyKeyboardMarkup",
-        "TelegramApi.Api.VideoSize.Cons_videoSizeEmojiMarkup",
-        "TelegramApi.Api.VideoSize.Cons_videoSizeStickerMarkup",
-        "TelegramCore.ReplyMarkupMessageAttribute"
+        "TelegramApi.Api.VideoSize.Cons_videoSizeEmojiMarkup"
       ]
     },
     {
@@ -1971,9 +1707,7 @@
         "Prism.languages.markup.tag.inside",
         "ages.markup",
         "e.languages.markup",
-        "e.languages.markup.tag.pattern.source",
-        "markup",
-        "markup.entity"
+        "e.languages.markup.tag.pattern.source"
       ]
     },
     {
@@ -1988,9 +1722,7 @@
         "markup",
         "markup-templating",
         "orgModeMarkup:",
-        "t.Markup",
-        "this.markup",
-        "toMarkup"
+        "t.Markup"
       ]
     },
     {
@@ -2005,9 +1737,7 @@
         "markup",
         "markupCell",
         "notebook.find.filter.findInMarkupInput",
-        "notebook.find.filter.findInMarkupPreview",
-        "notebook.markup.fontFamily",
-        "notebook.markup.fontSize"
+        "notebook.find.filter.findInMarkupPreview"
       ]
     },
     {
@@ -2022,9 +1752,7 @@
         "markupCell",
         "notebook.find.filter.findInMarkupInput",
         "notebook.find.filter.findInMarkupPreview",
-        "notebook.markup.fontFamily",
-        "notebook.markup.fontSi",
-        "notebook.markup.fontSize"
+        "notebook.markup.fontFamily"
       ]
     }
   ],
@@ -2049,9 +1777,7 @@
         "marketplace",
         "marketplace.cursorapi.com",
         "marketplace.visualstudio.com",
-        "searchMarketplace",
-        "themes.selectMarketplaceTheme",
-        "vsmarketplacebadge.apphb.com"
+        "searchMarketplace"
       ]
     },
     {
@@ -2066,9 +1792,7 @@
         "marketplace",
         "marketplace:auth:checked",
         "marketplaces",
-        "strict-marketplaces",
-        "strictmarketplaceslockdown",
-        "strictmarketplacesset"
+        "strict-marketplaces"
       ]
     }
   ],
@@ -2076,8 +1800,6 @@
     {
       "app": "Telegram",
       "members": [
-        "(0x104d8ae68) viewDidMoveToSuperview",
-        "Postbox.(CachedMediaResourceRepresentationContext in _74DF378459E89D55D555FD1A1A5F6A27)",
         "Postbox.CombinedMutableView",
         "Postbox.DeletedMessagesView",
         "Postbox.EngineMessageHistorySavedMessagesThread",
@@ -2086,8 +1808,8 @@
         "Postbox.InvalidatedMessageHistoryTagSummariesView",
         "Postbox.InvalidatedMessageHistoryTagsSummaryTable",
         "Postbox.MessageHistorySavedMessagesIndexView",
-        "_dataForEncryptedMessage:authKey:sessionInfo:quickAckId:address:extendedPadding:",
-        "modMulInto:a:b:mod:"
+        "modMulInto:a:b:mod:",
+        "viewDidMoveToSuperview"
       ]
     },
     {
@@ -2102,8 +1824,7 @@
         "setCpuLoadMonitorRunLoop:",
         "setCpuLoadMonitorThread:",
         "setLastReportedMainThreadLatencyMeasurerSequenceNumber:",
-        "setLoadMeasurementEnabled:",
-        "setShouldStopCPULoadMonitorThread:"
+        "setLoadMeasurementEnabled:"
       ]
     },
     {
@@ -2118,23 +1839,18 @@
         "_searchFailedMessage",
         "_swift_deletedMethodError",
         "endModifyingGraphic:withEvent:",
-        "insertGraphics:atIndexes:andModifySelection:",
-        "loadMessageWithData:",
-        "modifyGraphicWithTarget:andModifierSelector:andNewPoint:andDragEvent:"
+        "insertGraphics:atIndexes:andModifySelection:"
       ]
     },
     {
       "app": "1Password",
       "members": [
         "7PoHf9rKGb4kuLgz6sBpzgi6uwFn9pDMgM1z",
-        "9cm406dvWx1fezbyXUSjthstZ2DmNJh1NfIPBwP1HOT2tlup8JQak1Wm54K758kxSBig",
         "Afbtg2JdREW1j6CLdAdMfFE9IMs5qbWuDxqYmcDY2Fc1ISRlsMBq4q6m5eRs",
         "MDIh9rjpzv81xu6oS5Dm",
-        "OUpC09hYfgaoNMEkR5NFaBsujS9DBCdmMgTQCecaeuYJAVcmViCMgUGSgb5fmdyJw7ey4AbP",
         "OtvtyBbVaAy0tLpidmQFSEjLITgFF755j8pd1s",
         "VMSnVlflvrO6AkY3tcYgDdA7GiFNL1dmgMe",
         "W5wBZBkuxH5UmcXEnBOTM1rMf6PVmcdmBXGlHI4UPZkYgOiyfn5Uc",
-        "WfXquHCDGsbAwDyRFNDY2YlVMP1AOPdmz9UmBkhgATd7l5SWIxaK8qBYOh7E8rfhrnNhOe36",
         "YorhViG5pedGRGDaVBthQmsCrMiNDMBRVv0LJWEAywd5",
         "d8KM9YpSL9KkgDMeg08drgDduPkkjoQIzgy2ASDbVb4x9PjMI",
         "dmJIJqyGmGc"
@@ -2152,9 +1868,7 @@
         "onloadedmetadata",
         "optionRestrictedMo",
         "optionRestrictedMode:",
-        "ordm",
-        "ordm:",
-        "spreadMethod:null"
+        "ordm"
       ]
     },
     {
@@ -2169,9 +1883,7 @@
         "findMatchAction.noResults",
         "indMatchAction.noResults",
         "nstanceAdmin",
-        "podman",
-        "secondInstanceAdmin",
-        "secondInstanceAdminDetail"
+        "podman"
       ]
     },
     {
@@ -2186,9 +1898,7 @@
         "skippedmissingdescription",
         "skippedmissingname",
         "timesincefirstobservedms",
-        "timetoauthenticationsettledms",
-        "totalelapsedms",
-        "turnelapsedms"
+        "timetoauthenticationsettledms"
       ]
     }
   ],
@@ -2196,24 +1906,21 @@
     {
       "app": "Telegram",
       "members": [
-        "(0x104d8d6a8) initWithTimestampMilliseconds:responseTimestamp:status:oggData:",
-        "(0x104d8e470) applyPixelBuffer:timeStampNs:",
-        "(0x104d8e5d0) authMessageServiceCompletedWithAuthKey:timestamp:",
-        "(0x104d8e8c8) checkIpData:timestamp:source:",
-        "(0x104d8ea28) completeWithAuthKey:timestamp:",
-        "(0x104d8fc08) initWithAuthKey:authKeyId:validUntilTimestamp:notBound:",
-        "(0x104d8fc10) initWithAuthKey:authKeyId:validUntilTimestamp:saltSet:authKeyAttributes:",
-        "(0x104d8fc68) initWithBuffer:rotation:timeStampNs:",
-        "(0x104d8ff18) initWithIp:timestamp:",
         "Postbox.MutablePeerNotificationSettingsBehaviorTimestampView",
         "Postbox.MutableTimestampBasedMessageAttributesView",
-        "Postbox.PeerNotificationSettingsBehaviorTimestampView"
+        "Postbox.PeerNotificationSettingsBehaviorTimestampView",
+        "applyPixelBuffer:timeStampNs:",
+        "authMessageServiceCompletedWithAuthKey:timestamp:",
+        "checkIpData:timestamp:source:",
+        "completeWithAuthKey:timestamp:",
+        "initWithAuthKey:authKeyId:validUntilTimestamp:notBound:",
+        "initWithBuffer:rotation:timeStampNs:",
+        "initWithIp:timestamp:"
       ]
     },
     {
       "app": "Spotify",
       "members": [
-        "centralManager:didDisconnectPeripheral:timestamp:isReconnecting:error:",
         "setClickTimestamp:"
       ]
     },
@@ -2229,9 +1936,7 @@
         "eTimestamp",
         "this.firstCaptureTimestamp",
         "timeDelta:f-this.firstCaptureTimestamp",
-        "timeDelta:t-this.firstCaptureTimestamp",
-        "timestamp",
-        "timestamps:h"
+        "timeDelta:t-this.firstCaptureTimestamp"
       ]
     },
     {
@@ -2246,9 +1951,7 @@
         "this.timestamp",
         "timestamp",
         "timestamp.",
-        "timestamp:jt",
-        "timestamp:vx",
-        "timestamps"
+        "timestamp:jt"
       ]
     },
     {
@@ -2263,9 +1966,7 @@
         "start_timestamp:dd",
         "start_timestamp:this._startTime",
         "t.timestamp",
-        "timestamp:Date.now",
-        "timestamp:dd",
-        "timestamp:vC"
+        "timestamp:Date.now"
       ]
     },
     {
@@ -2280,9 +1981,7 @@
         "timestamp",
         "timestamp-t",
         "timestamp.",
-        "timestamp:Date.now",
-        "timestamp:r",
-        "timestampms"
+        "timestamp:Date.now"
       ]
     }
   ],
@@ -2321,9 +2020,7 @@
         "Mi.NotebookCellArra",
         "Mi.NotebookCellArrayChange",
         "Mi.NotebookDocument",
-        "notebook-pen",
-        "notebook-tabs",
-        "notebook-text"
+        "notebook-pen"
       ]
     },
     {
@@ -2338,9 +2035,7 @@
         "notebookLiveShare",
         "notebookMessaging",
         "notebookMime",
-        "notebookReplDocument",
-        "notebookVariableProvi",
-        "notebookVariableProvider"
+        "notebookReplDocument"
       ]
     },
     {
@@ -2355,9 +2050,7 @@
         "notebookLiveShare",
         "notebookMessaging",
         "notebookReplDocument",
-        "notebookVariableProvider",
-        "notebookstatsloaded",
-        "vscode-notebook-renderer"
+        "notebookVariableProvider"
       ]
     }
   ],
@@ -2365,18 +2058,14 @@
     {
       "app": "Telegram",
       "members": [
-        "(0x104d92880) setProfile:",
-        "(0x104d95538) initWithProfile:level:",
-        "(0x104d95540) profile",
-        "(0x104d961b0) windowDidChangeScreenProfile:",
         "+ 0x104516c59 _swift_deletedMethodError _profile_level_id",
         "+ 0x104fc3e20 __objc_empty_cache profileMusicContext",
         "RTCH264ProfileLevelId",
-        "Telegram.(ProfilePreviewRowItem in _6ACD2D18A32C9126FFD0D1E41D519BCD)",
-        "Telegram.(ProfilePreviewRowView in _6ACD2D18A32C9126FFD0D1E41D519BCD)",
         "Telegram.APProfileSavedController",
-        "TelegramApi.Api.InlineButtonType.Cons_inlineButtonTypeUserProfile",
-        "TelegramApi.Api.InlineButtonType.Cons_inputInlineButtonTypeUserProfile"
+        "initWithProfile:level:",
+        "profile",
+        "setProfile:",
+        "windowDidChangeScreenProfile:"
       ]
     },
     {
@@ -2391,9 +2080,7 @@
         "_profileContainerHeightConstraint",
         "_profileContainerWidthConstraint",
         "addNewOutputProfile:",
-        "allowedSystemProfileKeysForUpdater:",
-        "announceCancelForProfile:",
-        "announceCompletionMessage:forProfileTitle:forProfileGuid:forCaptureInfo:"
+        "allowedSystemProfileKeysForUpdater:"
       ]
     },
     {
@@ -2408,9 +2095,7 @@
         "kProfileAutofillBlocked",
         "profile_card",
         "profile_view",
-        "work_profile_autofill_b",
-        "work_profile_autofill_blocked",
-        "work_profile_present"
+        "work_profile_autofill_b"
       ]
     },
     {
@@ -2425,9 +2110,7 @@
         "colorProfile:null",
         "e.USE_PROFILES",
         "e.shared.profilers.LangiumProfiler",
-        "e.shared.profilers.LangiumProfiler.createTask",
-        "profile:null",
-        "workspace-sidedock-vault-profile"
+        "e.shared.profilers.LangiumProfiler.createTask"
       ]
     },
     {
@@ -2442,9 +2125,7 @@
         "profileName",
         "terminalProfile.args",
         "terminalProfile.color",
-        "terminalProfile.env",
-        "terminalProfile.icon",
-        "terminalProfile.overrideName"
+        "terminalProfile.env"
       ]
     },
     {
@@ -2459,9 +2140,7 @@
         "profiles:count",
         "profiletype",
         "userDataProfile.createFromTemplate",
-        "window.newWindowProfile",
-        "workspace.gradle.microprofile",
-        "workspaceProfileInfo"
+        "window.newWindowProfile"
       ]
     }
   ],
@@ -2477,10 +2156,7 @@
         "+ 0x104f77200 _swift_deletedMethodError reactionsContainer",
         "+ 0x104f858b0 _swift_deletedMethodError _reactionsLayout",
         "+ 0x104f8dcf9 __objc_empty_cache updateReactions",
-        "Reactions.Reactions",
-        "Telegram.(PremiumReactionsView in _24B05E0CE72C535FB2E576E3C054392E)",
-        "Telegram.(PremiumReactionsView in _24B05E0CE72C535FB2E576E3C054392E).AcceptView",
-        "Telegram.(ReactionsRowItem in _3BF0D5F5328B345CADA59531D1252258)"
+        "Reactions.Reactions"
       ]
     },
     {
@@ -2495,9 +2171,7 @@
         "moreActions:",
         "moreActionsMenuOpen--DocumentField_R1rJH",
         "moreActionsMenuOpen--Field_9Si",
-        "moreActionsMenuOpen--Field_9SiWC",
-        "moreActionsMenuOpen:",
-        "sMoreActions"
+        "moreActionsMenuOpen--Field_9SiWC"
       ]
     },
     {
@@ -2512,9 +2186,7 @@
         "reaction_force_x",
         "reaction_force_y",
         "reaction_to",
-        "reaction_torque",
-        "reactions",
-        "this.fireAction"
+        "reaction_torque"
       ]
     },
     {
@@ -2529,9 +2201,7 @@
         "notebookActions.cellFailureActions",
         "pickReactions",
         "reactionsAction",
-        "scmInputMoreActions",
-        "showMoreActions",
-        "viewsAndMoreActions"
+        "scmInputMoreActions"
       ]
     },
     {
@@ -2546,9 +2216,7 @@
         "newSessionForWorkspaceMoreActions",
         "pluginMoreActionsAria",
         "sessionInputBanner.moreActionsFor",
-        "showMoreActions",
-        "viewsAndMoreActions",
-        "wireActions"
+        "showMoreActions"
       ]
     }
   ],
@@ -2557,17 +2225,12 @@
       "app": "Telegram",
       "members": [
         "$__lazy_storage_$_stickers",
-        "+ 0x1042f9500 _OBJC_METACLASS_$_NSObject inlineStickerItemViews",
-        "+ 0x1042f9500 _swift_deletedMethodError inlineStickerItemViews",
         "+ 0x1043212a0 _OBJC_METACLASS_$_NSObject stickerFile",
         "+ 0x10432c3c0 _OBJC_CLASS_$__TtCs12_SwiftObject stickerView",
-        "+ 0x10432c3c0 _OBJC_METACLASS_$__TtCs12_SwiftObject stickerView",
         "+ 0x10432c3c0 __objc_empty_cache stickerView",
         "+ 0x10432c3c0 _swift_deletedMethodError stickerView",
         "+ 0x104338180 _OBJC_METACLASS_$_NSObject sticker",
-        "+ 0x104338ad0 __objc_empty_cache loadedStickerPackDisposable",
-        "Telegram.(AnimtedStickerHeaderView in _ACA8ACCC9D44042E0C10DEBECE9F621F)",
-        "Telegram.(ArchivedStickerPacksControllerArguments in _797D3F3DDB8DC0F15778014F807F6509)"
+        "+ 0x104338ad0 __objc_empty_cache loadedStickerPackDisposable"
       ]
     },
     {
@@ -2582,9 +2245,7 @@
         "this._ticker.remove",
         "this._ticker.st",
         "this._ticker.start",
-        "this._ticker.stop",
-        "this.ticker",
-        "ticker"
+        "this._ticker.stop"
       ]
     }
   ],
@@ -2592,18 +2253,14 @@
     {
       "app": "Telegram",
       "members": [
-        "(0x104d8e888) changeFontMarkdown:makeBold:makeItalic:",
-        "(0x104d90a50) markdownItems",
-        "(0x104d925f0) setMarkdownItems:",
         "MarkdownUndoItem",
         "TGUIKit.MarkdownAttributeSet",
         "TGUIKit.MarkdownAttributes",
-        "Telegram.(MarkdownConversionBudget in _B73300BD0DE4C2E90153F7F6DB073157)",
-        "Telegram.(MarkdownConversionContext in _B73300BD0DE4C2E90153F7F6DB073157)",
-        "Telegram.(MarkdownIntentNode in _B73300BD0DE4C2E90153F7F6DB073157)",
-        "TelegramApi.Api.InputRichMessage.Cons_inputRichMessageMarkdown",
         "_TtC7TGUIKit18MarkdownAttributes",
-        "_TtC7TGUIKit20MarkdownAttributeSet"
+        "_TtC7TGUIKit20MarkdownAttributeSet",
+        "changeFontMarkdown:makeBold:makeItalic:",
+        "markdownItems",
+        "setMarkdownItems:"
       ]
     },
     {
@@ -2629,9 +2286,7 @@
         "markdown:t",
         "parseMarkdown:h",
         "parseMarkdown:m",
-        "parseMarkdown:t",
-        "parseMarkdown:x",
-        "tf.markdown"
+        "parseMarkdown:t"
       ]
     },
     {
@@ -2646,9 +2301,7 @@
         "optionAutoPairMarkdown:",
         "optionAutoPairMarkdownDescripti",
         "optionAutoPairMarkdownDescription:",
-        "optionChoiceLinkStyleMarkdownLink:",
-        "optionMarkdownLink:",
-        "optionSavedMarkdown"
+        "optionChoiceLinkStyleMarkdownLink:"
       ]
     },
     {
@@ -2663,9 +2316,7 @@
         "scope.markdownDescription",
         "scope.markdownEnumDescriptions",
         "shd101wyy.markdown-preview-enhanced",
-        "treeItemMarkdownLabel",
-        "treeViewMarkdownMessage",
-        "yzhang.markdown-all-in-one"
+        "treeItemMarkdownLabel"
       ]
     },
     {
@@ -2680,9 +2331,7 @@
         "markdown-editor-package-json-check",
         "markdown-language-features",
         "markdownAlertSyntax",
-        "markdownlength",
-        "treeItemMarkdownLabel",
-        "treeViewMarkdownMessage"
+        "markdownlength"
       ]
     }
   ],
@@ -2690,18 +2339,16 @@
     {
       "app": "Telegram",
       "members": [
-        "(0x104d8ee90) dataForHttpUrl:headers:",
-        "(0x104d8fa28) headers",
-        "(0x104d8faa8) icmpHeaderOffsetInIPv4Packet:",
-        "(0x104d8fe90) initWithHeaders:data:",
-        "(0x104d90080) initWithNativeRtpHeaderExtensionCapability:",
-        "(0x104d90ec8) nativeRtpHeaderExtensionCapability",
-        "(0x104d912a8) parseOpusHeader:length:",
-        "(0x104d92e70) srtpEnableEncryptedRtpHeaderExtensions",
-        "(0x104d954c0) headerExtensions",
-        "(0x104d954c8) setHeaderExtensions:",
-        "(0x104d95838) setSrtpEnableEncryptedRtpHeaderExtensions:",
-        "TGUIKit.(ModalHeaderView in _F214F8FD9AD80F351992A884BD31D32B)"
+        "dataForHttpUrl:headers:",
+        "headerExtensions",
+        "headers",
+        "icmpHeaderOffsetInIPv4Packet:",
+        "initWithHeaders:data:",
+        "initWithNativeRtpHeaderExtensionCapability:",
+        "nativeRtpHeaderExtensionCapability",
+        "parseOpusHeader:length:",
+        "setHeaderExtensions:",
+        "setSrtpEnableEncryptedRtpHeaderExtensions:"
       ]
     },
     {
@@ -2725,9 +2372,7 @@
         "coloredHeaderView",
         "createRepeatableHeader:",
         "headerLabel",
-        "headerText",
-        "initWithName:filterType:andIsHeader:",
-        "outlineView:mouseDownInHeaderOfTableColumn:"
+        "headerText"
       ]
     },
     {
@@ -2742,9 +2387,7 @@
         "headerMd:",
         "headerSm--Text",
         "headerSm:",
-        "headerXl--Text_dDMLy",
-        "headerXl:",
-        "popup-header-new-item-category"
+        "headerXl--Text_dDMLy"
       ]
     },
     {
@@ -2759,9 +2402,7 @@
         "headers:u",
         "parseBlockScalarHeader",
         "t.headers",
-        "this.headerEl",
-        "this.headerInnerEl",
-        "this.parseBlockScalarHeader"
+        "this.headerEl"
       ]
     },
     {
@@ -2776,9 +2417,7 @@
         "minimap.showMarkSectionHeaders",
         "minimap.showRegionSectionHeaders",
         "multiDiffEditor.headerBackground",
-        "nHeaderRegex",
-        "nHeaders",
-        "showCodeActionHeaders"
+        "nHeaderRegex"
       ]
     },
     {
@@ -2793,9 +2432,7 @@
         "this._currentRequest.setHeader",
         "this._headerFilter",
         "this._options.header",
-        "this._options.headers",
-        "xt.prototype.removeHeader",
-        "xt.prototype.setHeader"
+        "this._options.headers"
       ]
     }
   ],
@@ -2831,9 +2468,7 @@
         "e.KeyboardShortcutsQX",
         "e.WatchtowerConflictingShortcuts",
         "eyShortcuts:null",
-        "keyboardShortcutsQX",
-        "lictingShortcuts",
-        "showKeyboardShortcutsQX:"
+        "keyboardShortcutsQX"
       ]
     },
     {
@@ -2841,7 +2476,6 @@
       "members": [
         "CPACK_DESKTOP_SHORTCUTS",
         "CPACK_STARTUP_SHORTCUTS",
-        "CPACK_START_MENU_SHORTCUTS",
         "UP_SHORTCUTS",
         "ariaKeyShortcuts:null",
         "getShortcuts",
@@ -2849,8 +2483,7 @@
         "shortcuts",
         "shortcuts.F",
         "t.setIgnoreMenuShortcuts",
-        "this.shortcuts",
-        "this.shortcuts.F"
+        "this.shortcuts"
       ]
     },
     {
@@ -2865,9 +2498,7 @@
         "n.setIgnoreMenuShortcuts",
         "setIgnoreMenuShortcuts",
         "setupKeyboardShortcuts",
-        "shortcuts",
-        "shortcuts.",
-        "this.setupKeyboardShortcuts"
+        "shortcuts"
       ]
     },
     {
@@ -2882,9 +2513,7 @@
         "keyboardShortcutsUrlLinux",
         "keyboardShortcutsUrlMac",
         "keyboardShortcutsUrlWin",
-        "miKeyboardShortcuts",
-        "shortcuts",
-        "shortcuts."
+        "miKeyboardShortcuts"
       ]
     }
   ],
@@ -2893,14 +2522,6 @@
       "app": "Telegram",
       "members": [
         "+ 0x1042feed0 __objc_empty_cache remove",
-        "Telegram.(CallFeedbackControllerArguments in _69F5F84EA3CD14CDE79A83CCCEC4FFF7)",
-        "Telegram.(ConferenceCallE2EContextStateImpl in _201134FB499D0821353AC0FFEED67EB9)",
-        "Telegram.(PendingConferenceInvitationContext in _201134FB499D0821353AC0FFEED67EB9)",
-        "Telegram.ChatPresentationInterfaceState.RemovePaidMessageFeeData",
-        "_TtC8TelegramP33_201134FB499D0821353AC0FFEED67EB933ConferenceCallE2EContextStateImpl",
-        "_TtC8TelegramP33_201134FB499D0821353AC0FFEED67EB934PendingConferenceInvitationContext",
-        "_TtC8TelegramP33_69F5F84EA3CD14CDE79A83CCCEC4FFF731CallFeedbackControllerArguments",
-        "_TtCC8Telegram30ChatPresentationInterfaceState24RemovePaidMessageFeeData",
         "initializedGroupFeedIndexIds",
         "performFeedbackPattern:performanceTime:",
         "removePaidMessageFeeData"
@@ -2918,9 +2539,7 @@
         "feedbackButton",
         "feedbackMenuPressed:",
         "feedbackPressed:",
-        "initWithSnagitFullVersion:feedUrl:delegate:",
-        "openFeedbackURL:",
-        "setFeedUrl:"
+        "initWithSnagitFullVersion:feedUrl:delegate:"
       ]
     },
     {
@@ -2935,9 +2554,7 @@
         "actionFeedback--QuickAccessItemRow",
         "actionFeedback--QuickAccessItemRow_In6ri",
         "actionFeedback:",
-        "e.Feedback",
-        "feedback",
-        "feedbackLabel:r"
+        "e.Feedback"
       ]
     },
     {
@@ -2952,9 +2569,7 @@
         "feedback-banner-title",
         "feedback:",
         "feedface",
-        "labelFeed",
-        "labelFeedback:",
-        "labelFeedbackDesc:"
+        "labelFeed"
       ]
     },
     {
@@ -2969,9 +2584,7 @@
         "e.LineFeed",
         "endOfLineCarriageReturnLineFeed",
         "endOfLineLineFeed",
-        "feedback.js",
-        "feedbackIcon",
-        "miGiveFeedback"
+        "feedback.js"
       ]
     },
     {
@@ -2986,9 +2599,7 @@
         "feedbackadded",
         "feedbackconverted",
         "feedbackkind",
-        "feedbackreplyadded",
-        "feedbacksubmitted",
-        "hasexistingfeedbackforfile"
+        "feedbackreplyadded"
       ]
     }
   ],
@@ -3060,9 +2671,7 @@
         "grok_bot_gkw_connectors:",
         "integrations",
         "integrations:",
-        "listCustomDeploymentRuleIntegrations:",
-        "team.integrations.manage",
-        "team.integrations.read"
+        "listCustomDeploymentRuleIntegrations:"
       ]
     },
     {
@@ -3077,9 +2686,7 @@
         "this._activeShellIntegrations.get",
         "this._activeShellIntegrations.has",
         "this._activeShellIntegrations.set",
-        "this._terminalShellIntegrationService",
-        "this._terminalShellIntegrationService.onDidChangeTerminalShellIntegrati",
-        "this._terminalShellIntegrationService.onDidEndTerminalShellExecution"
+        "this._terminalShellIntegrationService"
       ]
     }
   ],
@@ -3117,9 +2724,7 @@
         "ms-vscode.js-debug-companion",
         "n.callCompanion",
         "n.callCompanion.bind",
-        "n.companionDefault",
-        "this.companionSessionId",
-        "vscode-js-debug-companion"
+        "n.companionDefault"
       ]
     },
     {
@@ -3134,9 +2739,7 @@
         "onCommand:js-debug-companion.kill",
         "onCommand:js-debug-companion.lau",
         "onCommand:js-debug-companion.launch",
-        "onCommand:js-debug-companion.launchAndAttach",
-        "vscode-js-debug-companion",
-        "vscode-js-debug-companion.git"
+        "onCommand:js-debug-companion.launchAndAttach"
       ]
     }
   ],
@@ -3153,9 +2756,7 @@
         "noteComposer:",
         "t.prototype.decomposeRight",
         "this.decomposeRight",
-        "this.left.decomposeRigh",
-        "this.left.decomposeRight",
-        "this.right.decomposeRight"
+        "this.left.decomposeRigh"
       ]
     },
     {
@@ -3170,9 +2771,7 @@
         "cursor.composer.planTextSizeScale.extraLarge",
         "cursor.composer.planTextSizeScale.large",
         "cursor.composer.planTextSizeScale.matchAgentChat",
-        "cursor.composer.planTextSizeScale.small",
-        "label.composer",
-        "mru.composerAria"
+        "cursor.composer.planTextSizeScale.small"
       ]
     },
     {
@@ -3187,9 +2786,7 @@
         "noComposer.",
         "ntCommentingAccessibilityHelp.composer",
         "s.chat.experimental.newSessionComposerLayout",
-        "this._closeCommentComposer",
-        "this._commentComposer",
-        "this._showCommentComposer"
+        "this._closeCommentComposer"
       ]
     }
   ],
@@ -3237,9 +2834,7 @@
         "ationinsights",
         "customerinsights",
         "insight",
-        "insights",
-        "insights.",
-        "sight"
+        "insights"
       ]
     }
   ],
