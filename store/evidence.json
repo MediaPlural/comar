@@ -1,26 +1,509 @@
 {
   "sidebar": [
-    {"app": "Telegram", "classes": ["LeftSidebarView", "LeftSidebarFolderView", "SidebarCapView"],
-     "state": ["ChatPresentationInterfaceState.sidebarShown", "ChatPresentationInterfaceState.sidebarEnabled"],
-     "methods": ["AccountContext.checkSidebarShouldEnable"]}
+    {
+      "app": "Telegram",
+      "classes": [
+        "LeftSidebarView",
+        "LeftSidebarFolderView",
+        "SidebarCapView"
+      ],
+      "state": [
+        "ChatPresentationInterfaceState.sidebarShown",
+        "ChatPresentationInterfaceState.sidebarEnabled"
+      ],
+      "methods": [
+        "AccountContext.checkSidebarShouldEnable"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "slidingSidebar",
+        "sidebar-toggle-button",
+        "sidebar",
+        "Sidebar"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "workspace-drawer",
+        "workspace-drawer-ribbon",
+        "workspace-drawer-vault-switcher",
+        "workspace-drawer.mod-left"
+      ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "sidebar.liked_songs",
+        "sidebar.your_episodes",
+        "toggleLeftSidebar",
+        "toggleRightSidebar"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "Sidebar",
+        "SidebarCategory",
+        "VaultSidebar"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "Drawer.Footer.PrimaryAction",
+        "Drawer.Footer.Cancel"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "workbench.parts.sidebar",
+        "sideBarPartView",
+        "workbench.sideBar.location"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "toggleMobileSidebarDrawer",
+        "openMobileSidebarDrawer",
+        "closeMobileSidebarDrawer"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "agent-sidebar-cell",
+        "cursor-settings-sidebar-compact",
+        "part.unifiedsidebar"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "createDrawerInstance",
+        "isDrawer",
+        "groupPinnedModelsWithDrawer"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "toggleSidebar",
+        "sidebarWidth",
+        "sidebarViews",
+        "hideSidebarView"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "CutoutStyleDrawer",
+        "CursorGraphicDrawer",
+        "EraserGraphicDrawer",
+        "MagnifyGraphicDrawer"
+      ]
+    },
+    {
+      "app": "Telegram",
+      "members": [
+        "LeftSidebarView",
+        "LeftSidebarFolderItem",
+        "SidebarCapView",
+        "toggleSidebar"
+      ]
+    }
   ],
   "message-bubble": [
-    {"app": "Telegram", "classes": ["ChatBubbleAccessoryForward", "ChatBubbleViaAccessory", "ChannelCommentsBubbleControl"],
-     "members": ["bubbleView", "isBubbled", "bubbleMode"]}
+    {
+      "app": "Telegram",
+      "classes": [
+        "ChatBubbleAccessoryForward",
+        "ChatBubbleViaAccessory",
+        "ChannelCommentsBubbleControl"
+      ],
+      "members": [
+        "bubbleView",
+        "isBubbled",
+        "bubbleMode"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "chat-bubbles-filled",
+        "message-bubble"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "HelpBubble",
+        "SelectBubbleInput",
+        "SwitchBubbleInput"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "chat-requestBubbleBackground",
+        "_updateSpeechBubblePosition",
+        "chat-pet-speech-bubble"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "bubble_id",
+        "server_bubble_id",
+        "glass-chat-bubble-background"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "BasicSpeechBubble1BodyStyle",
+        "BasicThoughtBubble1BodyStyle",
+        "OvalBubbleTailStyle"
+      ]
+    },
+    {
+      "app": "Telegram",
+      "members": [
+        "ChatHeaderBubblesView",
+        "ChatMessageBubbleBackdrop",
+        "ChatBubbleViaAccessory",
+        "ChatBubbleAccessoryForward"
+      ]
+    }
   ],
   "swipe-gesture": [
-    {"app": "Telegram", "classes": ["TGUIKit.SwipeHandler", "ChatSwipeToReplyView"],
-     "methods": ["swipeWithEvent:", "playedSwipeToReplyHaptic"]}
+    {
+      "app": "Telegram",
+      "classes": [
+        "TGUIKit.SwipeHandler",
+        "ChatSwipeToReplyView"
+      ],
+      "methods": [
+        "swipeWithEvent:",
+        "playedSwipeToReplyHaptic"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "isSwipeGesture",
+        "swipeOffset",
+        "swipeVelocityX",
+        "has-swipe"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "workbench.editor.swipeToNavigate",
+        "registerSwipeListener"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "data-swipe-ignore"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "swipeWithEvent:"
+      ]
+    },
+    {
+      "app": "Telegram",
+      "members": [
+        "SwipeHandler",
+        "ChatSwipeToReplyView",
+        "swipeWithEvent:",
+        "swipeState"
+      ]
+    }
   ],
   "story": [
-    {"app": "Telegram", "classes": ["StoryStealthModeView", "StoryStealthModeController", "StoryListChatListRowItem", "StoryListContainer"]}
+    {
+      "app": "Telegram",
+      "classes": [
+        "StoryStealthModeView",
+        "StoryStealthModeController",
+        "StoryListChatListRowItem",
+        "StoryListContainer"
+      ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "STORYLINES"
+      ]
+    },
+    {
+      "app": "Telegram",
+      "members": [
+        "StoryLayoutView",
+        "AvatarStoryIndicatorComponent"
+      ]
+    }
   ],
   "wallet": [
-    {"app": "Telegram", "classes": ["TelegramIconsTheme"],
-     "members": ["_wallet_send", "_wallet_settings", "_wallet_passcode_visible", "_wallet_passcode_hidden", "_wallet_update"]}
+    {
+      "app": "Telegram",
+      "classes": [
+        "TelegramIconsTheme"
+      ],
+      "members": [
+        "_wallet_send",
+        "_wallet_settings",
+        "_wallet_passcode_visible",
+        "_wallet_passcode_hidden",
+        "_wallet_update"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "CryptoWallet",
+        "tabBarWallet",
+        "CRYPTO_WALLET"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "prepaid-wallet",
+        "getPrepaidWalletQueryKey",
+        "getWallet"
+      ]
+    },
+    {
+      "app": "Telegram",
+      "members": [
+        "settingsWallet",
+        "settingsWalletActive",
+        "_wallet_qr",
+        "_wallet_send",
+        "_wallet_receive"
+      ]
+    }
   ],
   "premium-tier": [
-    {"app": "Telegram", "classes": ["PremiumBoardingController", "PremiumBoardingView", "PremiumBoardingHeaderView", "PremiumBoardingRowView", "PremiumAboutRowView"],
-     "members": ["openPremium", "isPremium"], "methods": ["setPremiumRate:"]}
+    {
+      "app": "Telegram",
+      "classes": [
+        "PremiumBoardingController",
+        "PremiumBoardingView",
+        "PremiumBoardingHeaderView",
+        "PremiumBoardingRowView",
+        "PremiumAboutRowView"
+      ],
+      "members": [
+        "openPremium",
+        "isPremium"
+      ],
+      "methods": [
+        "setPremiumRate:"
+      ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "Premium",
+        "navbar.premium",
+        "premium-upsell-page",
+        "get-premium"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "premiumChat",
+        "_quotas.premiumChat"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "usage_based_premium_requests",
+        "fast_premium_requests",
+        "premium-pill"
+      ]
+    },
+    {
+      "app": "Telegram",
+      "members": [
+        "PremiumBoardingController",
+        "PremiumAboutRowItem",
+        "GiftPremiumShareObject"
+      ]
+    }
+  ],
+  "theme-pack": [
+    {
+      "app": "Obsidian",
+      "members": [
+        "getThemeFolder",
+        "themeVariables",
+        "baseTheme",
+        "theme-dark"
+      ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "encore-dark-theme",
+        "encore-light-theme",
+        "data-theme"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "setTheme",
+        "ThemedIcon",
+        "forceColorThemeDark",
+        "themeOverride"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "_themeService",
+        "getColorTheme",
+        "ThemeIcon"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "ThemeIcon",
+        "ThemeColor",
+        "supportThemeIcons"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "ToolTheme",
+        "ToolThemeManager",
+        "ToolThemeExporter",
+        "ToolThemeImporter"
+      ]
+    },
+    {
+      "app": "Telegram",
+      "members": [
+        "PresentationTheme",
+        "ChartTheme",
+        "InstantPageTheme",
+        "ColorPalette"
+      ]
+    }
+  ],
+  "search": [
+    {
+      "app": "Obsidian",
+      "members": [
+        "global-search",
+        "search-input-container",
+        "searchQuery"
+      ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "Search",
+        "search.title.top-results",
+        "playlist.search_in_playlist"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "SearchBox",
+        "searchText",
+        "Search"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "search-view",
+        "textSearchProvider",
+        "fileSearchProvider",
+        "searchWidget"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "search-view",
+        "search_query",
+        "search_term",
+        "textSearch"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "FocusedSearchField",
+        "FormattedSearchFieldCell",
+        "hasSearchTerms"
+      ]
+    },
+    {
+      "app": "Telegram",
+      "members": [
+        "SearchView",
+        "SearchTextField",
+        "ChatSearchHeader",
+        "CustomSearchController"
+      ]
+    }
+  ],
+  "command-palette": [
+    {
+      "app": "Obsidian",
+      "members": [
+        "command-palette",
+        "command-palette:open",
+        "commandPalette"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "CommandPalette",
+        "menuId:CommandPalette",
+        "commandPaletteSuggestedCommandIds"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "openActionsPalette",
+        "openFilePrioritizedPalette",
+        "commandPalette"
+      ]
+    }
+  ],
+  "shelf": [
+    {
+      "app": "Spotify",
+      "members": [
+        "shelf.see-all",
+        "playlist.shelf.related-playlists",
+        "data-shelf",
+        "carousel-shelf"
+      ]
+    }
   ]
 }

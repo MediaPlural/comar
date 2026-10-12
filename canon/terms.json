@@ -1,46 +1,697 @@
 {
   "name": "Comar",
   "meaning": "confluence — where every app's name for a feature flows into one canonical term",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "terms": [
-    {"id": "sidebar", "category": "navigation",
-     "description": "Persistent side panel with primary navigation sections/folders.",
-     "aliases": ["drawer", "navigation rail", "nav rail", "hamburger", "left sidebar", "side panel", "LeftSidebarView", "LeftSidebarFolderView", "SidebarCapView"]},
-    {"id": "message-bubble", "category": "messaging-ui",
-     "description": "Visual container for a single message in a thread.",
-     "aliases": ["bubble", "chat bubble", "message", "tweet", "ChatBubbleAccessoryForward", "ChatBubbleViaAccessory", "bubbleView", "isBubbled"]},
-    {"id": "swipe-gesture", "category": "interaction",
-     "description": "Directional swipe revealing actions or navigation.",
-     "aliases": ["swipe", "swipe to reply", "swipe action", "SwipeHandler", "ChatSwipeToReplyView", "swipeWithEvent:"]},
-    {"id": "story", "category": "content",
-     "description": "Ephemeral, tap-through, auto-advancing content (images/video).",
-     "aliases": ["status", "reel", "streak", "StoryStealthModeView", "StoryListChatListRowItem", "StoryListContainer"]},
-    {"id": "wallet", "category": "commerce",
-     "description": "Stored value / payment / balance surface.",
-     "aliases": ["pay", "payment", "balance", "_wallet_send", "_wallet_settings", "_wallet_passcode_visible"]},
-    {"id": "premium-tier", "category": "monetization",
-     "description": "Paid subscription tier with gated features and upsell.",
-     "aliases": ["premium", "pro", "paid tier", "subscription", "PremiumBoardingController", "PremiumBoardingView", "openPremium", "isPremium"]},
-    {"id": "quest-board", "category": "productivity",
-     "description": "Kanban-style board of tasks/quests (estate term for kanban).",
-     "aliases": ["kanban", "board", "task board", "todo board", "quest board"]},
-    {"id": "thinking-mode", "category": "ai",
-     "description": "Extended reasoning / chain-of-thought toggle on an assistant.",
-     "aliases": ["reasoning mode", "extended thinking", "deep think", "thinking"]},
-    {"id": "ambient-sight", "category": "ai",
-     "description": "Point the camera / share screen; the assistant sees and acts on it.",
-     "aliases": ["point camera", "visual query", "see what I see", "ambient intelligence", "sight"]},
-    {"id": "family-mode", "category": "safety",
-     "description": "Guardian/oversight mode with permissions and supervision.",
-     "aliases": ["guardian mode", "parental control", "family sharing", "supervised mode"]},
-    {"id": "theme-pack", "category": "personalization",
-     "description": "Swappable visual theme / colorway bundle.",
-     "aliases": ["theme", "colorway", "appearance", "skin", "theme pack"]},
-    {"id": "shelf", "category": "navigation",
-     "description": "Swipe-up quick-access surface of actions/shortcuts.",
-     "aliases": ["swipe up shelf", "quick actions", "action sheet", "shelf"]},
-    {"id": "inbox", "category": "navigation",
-     "description": "Swipe-right / dedicated surface for notifications and inbound.",
-     "aliases": ["notifications", "message inbox", "swipe right inbox", "inbox"]}
+    {
+      "id": "sidebar",
+      "category": "navigation",
+      "description": "Persistent side panel with primary navigation sections/folders.",
+      "aliases": [
+        "drawer",
+        "navigation rail",
+        "nav rail",
+        "hamburger",
+        "left sidebar",
+        "side panel",
+        "LeftSidebarView",
+        "LeftSidebarFolderView",
+        "SidebarCapView"
+      ]
+    },
+    {
+      "id": "message-bubble",
+      "category": "messaging-ui",
+      "description": "Visual container for a single message in a thread.",
+      "aliases": [
+        "bubble",
+        "chat bubble",
+        "message",
+        "tweet",
+        "ChatBubbleAccessoryForward",
+        "ChatBubbleViaAccessory",
+        "bubbleView",
+        "isBubbled"
+      ]
+    },
+    {
+      "id": "swipe-gesture",
+      "category": "interaction",
+      "description": "Directional swipe revealing actions or navigation.",
+      "aliases": [
+        "swipe",
+        "swipe to reply",
+        "swipe action",
+        "SwipeHandler",
+        "ChatSwipeToReplyView",
+        "swipeWithEvent:"
+      ]
+    },
+    {
+      "id": "story",
+      "category": "content",
+      "description": "Ephemeral, tap-through, auto-advancing content (images/video).",
+      "aliases": [
+        "status",
+        "reel",
+        "streak",
+        "StoryStealthModeView",
+        "StoryListChatListRowItem",
+        "StoryListContainer"
+      ]
+    },
+    {
+      "id": "wallet",
+      "category": "commerce",
+      "description": "Stored value / payment / balance surface.",
+      "aliases": [
+        "pay",
+        "payment",
+        "balance",
+        "_wallet_send",
+        "_wallet_settings",
+        "_wallet_passcode_visible"
+      ]
+    },
+    {
+      "id": "premium-tier",
+      "category": "monetization",
+      "description": "Paid subscription tier with gated features and upsell.",
+      "aliases": [
+        "premium",
+        "pro",
+        "paid tier",
+        "subscription",
+        "PremiumBoardingController",
+        "PremiumBoardingView",
+        "openPremium",
+        "isPremium"
+      ]
+    },
+    {
+      "id": "quest-board",
+      "category": "productivity",
+      "description": "Kanban-style board of tasks/quests (estate term for kanban).",
+      "aliases": [
+        "kanban",
+        "board",
+        "task board",
+        "todo board",
+        "quest board"
+      ]
+    },
+    {
+      "id": "thinking-mode",
+      "category": "ai",
+      "description": "Extended reasoning / chain-of-thought toggle on an assistant.",
+      "aliases": [
+        "reasoning mode",
+        "extended thinking",
+        "deep think",
+        "thinking"
+      ]
+    },
+    {
+      "id": "ambient-sight",
+      "category": "ai",
+      "description": "Point the camera / share screen; the assistant sees and acts on it.",
+      "aliases": [
+        "point camera",
+        "visual query",
+        "see what I see",
+        "ambient intelligence",
+        "sight"
+      ]
+    },
+    {
+      "id": "family-mode",
+      "category": "safety",
+      "description": "Guardian/oversight mode with permissions and supervision.",
+      "aliases": [
+        "guardian mode",
+        "parental control",
+        "family sharing",
+        "supervised mode"
+      ]
+    },
+    {
+      "id": "theme-pack",
+      "category": "personalization",
+      "description": "Swappable visual theme / colorway bundle.",
+      "aliases": [
+        "theme",
+        "colorway",
+        "appearance",
+        "skin",
+        "theme pack"
+      ]
+    },
+    {
+      "id": "shelf",
+      "category": "navigation",
+      "description": "Swipe-up quick-access surface of actions/shortcuts.",
+      "aliases": [
+        "swipe up shelf",
+        "quick actions",
+        "action sheet",
+        "shelf"
+      ]
+    },
+    {
+      "id": "inbox",
+      "category": "navigation",
+      "description": "Swipe-right / dedicated surface for notifications and inbound.",
+      "aliases": [
+        "notifications",
+        "message inbox",
+        "swipe right inbox",
+        "inbox"
+      ]
+    },
+    {
+      "id": "ai-presence",
+      "category": "uncategorized",
+      "description": "Persistent, always-available AI companion reachable from every screen.",
+      "aliases": [
+        "always-on AI",
+        "assistant presence",
+        "omnipresent AI",
+        "companion"
+      ]
+    },
+    {
+      "id": "app-settings",
+      "category": "uncategorized",
+      "description": "Settings area: capabilities, dark/light/system theme modes, and alternative app icons.",
+      "aliases": [
+        "app settings",
+        "preferences",
+        "app icons",
+        "theme mode"
+      ]
+    },
+    {
+      "id": "brand-microcopy",
+      "category": "uncategorized",
+      "description": "Playful brand-lingo quips/microcopy at UI touchpoints.",
+      "aliases": [
+        "microcopy",
+        "quips",
+        "brand voice",
+        "copy"
+      ]
+    },
+    {
+      "id": "calls",
+      "category": "uncategorized",
+      "description": "Voice and video calling UI.",
+      "aliases": [
+        "voice call",
+        "video call",
+        "calling",
+        "call UI"
+      ]
+    },
+    {
+      "id": "channel",
+      "category": "uncategorized",
+      "description": "Bots/team members relabeled as chat channels; each member identifiable as person or bot.",
+      "aliases": [
+        "bot channel",
+        "team channel",
+        "agent channel",
+        "channel"
+      ]
+    },
+    {
+      "id": "clean-ux",
+      "category": "uncategorized",
+      "description": "Clean, minimal, uncluttered UX as the quality bar for every surface.",
+      "aliases": [
+        "clean design",
+        "minimal UX",
+        "well designed",
+        "whitespace"
+      ]
+    },
+    {
+      "id": "composer",
+      "category": "uncategorized",
+      "description": "Message input bar: text field + attachment + mode selector + mic/voice input.",
+      "aliases": [
+        "input bar",
+        "composer",
+        "message input",
+        "send box"
+      ]
+    },
+    {
+      "id": "connection-manager",
+      "category": "uncategorized",
+      "description": "One-tap connections hub: connect Gmail, bank, Google Drive, Dropbox, and more.",
+      "aliases": [
+        "integrations",
+        "connect apps",
+        "connectors",
+        "connection hub"
+      ]
+    },
+    {
+      "id": "data-transparency",
+      "category": "uncategorized",
+      "description": "Surface the user's own data, analysis, and formulas to them (personal-analytics transparency).",
+      "aliases": [
+        "personal analytics",
+        "know yourself",
+        "formula transparency",
+        "insights panel"
+      ]
+    },
+    {
+      "id": "design-assimilation",
+      "category": "uncategorized",
+      "description": "Absorb proven UX patterns from mature apps and re-skin them with our brand; never reinvent the wheel.",
+      "aliases": [
+        "incorporate",
+        "assimilate",
+        "absorb patterns",
+        "personalize brand"
+      ]
+    },
+    {
+      "id": "document-analysis",
+      "category": "uncategorized",
+      "description": "First-class document analysis and generation for personal and business use.",
+      "aliases": [
+        "doc generation",
+        "analyze docs",
+        "document",
+        "generate docs"
+      ]
+    },
+    {
+      "id": "file-system",
+      "category": "uncategorized",
+      "description": "In-app browsable file system of every connected node/computer, incl. mounted cloud storage.",
+      "aliases": [
+        "file browser",
+        "directory",
+        "drive folder",
+        "node files"
+      ]
+    },
+    {
+      "id": "financial-dashboard",
+      "category": "uncategorized",
+      "description": "Personal finance module: connect accounts, see dashboards and tracking.",
+      "aliases": [
+        "personal finance",
+        "finances",
+        "banking",
+        "dashboards"
+      ]
+    },
+    {
+      "id": "fork-session",
+      "category": "uncategorized",
+      "description": "Split a message/branch off into a new chat session (fork).",
+      "aliases": [
+        "split session",
+        "fork",
+        "branch to new session",
+        "new session"
+      ]
+    },
+    {
+      "id": "game-mode",
+      "category": "uncategorized",
+      "description": "Always-on gamification layer: XP, quests, progression, and lore/storyline streams.",
+      "aliases": [
+        "game layer",
+        "gamification",
+        "lore",
+        "game log"
+      ]
+    },
+    {
+      "id": "harness-actions",
+      "category": "uncategorized",
+      "description": "AI-harness message functions: select text, regenerate, branch, edit, temporary branch.",
+      "aliases": [
+        "regenerate",
+        "select text",
+        "branch message",
+        "edit message"
+      ]
+    },
+    {
+      "id": "image-markup",
+      "category": "uncategorized",
+      "description": "Annotate/draw/edit a tapped image or screenshot before sending.",
+      "aliases": [
+        "markup",
+        "edit before send",
+        "image annotation",
+        "draw on image"
+      ]
+    },
+    {
+      "id": "incognito-mode",
+      "category": "uncategorized",
+      "description": "Incognito mode toggle (in the three-dot overflow menu).",
+      "aliases": [
+        "incognito",
+        "private mode",
+        "stealth mode"
+      ]
+    },
+    {
+      "id": "marketplace",
+      "category": "uncategorized",
+      "description": "Shopping-app-style store to browse/download/install plugins, skills, and algorithms.",
+      "aliases": [
+        "plugin store",
+        "skill marketplace",
+        "app store",
+        "plugin marketplace"
+      ]
+    },
+    {
+      "id": "member-chat",
+      "category": "uncategorized",
+      "description": "Member-to-member direct chats with a Telegram-quality chat list and chat UI.",
+      "aliases": [
+        "direct messages",
+        "member chat",
+        "DM",
+        "chat list"
+      ]
+    },
+    {
+      "id": "message-actions",
+      "category": "uncategorized",
+      "description": "Long-press message context menu: reply, copy, pin, forward, save/bookmark; tap-out to dismiss.",
+      "aliases": [
+        "long-press menu",
+        "context menu",
+        "reply menu",
+        "message long-press"
+      ]
+    },
+    {
+      "id": "message-menu",
+      "category": "uncategorized",
+      "description": "Per-message micro-controls visible in the timeline: copy button, three-dot menu, timestamp.",
+      "aliases": [
+        "message controls",
+        "per-message menu",
+        "micro-menu",
+        "timestamp"
+      ]
+    },
+    {
+      "id": "notebook",
+      "category": "uncategorized",
+      "description": "Dedicated saved-notes area: save notes, copy images into notes, edit, and circle-back reminders; long-press anywhere to save.",
+      "aliases": [
+        "saved notes",
+        "notes area",
+        "save note",
+        "notes"
+      ]
+    },
+    {
+      "id": "overflow-menu",
+      "category": "uncategorized",
+      "description": "Three-dot contextual action menu in the header right, holding incognito mode, thinking-mode toggles, and more.",
+      "aliases": [
+        "three-dots",
+        "action menu",
+        "more menu",
+        "ellipsis menu"
+      ]
+    },
+    {
+      "id": "profile-page",
+      "category": "uncategorized",
+      "description": "Per-member profile page with pay/add/follow actions.",
+      "aliases": [
+        "profile",
+        "member profile",
+        "user profile",
+        "contact card"
+      ]
+    },
+    {
+      "id": "progressive-disclosure",
+      "category": "uncategorized",
+      "description": "Continue Reading fold plus streaming/progress state for long outputs.",
+      "aliases": [
+        "continue reading",
+        "read more fold",
+        "streaming progress",
+        "expand output"
+      ]
+    },
+    {
+      "id": "prompt-card",
+      "category": "uncategorized",
+      "description": "Interactive in-stream form/trigger/prompt cards the user responds to inline.",
+      "aliases": [
+        "form card",
+        "trigger card",
+        "inline prompt",
+        "interactive stream"
+      ]
+    },
+    {
+      "id": "qr-pairing",
+      "category": "uncategorized",
+      "description": "QR single-scan device pairing; credentials in the OS Keychain on both ends, no accounts/server.",
+      "aliases": [
+        "device pairing",
+        "QR scan pair",
+        "pair device",
+        "keychain pairing"
+      ]
+    },
+    {
+      "id": "reactions",
+      "category": "uncategorized",
+      "description": "Long-press reactions: emoji reaction bar plus full sticker/emoji picker.",
+      "aliases": [
+        "emoji reactions",
+        "stickers",
+        "emoji bar",
+        "react"
+      ]
+    },
+    {
+      "id": "remote-task",
+      "category": "uncategorized",
+      "description": "Start a task in one place and run it remotely (desktop-to-mobile handoff).",
+      "aliases": [
+        "remote execution",
+        "task handoff",
+        "run remotely",
+        "remote task"
+      ]
+    },
+    {
+      "id": "rich-data-cards",
+      "category": "uncategorized",
+      "description": "Interactive chart/stat/ticker cards rendered inside responses.",
+      "aliases": [
+        "chart card",
+        "ticker",
+        "stats card",
+        "data card"
+      ]
+    },
+    {
+      "id": "rich-rendering",
+      "category": "uncategorized",
+      "description": "Rich markdown rendering in responses: code blocks, tables, LaTeX, Mermaid, blockquotes, checkboxes; dark and light themes.",
+      "aliases": [
+        "markdown",
+        "rich markdown",
+        "code blocks",
+        "latex"
+      ]
+    },
+    {
+      "id": "screen-annotation",
+      "category": "uncategorized",
+      "description": "Circle/mark a screen region to point at UI elements (for feedback and walkthroughs).",
+      "aliases": [
+        "circle screen",
+        "mark region",
+        "screen markup",
+        "point at UI"
+      ]
+    },
+    {
+      "id": "scroll-tags",
+      "category": "uncategorized",
+      "description": "Scroll-position indicator tags on the timeline (read / begin / summarize).",
+      "aliases": [
+        "read begin summarize",
+        "scroll indicator",
+        "position tag",
+        "scrolling tags"
+      ]
+    },
+    {
+      "id": "session-header",
+      "category": "uncategorized",
+      "description": "Standard in-session top bar: back button left, centered session/stream title, three-dot menu right; sits under the OS status bar.",
+      "aliases": [
+        "top bar",
+        "chat header",
+        "title bar",
+        "header"
+      ]
+    },
+    {
+      "id": "session-list",
+      "category": "uncategorized",
+      "description": "Searchable, pinnable list of sessions with timestamps, message counts, and model badges; cached offline.",
+      "aliases": [
+        "sessions list",
+        "session history",
+        "session cards",
+        "chat list"
+      ]
+    },
+    {
+      "id": "session-title-actions",
+      "category": "uncategorized",
+      "description": "Long-press the session/stream title to reveal session actions (copy ID, forward, save, fork, rename).",
+      "aliases": [
+        "title long-press",
+        "session actions",
+        "rename session",
+        "fork session"
+      ]
+    },
+    {
+      "id": "shortcuts",
+      "category": "uncategorized",
+      "description": "Ask the AI to create Siri/iOS Shortcuts; anything doable manually is doable by asking the agent.",
+      "aliases": [
+        "siri shortcuts",
+        "ask siri",
+        "agent action",
+        "automation by chat"
+      ]
+    },
+    {
+      "id": "skills-browser",
+      "category": "uncategorized",
+      "description": "Searchable, category-grouped skills browsing surface (Browse tab).",
+      "aliases": [
+        "browse skills",
+        "skill list",
+        "skill catalog",
+        "skills tab"
+      ]
+    },
+    {
+      "id": "slide-up-modal",
+      "category": "uncategorized",
+      "description": "Question/form/survey presented as a drag-up modal sheet over the chat, with typing supported.",
+      "aliases": [
+        "modal sheet",
+        "slide-up sheet",
+        "form sheet",
+        "pop-up modal"
+      ]
+    },
+    {
+      "id": "social-feed",
+      "category": "uncategorized",
+      "description": "Social feed tab/area (social, game-log).",
+      "aliases": [
+        "social area",
+        "feed",
+        "social tab",
+        "game log area"
+      ]
+    },
+    {
+      "id": "super-app",
+      "category": "uncategorized",
+      "description": "One-app goal: manage the entire life from a single app; every capability built-in with no ecosystem lock-in.",
+      "aliases": [
+        "one app",
+        "super app",
+        "all-in-one",
+        "everything app"
+      ]
+    },
+    {
+      "id": "tab-bar",
+      "category": "uncategorized",
+      "description": "Top segmented tab bar for primary modes (Sessions / Recurring / Quest Board).",
+      "aliases": [
+        "segmented tabs",
+        "top tabs",
+        "tab navigation",
+        "tab bar"
+      ]
+    },
+    {
+      "id": "timeline-context",
+      "category": "uncategorized",
+      "description": "Session timeline surfaces what the current session refers to (its subject/context).",
+      "aliases": [
+        "foxy timeline",
+        "session context",
+        "context line",
+        "subject line"
+      ]
+    },
+    {
+      "id": "voice-mode",
+      "category": "uncategorized",
+      "description": "Animated, modulating nebulous/orb visual for voice mode (Siri-grade).",
+      "aliases": [
+        "voice orb",
+        "voice input",
+        "talk mode",
+        "nebulous graph"
+      ]
+    },
+    {
+      "id": "workflow-builder",
+      "category": "uncategorized",
+      "description": "Stacked action-block workflow/automation builder (Shortcuts-style) with pop-up modal config.",
+      "aliases": [
+        "action blocks",
+        "automation builder",
+        "shortcuts builder",
+        "workflow editor"
+      ]
+    },
+    {
+      "id": "search",
+      "category": "navigation",
+      "description": "Search bar / global search.",
+      "aliases": [
+        "Search",
+        "search",
+        "search bar"
+      ]
+    },
+    {
+      "id": "command-palette",
+      "category": "navigation",
+      "description": "Quick-action command palette.",
+      "aliases": [
+        "command palette",
+        "commandPalette",
+        "palette"
+      ]
+    }
   ]
 }

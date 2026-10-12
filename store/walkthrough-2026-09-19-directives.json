@@ -1,0 +1,740 @@
+[
+  {
+    "directive": "Use Telegram's chat UX as the quality baseline for our chat screens — absorb its layout, message bubbles, and input bar design.",
+    "canonical_term": "message-bubble",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Standard in-session chat header: back arrow at the top-left corner (under the status bar) that exits the chat session.",
+    "canonical_term": "session-header",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Build a screen-annotation tool that lets him circle/mark a specific region of the screen to point at UI elements (for feedback and walkthroughs).",
+    "canonical_term": "screen-annotation",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Place the back/menu button top-left, directly under the Apple status-bar time area.",
+    "canonical_term": "session-header",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Fade the top timeline/session-history area so the whole top zone reads as a soft, unified back region.",
+    "canonical_term": "session-header",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Pressing the top-left control opens a menu drawer from within a chat session.",
+    "canonical_term": "sidebar",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Drawer contents: Hermes-style sidebar with session management plus a pinned chats/sessions area.",
+    "canonical_term": "sidebar",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Full-screen swipe-left from chat navigates to the Social and Quest zone (edge-swipe navigation).",
+    "canonical_term": "swipe-gesture",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Tabbed navigation inside that zone: a Social feed tab and a Quest Board tab.",
+    "canonical_term": "social-feed",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Quest Board: frame every open item (tasks, pending questions, anything waiting on me) as a quest; auto-organize all open things on the board with filter controls.",
+    "canonical_term": "quest-board",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Build the left-hand control/navigation rail (like the Foxy prototype) as the app's primary navigation area.",
+    "canonical_term": "sidebar",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Editable chat background/wallpaper — users can edit and change the chat background (colors/patterns).",
+    "canonical_term": "theme-pack",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Sticker support: stickers available both in chat customization and as message content.",
+    "canonical_term": "reactions",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Ship all our AI chat capabilities natively in the main chat UI — tool calls, AI responses, and reply context must be built in, not missing like in Telegram.",
+    "canonical_term": "harness-actions",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Long-press a message to add interactions: reaction emoji bar plus access to the full sticker/emoji picker.",
+    "canonical_term": "reactions",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "The long-press menu must dismiss on a second tap (click out of it) so he can cancel with no action taken.",
+    "canonical_term": "message-actions",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Message context menu includes Reply, Copy, Pin, and Forward actions.",
+    "canonical_term": "message-actions",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Add a Save/Bookmark message action in the context menu to send a message into the notebook/saved items.",
+    "canonical_term": "message-actions",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Long-press action to split a message/branch off into a new chat session.",
+    "canonical_term": "fork-session",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Accent details (outlines, highlights) must be theme-driven and change with the active theme.",
+    "canonical_term": "theme-pack",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Theme packs: bundle an exact color scheme + typography (e.g., Foxy Hacker green in dark and light variants) as switchable themes.",
+    "canonical_term": "theme-pack",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Add playful quips/microcopy in our brand lingo at UI touchpoints, like the one he liked here.",
+    "canonical_term": "brand-microcopy",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Build the Shelf: a press-to-open drawer (ChatGPT-style) that opens when you're not in a specific screen — make it ours.",
+    "canonical_term": "shelf",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Provide shelf functionality in each area/section of the app, contextual to that area.",
+    "canonical_term": "shelf",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "In the open drawer, place an icon left of the app title that jumps to the Social & game log area.",
+    "canonical_term": "social-feed",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Mirror button on the right side of the drawer to open the Inbox/messages/notifications area.",
+    "canonical_term": "inbox",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Support both navigation modes: full swipe gestures AND tap targets inside the open drawer, so users can reach social/inbox without switching screens.",
+    "canonical_term": "swipe-gesture",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Right-swipe from the chat opens an inbox/notifications hub that aggregates every notification type, including email, in one place.",
+    "canonical_term": "inbox",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Include a Pinned section in the sidebar drawer for pinned sessions, plus a dedicated notebook/saved-notes area.",
+    "canonical_term": "sidebar",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Place a notebook/save-note icon on the center (main chat) screen for one-tap access to saved notes.",
+    "canonical_term": "notebook",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Standard app header directly below the OS status bar: back button on the left, session/stream title centered.",
+    "canonical_term": "session-header",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Long-pressing the session title opens session actions: copy ID, forward, save, fork, rename.",
+    "canonical_term": "session-title-actions",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Three-dot overflow menu on the header right holds the full session action menu.",
+    "canonical_term": "overflow-menu",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Swipe-up gesture reveals a bottom app-shelf menu of most common areas; chat + input box stays the default home with the shelf hidden until invoked.",
+    "canonical_term": "shelf",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Provide a secondary menu option for quick jumps to the most-used areas without leaving the chat.",
+    "canonical_term": "shelf",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Dedicated notebook area where a note can be saved and an image copied into it.",
+    "canonical_term": "notebook",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Validate the navigation pattern against established UX research and best practices before implementing.",
+    "canonical_term": "shelf",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Long-press any message to save it as a note.",
+    "canonical_term": "notebook",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Copy message content into an editable note that can serve as a later reminder or circle-back item.",
+    "canonical_term": "notebook",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Build voice and video calling into the app with a polished call UI, matching the built-in call quality of Telegram.",
+    "canonical_term": "calls",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Build a Family/Guardian Mode modeled on WeChat's: a protected mode with a designated guardian managing restrictions.",
+    "canonical_term": "family-mode",
+    "target_app": "WeChat",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Per-feature access controls (restricted / blocked / unlimited tiers) letting parents control what kids can reach on phone, tablet, and online.",
+    "canonical_term": "family-mode",
+    "target_app": "WeChat",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Enable parent-to-kid money transfers usable by the child (Apple Wallet-style, via Apple Wallet integration if necessary), building the capability now even while regulatory/legal approval is pending.",
+    "canonical_term": "wallet",
+    "target_app": "WeChat",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Ship every capability built in from day one, designed for progressive discovery so users find features while exploring and keep setting things up.",
+    "canonical_term": "super-app",
+    "target_app": "Safari",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Member-to-member direct chats with a Telegram-quality chat list and chat UI.",
+    "canonical_term": "member-chat",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Profile pages for every member.",
+    "canonical_term": "profile-page",
+    "target_app": "Safari",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "User profiles with visible actions: pay a person and add/follow them directly from the profile.",
+    "canonical_term": "profile-page",
+    "target_app": "X-Grok",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Persistent AI presence: the companion AI is accessible from every screen in the app, always one tap away.",
+    "canonical_term": "ai-presence",
+    "target_app": "X-Grok",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Standard nav chrome (search, three-dot menu, back button) with efficient use of screen space.",
+    "canonical_term": "session-header",
+    "target_app": "X-Grok",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Absorb proven patterns from X and other mature apps into the design from the get-go instead of reinventing the wheel.",
+    "canonical_term": "design-assimilation",
+    "target_app": "X-Grok",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Build toward the one-app super-app goal (the Elon/WeChat ambition he cites): chat, quests, social, kanban, files, finances and settings all managed inside a single Viiy app.",
+    "canonical_term": "super-app",
+    "target_app": "X-Grok",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Make the game layer a first-class overlay so everyday life activities are gamified (XP, quests, progression) across every surface of the app.",
+    "canonical_term": "game-mode",
+    "target_app": "X-Grok",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Engineer security/protection plus integrated fun as core product differentiators baked into every surface, not relegated to a settings page.",
+    "canonical_term": "super-app",
+    "target_app": "X-Grok",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Architect Viiy as an integration platform that connects to and builds on top of existing ecosystems (Telegram, X, Gmail, banks) rather than publicly competing; support rich social embeds like the X live post with viewer counts and engagement rows.",
+    "canonical_term": "design-assimilation",
+    "target_app": "X-Grok",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Keep the platform model- and service-agnostic: users bring their own models, accounts and tools and get full AI capability without ecosystem lock-in (the anti-X/Grok-walled-garden stance).",
+    "canonical_term": "super-app",
+    "target_app": "X-Grok",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Adopt Grok's clean minimal chat UX as the design bar: uncluttered centered ask screen, generous whitespace, clean typography.",
+    "canonical_term": "clean-ux",
+    "target_app": "X-Grok",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Re-skin the clean UX baseline with Viiy brand identity: our typography, icons, and theme packs (e.g. the Foxy hacker green scheme).",
+    "canonical_term": "theme-pack",
+    "target_app": "X-Grok",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Recreate Grok's composer row in chat: attachment/paperclip, a mode selector (Auto/thinking-style toggle), and mic/voice speak input beside the text field.",
+    "canonical_term": "composer",
+    "target_app": "X-Grok",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Borrow clean layouts and thread structures from reference apps but swap icons and brand elements for Viiy's own - never ship a pixel-for-pixel clone.",
+    "canonical_term": "design-assimilation",
+    "target_app": "X-Grok",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Surface agent/system events (process polls, task status, cron results) as native in-app notifications and messages from the Viiy agent, styled like this Telegram bot notification.",
+    "canonical_term": "inbox",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Ship QR single-scan device pairing (phone to the user's own machine) with credentials stored in the OS Keychain on both ends - no accounts, no middle-man server.",
+    "canonical_term": "qr-pairing",
+    "target_app": "The Abyss",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Support in-stream interactive elements: forms/triggers/prompt cards embedded in the chat stream that the user responds to inline.",
+    "canonical_term": "prompt-card",
+    "target_app": "The Abyss",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Use the interactive prompt-card stream UI as the presentation layer for game-mode lore: storylines and lore background delivered as readable, interactive sequences.",
+    "canonical_term": "game-mode",
+    "target_app": "The Abyss",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Use this clean, minimal list/stream aesthetic as the template for lore-style game-mode reading screens (storylines and background as clean scannable lists).",
+    "canonical_term": "game-mode",
+    "target_app": "Hermes",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Treat the game layer as an always-on default overlay: once shipped, gamification covers everything in the app rather than being opt-in per feature.",
+    "canonical_term": "game-mode",
+    "target_app": "Hermes",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Match the promo's capability bar for session history: searchable, pinnable, cached locally for offline use, pulled from the user's own self-hosted machine (Tailscale/QR paired), with per-session timestamps, message counts and model badges.",
+    "canonical_term": "session-list",
+    "target_app": "Hermes",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Build the kanban board in exactly this pattern: task search bar, filter chips with counts (Triage/To Do/Running/Review, incl. locked running states), and task cards with status dots, priority flags and per-card menus.",
+    "canonical_term": "quest-board",
+    "target_app": "Conduit",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Place kanban/tasks in the left-swipe navigation area, and unify everything requiring personal action (tasks + inbox items) into one actionable surface.",
+    "canonical_term": "quest-board",
+    "target_app": "Conduit",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Support multiple kanban views in-app: my personal quest board, per-agent kanbans, and shared boards I can monitor.",
+    "canonical_term": "quest-board",
+    "target_app": "Conduit",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Model the settings area on this app: capabilities section, dark/light/system theme modes, and alternative app icons users can choose.",
+    "canonical_term": "app-settings",
+    "target_app": "Conduit",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Rich markdown rendering is a core requirement: syntax-highlighted code blocks with copy buttons, GFM tables, LaTeX math, Mermaid diagrams, nested blockquotes and checkboxes - all readable on mobile.",
+    "canonical_term": "rich-rendering",
+    "target_app": "Conduit",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Render all markdown content correctly in both dark and light themes (the promo shows dual-theme mockups) with styling that follows the active theme pack.",
+    "canonical_term": "rich-rendering",
+    "target_app": "Conduit",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Add progressive disclosure for long AI outputs: a 'Continue Reading' fold plus a visible streaming/progress state (the promo shows a 0% progress indicator).",
+    "canonical_term": "progressive-disclosure",
+    "target_app": "Conduit",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Include a per-session model selector in the composer bar alongside + (attachment) and mic/voice input, as shown in the promo's message input row.",
+    "canonical_term": "composer",
+    "target_app": "Conduit",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Top segmented tab bar switching the three primary modes: Sessions, Recurring, and Quest Board - icon + label tabs exactly as shown in this promo.",
+    "canonical_term": "tab-bar",
+    "target_app": "Conduit",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Rename 'Cron' to 'Recurring' in all user-facing labels - language must appeal to non-developers, not just devs.",
+    "canonical_term": "tab-bar",
+    "target_app": "Conduit",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Adopt 'Quest Board' as the user-facing name for the kanban; frame all tasks and pending items as quests.",
+    "canonical_term": "quest-board",
+    "target_app": "Conduit",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Sessions list spec from the promo frame: prominent New Chat CTA, filter chips (All/Chat), per-session model label + timestamp on every row, and a search-sessions bar.",
+    "canonical_term": "session-list",
+    "target_app": "Conduit",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Build the session-manager home as segmented tabs (Sessions / Recurring / Pipeline aka Quest Board) over session cards showing title, model badge, and timestamp, with a prominent New Chat CTA and filter chips.",
+    "canonical_term": "session-list",
+    "target_app": "Anywhere",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "In-app file system browser: expose the directory of every node we are in, so the .md files the agent creates can be opened and acted on inside the app on mobile instead of being unreachable attachments.",
+    "canonical_term": "file-system",
+    "target_app": "Discord",
+    "coll_lane": "electron"
+  },
+  {
+    "directive": "Mount cloud storage (Google Drive etc.) as a browsable in-app directory so node files are reachable without leaving the app.",
+    "canonical_term": "file-system",
+    "target_app": "Discord",
+    "coll_lane": "electron"
+  },
+  {
+    "directive": "Present files from every connected computer/node in one unified directory tree inside the app, mirroring the desktop file organization ('that computer, any computer, organized').",
+    "canonical_term": "file-system",
+    "target_app": "Discord",
+    "coll_lane": "electron"
+  },
+  {
+    "directive": "Build a skills browser screen — searchable, category-grouped list of skills, each row with icon, name, one-line description, and chevron into a detail page.",
+    "canonical_term": "skills-browser",
+    "target_app": "skills",
+    "coll_lane": "web"
+  },
+  {
+    "directive": "Give the skills/agent-capability ecosystem its own branded browsing surface (a 'Browse' tab reachable from the app) with search and refresh affordances.",
+    "canonical_term": "skills-browser",
+    "target_app": "skills",
+    "coll_lane": "web"
+  },
+  {
+    "directive": "Build a shopping-app-style marketplace for the skill/plugin ecosystem — browse, download, and install skills and plugins entirely in-app.",
+    "canonical_term": "marketplace",
+    "target_app": "marketplace",
+    "coll_lane": "web"
+  },
+  {
+    "directive": "Marketplace inventory includes other people's algorithms and formulas that users can download and apply to their own models and data.",
+    "canonical_term": "marketplace",
+    "target_app": "marketplace",
+    "coll_lane": "web"
+  },
+  {
+    "directive": "Radical data transparency: surface to the user the same data, analysis, and formulas the system derives about them — a personal profile/insights panel so the user knows as much about themselves as the system does.",
+    "canonical_term": "data-transparency",
+    "target_app": "marketplace",
+    "coll_lane": "web"
+  },
+  {
+    "directive": "Marketplace supports downloadable analytics formulas/models (the profiling algorithms big companies use) that a user can install and run against their own models and data.",
+    "canonical_term": "marketplace",
+    "target_app": "marketplace",
+    "coll_lane": "web"
+  },
+  {
+    "directive": "One marketplace covers everything installable — MCP-style skills, plugins, and algorithms — a single store for every capability.",
+    "canonical_term": "marketplace",
+    "target_app": "marketplace",
+    "coll_lane": "web"
+  },
+  {
+    "directive": "Task manager with remote execution/continuity: start a task in one place and run or resume it remotely from the phone (desktop-to-mobile handoff).",
+    "canonical_term": "remote-task",
+    "target_app": "tasks",
+    "coll_lane": "electron"
+  },
+  {
+    "directive": "Dedicated notes/notebook area — a combined notes-and-tasks place in the app; take UI notes from this promo's clean search + tab + empty-state layout.",
+    "canonical_term": "notebook",
+    "target_app": "notes",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Personal finance module: connect all financial accounts and show dashboards with tracking, like a dedicated personal-finance app inside ours.",
+    "canonical_term": "financial-dashboard",
+    "target_app": "financial",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Top bar pattern: where Telegram shows a title, ours becomes a tabbed navigation area (as in the frame); relocate the session/stream title elsewhere (e.g., into the timeline/context line).",
+    "canonical_term": "tab-bar",
+    "target_app": "financial",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Render rich data cards inside responses: interactive chart card with range/type/indicator controls, floating ticker chips, and stats cards, in the Perplexity-style finance view.",
+    "canonical_term": "rich-data-cards",
+    "target_app": "financial",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Foxy-style timeline context: the session history/timeline should surface what the current session refers to (its subject/context) at a glance.",
+    "canonical_term": "timeline-context",
+    "target_app": "integrations",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Open integration surface: third parties can connect their apps to ours, not just first-party connectors — the more connected, the better the AI functions.",
+    "canonical_term": "connection-manager",
+    "target_app": "integrations",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "One-tap connections hub for Gmail, bank accounts, Google Drive, Dropbox, and more — the 'Connect your apps. Work as one.' pattern shown in the frame.",
+    "canonical_term": "connection-manager",
+    "target_app": "integrations",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Once connected, the AI ingests all files/content from connected sources and auto-organizes everything for the user.",
+    "canonical_term": "connection-manager",
+    "target_app": "integrations",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Chat rendering rule: ONLY the user's messages render as chat bubbles (right-aligned); nothing else is ever bubbled.",
+    "canonical_term": "message-bubble",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Assistant responses, tool calls, and thinking traces render full-width, document/output style (like the frame's unbubbled numbered-list answer) — never Telegram-style bubbles.",
+    "canonical_term": "message-bubble",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Treat this reference as the floor, not the bar: our timeline/session-history/chat design must visually exceed this mockup while keeping the user-bubble-only pattern.",
+    "canonical_term": "clean-ux",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Render AI responses with full rich markdown support: code blocks, tables, and LaTeX math, as first-class timeline output.",
+    "canonical_term": "rich-rendering",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Make thinking mode a per-agent, per-channel configuration toggle, editable in an assistant-config screen (name / description / system prompt) like the one shown.",
+    "canonical_term": "thinking-mode",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Relabel Hermes-style bots as channels: talking to your team (persons or bots) is just another chat channel in the app.",
+    "canonical_term": "channel",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Every team/channel member must be visually identifiable as person or bot in rosters and message lists.",
+    "canonical_term": "channel",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Expose incognito mode inside the mobile three-dot overflow menu, following how Claude/ChatGPT handle it.",
+    "canonical_term": "incognito-mode",
+    "target_app": "Shortcuts",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Let the user ask the AI companion conversationally to create iOS Shortcuts and Siri integrations for them.",
+    "canonical_term": "shortcuts",
+    "target_app": "Shortcuts",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Every capability doable manually in the app must also be executable by asking the AI agent in chat.",
+    "canonical_term": "shortcuts",
+    "target_app": "Shortcuts",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Adopt the stacked action-block workflow-builder UI (Shortcuts-style) with pop-up modal configuration for in-app automations.",
+    "canonical_term": "workflow-builder",
+    "target_app": "Shortcuts",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "When the AI needs input from the user, present questions as a slide-up modal sheet in survey/form format over the chat.",
+    "canonical_term": "slide-up-modal",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Inline collapsible 'thoughts' blocks: tap to expand/collapse the agent's reasoning within the stream.",
+    "canonical_term": "thinking-mode",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Replace plain voice-mode buttons with a Siri-like animated, modulating nebulous/orb visual for voice mode.",
+    "canonical_term": "voice-mode",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Keep the scroll-position tag behavior (read / begin / summarize indicators) in the timeline as currently designed.",
+    "canonical_term": "scroll-tags",
+    "target_app": "Perplexity",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Build first-class document analysis and document generation for personal and business use.",
+    "canonical_term": "document-analysis",
+    "target_app": "Perplexity",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Bubble only user inputs and comments; AI responses render full-width unbubbled — apply consistently across the app.",
+    "canonical_term": "message-bubble",
+    "target_app": "Perplexity",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Build camera-based visual asking: point the camera at anything and ask the AI about it live (multimodal visual assist).",
+    "canonical_term": "ambient-sight",
+    "target_app": "X-Grok",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Ambient assistance everywhere: the AI helps with what is on the user's screen AND what they see in person via camera.",
+    "canonical_term": "ambient-sight",
+    "target_app": "X-Grok",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Telegram-style in-app image markup and editing: annotate/draw/edit any tapped image or screenshot before sending it in chat.",
+    "canonical_term": "image-markup",
+    "target_app": "ChatGPT",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Question prompts pop up as a form-style shelf over the chat with typing supported, keeping the chat visible in the background.",
+    "canonical_term": "slide-up-modal",
+    "target_app": "Reins",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Add a long-press message menu with Select Text, Regenerate, Branch, Edit, and Delete actions.",
+    "canonical_term": "harness-actions",
+    "target_app": "Reins",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Build AI-harness management actions (branch, regenerate, edit, temporary branch) into message context menus from day one — the differentiator over Telegram.",
+    "canonical_term": "harness-actions",
+    "target_app": "Reins",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Per-message micro-controls in the timeline: copy button, three-dot action menu, and visible timestamp on every message.",
+    "canonical_term": "message-menu",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  },
+  {
+    "directive": "Canonical timeline look: AI responses render full-width in the stream, never in bubbles — only user input is bubbled.",
+    "canonical_term": "message-bubble",
+    "target_app": "Telegram",
+    "coll_lane": "apple"
+  }
+]
