@@ -51,6 +51,26 @@ def evidence() -> dict:
     return load(EVIDENCE)
 
 
+def synth_card(t: dict, ev: list) -> str:
+    """Emit one canonical term as a synthesis-ready spec card."""
+    lines = [f"## {t['id']}  [{t.get('category', '')}]"]
+    lines.append(t.get("description", ""))
+    aliases = [a for a in t.get("aliases", []) if " " in a or len(a) > 12] or t.get("aliases", [])
+    lines.append(f"aliases: {', '.join(aliases)}")
+    if ev:
+        lines.append(f"evidence ({len(ev)} apps):")
+        for e in ev:
+            members = list(e.get("members") or e.get("classes") or [])
+            if e.get("methods"):
+                members += e["methods"]
+            if e.get("state"):
+                members += e["state"]
+            lines.append(f"  - {e['app']}: {', '.join(members[:8])}")
+    else:
+        lines.append("evidence: none yet (awaiting extraction)")
+    return "\n".join(lines)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     sub = ap.add_subparsers(dest="cmd")
@@ -59,6 +79,9 @@ def main():
     c.add_argument("name")
     s = sub.add_parser("show", help="show a canonical term + aliases + evidence")
     s.add_argument("term")
+    syn = sub.add_parser("synth", help="emit a synthesized spec card (one term, or --all)")
+    syn.add_argument("term", nargs="?", default=None)
+    syn.add_argument("--all", action="store_true", help="emit cards for every backed term")
     args = ap.parse_args()
 
     ts = terms()
@@ -90,6 +113,23 @@ def main():
                 print(f"    - {e['app']}: " + " | ".join(bits))
         else:
             print("  evidence: (none yet — awaiting Coll extraction)")
+    elif args.cmd == "synth":
+        ev = evidence()
+        if args.all:
+            backed = [t for t in ts if ev.get(t["id"])]
+            print(f"# Comar — {len(backed)} backed of {len(ts)} canonical terms\n")
+            for t in sorted(backed, key=lambda x: -len(ev.get(x["id"], []))):
+                print(synth_card(t, ev.get(t["id"], [])))
+                print()
+        else:
+            if not args.term:
+                print("usage: comar.py synth <term>   (or --all)")
+                return
+            t = next((x for x in ts if x["id"].lower() == args.term.lower()), None)
+            if not t:
+                print(f"  no canonical term '{args.term}'")
+                return
+            print(synth_card(t, ev.get(t["id"], [])))
     else:
         ap.print_help()
 
