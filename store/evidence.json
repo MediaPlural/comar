@@ -178,6 +178,18 @@
         "ChatBubbleViaAccessory",
         "ChatBubbleAccessoryForward"
       ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "branchErrorWithCode:error:localizedMessage:",
+        "branchErrorWithCode:localizedMessage:",
+        "messageForCode:",
+        "receiveMessageWithCompletionHandler:",
+        "sendMessage:completionHandler:",
+        "setMessageText:",
+        "setMessageView:"
+      ]
     }
   ],
   "swipe-gesture": [
@@ -252,6 +264,91 @@
         "StoryLayoutView",
         "AvatarStoryIndicatorComponent"
       ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "Snagit.ShareHistoryWindowController",
+        "_OBJC_METACLASS_$_NSStoryboardSegue",
+        "_TtC6Snagit28ShareHistoryWindowController",
+        "_cutHistory",
+        "_shareHistoryWindow",
+        "adjustedCutHistory",
+        "clearCutHistory",
+        "cutHistory",
+        "deleteShareHistoryItem:",
+        "initWithMinValue:maxValue:startTime:endTime:currentTime:cutHistory:",
+        "openShareHistoryWindow:",
+        "setCutHistory:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "History",
+        "e.SearchHistoryCleared",
+        "earchHistoryCleared",
+        "file:ba.ItemHistory",
+        "history",
+        "itemHistory",
+        "itemHistory:",
+        "kr.ItemHistory",
+        "kr.ShareHistory",
+        "search_history_cleared",
+        "shareHistory",
+        "shareHistory:"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        ":this.history.length",
+        ":this.historyIndex",
+        "his.history.length-1",
+        "history",
+        "history:",
+        "this.history",
+        "this.history.filter",
+        "this.history.length",
+        "this.history.length-1",
+        "this.history.push",
+        "this.history.slice",
+        "this.historyIndex"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "donjayamanne.githistory",
+        "editor.find.history.never",
+        "editor.find.history.workspace",
+        "editor.find.replaceHistory.never",
+        "editor.find.replaceHistory.work",
+        "find.history",
+        "history",
+        "history.inputbox.hint.suffix.inparens",
+        "history.inputbox.hint.suffix.noparens",
+        "history.never",
+        "istory",
+        "nd.history.workspace"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "donjayamanne.githistory",
+        "history",
+        "history.",
+        "history:",
+        "session.history.cancelBackgroundCompaction",
+        "session.history.compact",
+        "session.history.listRewindPoints",
+        "session.history.previewRewind",
+        "session.history.rewind",
+        "session.history.truncate",
+        "story...",
+        "workspacehistorystate"
+      ]
     }
   ],
   "wallet": [
@@ -292,6 +389,40 @@
         "_wallet_qr",
         "_wallet_send",
         "_wallet_receive"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "allowPaymentRequest:a",
+        "allowPaymentRequest:s",
+        "kwallet",
+        "kwallet5",
+        "kwallet6",
+        "papayawhip:",
+        "payload",
+        "payload:u",
+        "wallet-2",
+        "wallet-cards",
+        "wallet-minimal",
+        "wallet:"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "CAHEI4CIAUpAzAgBSkDOIRCAFKtIAUpAyAgBSkDEISEIQsgBSkDKCAFKQMYhCEBIAUpAwAhAi",
+        "EAgAEGN9wBBABAWQQAPCyAAKAIAIAApAyAQMSIBRQ0AIAAQEkUEQCABDwsgACgCACABEBMLQQ",
+        "EEAIAcgBEEQaiAEQQxqEPMCRQRAIAQpAyAMAQsgBEKAgICAMDcDIEKAgICAMAtBhIABEK8BQQ",
+        "ICAgHBUDQAgAqciAy8BBkEKRw0AIAMpAyAiAkIgiKciA0EAIANBC2pBEkkbDQAgACABIAIQQg",
+        "QFqNgIACyABIQIgABCiAQ0HDAgLIAApAyAiASECIAAQogENBgwHCyAAKAIgQQFrIgRBAksNAS",
+        "QYiBUEFRgRAIARBAXFFDQFBACEJIAMpAyAiF0KAgICAcINCgICAgJB",
+        "QxrIgcQZyAFIAdrIQUgBikDKCEEIAYpAyAhAgwBCyAJIAp8IgIgCVStIAEgDHx8IgRCgICAgI",
+        "darwinProfilePayloadUUID",
+        "gAgAEGOlQEgBRAWDBYLAkACQAJAIAApAyAiDEIgiKciAUF3RwRAIAENASAAQQEQECAAQUBrKA",
+        "isKwallet",
+        "kwallet",
+        "payload"
       ]
     }
   ],
@@ -343,6 +474,57 @@
         "PremiumBoardingController",
         "PremiumAboutRowItem",
         "GiftPremiumShareObject"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "ASWebAuthenticationPresentationContextProviding",
+        "AppStoreTBPromptController",
+        "BorderEffectPropertiesViewController",
+        "CalloutBodyProtocol",
+        "CanvasMaskProtocol",
+        "CaptureHelperResponseProtocol",
+        "CaptureInfoPropertiesViewController",
+        "ColorAdjustEffectPropertiesViewController",
+        "ConverterProgressDelegateProtocol",
+        "CropStateProtocol",
+        "Snagit.BrushToolPropertyViewController",
+        "Snagit.CalloutToolPropertyViewController"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        ".hasOwnProperty.call",
+        "compromised_websites",
+        "e.Profile",
+        "e.ProfileCard",
+        "e.WatchtowerCompromised",
+        "e.WatchtowerCompromisedWebsites",
+        "owerCompromised",
+        "profile_card",
+        "profile_view",
+        "watchtowerCompromised",
+        "watchtowerCompromisedDomain:",
+        "yX6ymoJwpDNGIUIsZJBUiRPROmGiEjhP0onHotuvA6HUs"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "Array.prototype",
+        "Array.prototype.includ",
+        "Array.prototype.includes",
+        "Object.defineProperty",
+        "Object.prototype.hasOwnProperty.call",
+        "String.prototype",
+        "String.prototype.inclu",
+        "ay.prototype",
+        "t.prototyp",
+        "t.prototype.",
+        "t.prototype.disconnect",
+        "t.prototype.observe"
       ]
     }
   ],
@@ -493,6 +675,46 @@
         "openFilePrioritizedPalette",
         "commandPalette"
       ]
+    },
+    {
+      "app": "Telegram",
+      "members": [
+        "+ 0x10434487c _OBJC_METACLASS_$__TtCs12_SwiftObject togglePalette",
+        "ColorPalette.(MojavePalette in _0FA3053E9DDD4281048529F8DA5D30D3)",
+        "ColorPalette.ColorPalette",
+        "ColorPalette.InputViewTheme",
+        "ColorPalette.InputViewTheme.Quote",
+        "ColorPalette.PeerNameColors",
+        "ThemeSettings.ColorPaletteNativeCodable",
+        "ThemeSettings.PaletteAccentColorNativeCodable",
+        "_TtC12ColorPalette12ColorPalette",
+        "_TtC12ColorPalette14InputViewTheme",
+        "_TtC12ColorPalette14PeerNameColors",
+        "_TtC12ColorPaletteP33_0FA3053E9DDD4281048529F8DA5D30D313MojavePalette"
+      ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "orderFrontCharacterPalette:"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "Snagit.SimplifyColorPalette",
+        "Snagit.SimplifyColorPaletteMenuItemView",
+        "Snagit.SimplifyColorPalettePopUpButtonCell",
+        "Snagit.SimplifyColorPaletteSaveDialog",
+        "Snagit.SimplifyColorPaletteView",
+        "Snagit.SimplifyPaletteManager",
+        "_TtC6Snagit20SimplifyColorPalette",
+        "_TtC6Snagit22SimplifyPaletteManager",
+        "_TtC6Snagit24SimplifyColorPaletteView",
+        "_TtC6Snagit30SimplifyColorPaletteSaveDialog",
+        "_TtC6Snagit32SimplifyColorPaletteMenuItemView",
+        "_TtC6Snagit35SimplifyColorPalettePopUpButtonCell"
+      ]
     }
   ],
   "shelf": [
@@ -503,6 +725,2571 @@
         "playlist.shelf.related-playlists",
         "data-shelf",
         "carousel-shelf"
+      ]
+    },
+    {
+      "app": "Telegram",
+      "members": [
+        "ShelfPackContext"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "SHELF",
+        "U_MODIFIER_LETTER_OPEN_SHELF",
+        "U_MODIFIER_LETTER_SHELF",
+        "e.U_MODIFIER_LETTER_OPEN_SHELF",
+        "e.U_MODIFIER_LETTER_SHELF",
+        "t.U_MODIFIER_LETTER_OPEN_SHELF",
+        "t.U_MODIFIER_LETTER_SHELF"
+      ]
+    }
+  ],
+  "quest-board": [
+    {
+      "app": "Telegram",
+      "members": [
+        "(0x104d8d828) readSelectionFromPasteboard:",
+        "(0x104d94060) pasteboard:item:provideDataForType:",
+        "(0x104d95c60) writableTypesForPasteboard:",
+        "(0x104d95c68) pasteboardPropertyListForType:",
+        "(0x104d95c70) writingOptionsForType:pasteboard:",
+        "(0x104d95fb8) textView:writablePasteboardTypesForCell:atIndex:",
+        "Telegram.(GifKeyboardTabRowView in _286A4BD7A35CD1674E408EC5AF081077)",
+        "Telegram.(PremiumBoardingDoubleRowView in _6C5F3775310B03FEC2AC7C142536577F)",
+        "Telegram.(PremiumBoardingDoubleRowView in _6C5F3775310B03FEC2AC7C142536577F).LineView",
+        "Telegram.(PremiumBoardingHeaderView in _98F3BEF1E1066F1B1C45664B5720AF93)",
+        "Telegram.(PremiumBoardingRowView in _E0C227D5B55ED5545BB71A32FF175CFD)",
+        "Telegram.(PremiumBoardingStoriesRowView in _7ECBAFD11423387C0F77BDA85AA263D5)"
+      ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "setHiddenKeyboardShortcutsMenu:"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "FileURLPboardReader",
+        "FilenamePboardReader",
+        "ImagePboardReader",
+        "NSPasteboardItemDataProvider",
+        "NSPasteboardTypeOwner",
+        "NSPasteboardWriting",
+        "PasteboardHelpers",
+        "PasteboardManager",
+        "PasteboardReaderProtocol",
+        "SmacitDocumentPboardReader",
+        "SmacitPboardReader",
+        "Snagit.ContextualOnboardingController"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "boardingSetLocation",
+        "developer-onboarding",
+        "developer_experience_onboarding",
+        "e.DeveloperExperienceOnboarding",
+        "e.DeveloperOnboarding",
+        "e.NearbyOnboardingSetLocation",
+        "e.OnboardingModal",
+        "e.VerifierBillboards",
+        "ifierBillboards",
+        "nearby_onboarding_set_lo",
+        "nearby_onboarding_set_location",
+        "onboarding_modal"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        ".kanban",
+        "folder-kanban",
+        "kanban-square",
+        "kanban-square-dashed",
+        "kanban-ticket-link",
+        "kanban:",
+        "kanbanItem",
+        "kanbanItem:Qse",
+        "kanbanSection",
+        "kanbanSection:wze",
+        "square-dashed-kanban",
+        "square-kanban"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "KanbanBoard",
+        "_disable_backend_selection_keyboard_shortcuts__",
+        "api.dashboard.plaid.com",
+        "diff.clipboard.copyChangedLineContent.label",
+        "diff.clipboard.copyChangedLinesContent.label",
+        "diff.clipboard.copyChangedLinesContent.single.label",
+        "diff.clipboard.copyDeletedLineContent.label",
+        "diff.clipboard.copyDeletedLinesContent.label",
+        "diff.clipboard.copyDeletedLinesContent.single.label",
+        "emptySelectionClipboard",
+        "find.globalFindClipboard",
+        "ms-toolsai.tensorboard"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "dashboard",
+        "dictationOnboarding.action",
+        "keyboard",
+        "keyboard.press",
+        "onboarding",
+        "onboarding.promptOptionInteraction",
+        "onboarding.promptStrategy",
+        "onboarding.scenarioOutcome",
+        "onboarding.scenarioShown",
+        "onboarding.tryoutOutcome",
+        "onboarding.tryoutStarted",
+        "voiceModeOnboarding.action"
+      ]
+    }
+  ],
+  "thinking-mode": [
+    {
+      "app": "Telegram",
+      "members": [
+        "Telegram.(InstantPageV2ThinkingContentView in _1AFF1F1969CB782C3C4B76339E1F5894)",
+        "Telegram.InstantPageV2ThinkingView",
+        "TelegramApi.Api.PageBlock.Cons_pageBlockThinking",
+        "_TtC8Telegram25InstantPageV2ThinkingView",
+        "_TtC8TelegramP33_1AFF1F1969CB782C3C4B76339E1F589432InstantPageV2ThinkingContentView",
+        "_TtCOO11TelegramApi3Api9PageBlock22Cons_pageBlockThinking",
+        "revealWithThinkingHost",
+        "thinkingViews",
+        "thinkingViewsByItemIndex"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "thinking"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "1.ThinkingStyle",
+        "COMPOSER_CAPABILITY_TYPE_THINKING",
+        "ITY_TYPE_THINKING",
+        "THINKING",
+        "THINKING_STYLE_CODEX",
+        "THINKING_STYLE_DEFAULT",
+        "THINKING_STYLE_GPT5",
+        "THINKING_STYLE_UNSPE",
+        "THINKING_STYLE_UNSPECIFIED",
+        "agent.v1.ThinkingMessage",
+        "agent.v1.ThinkingStyle",
+        "thinking_message"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "AdaptiveThinkingSupport",
+        "adaptive-thinking",
+        "adaptive_thinking",
+        "chat.thinkingEffortChange",
+        "chat.thinkingStyleUsage",
+        "chatThinkingBlockToggle",
+        "inthinking",
+        "languageModelThinkingPart",
+        "thinking",
+        "thinking.",
+        "thinking.type",
+        "thinkingstyle"
+      ]
+    }
+  ],
+  "inbox": [
+    {
+      "app": "Telegram",
+      "members": [
+        "(0x104d962c0) application:didRegisterForRemoteNotificationsWithDeviceToken:",
+        "(0x104d962c8) application:didFailToRegisterForRemoteNotificationsWithError:",
+        "+ 0x104f83050 __objc_empty_cache notificationSettings",
+        "Postbox.MutablePeerNotificationSettingsBehaviorTimestampView",
+        "Postbox.MutablePeerNotificationSettingsView",
+        "Postbox.MutablePendingPeerNotificationSettingsView",
+        "Postbox.PeerNotificationSettingsBehaviorIndexTable",
+        "Postbox.PeerNotificationSettingsBehaviorTable",
+        "Postbox.PeerNotificationSettingsBehaviorTimestampView",
+        "Postbox.PeerNotificationSettingsTable",
+        "Postbox.PeerNotificationSettingsView",
+        "Postbox.PendingPeerNotificationSettingsIndexTable"
+      ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "application:didFailToRegisterForRemoteNotificationsWithError:",
+        "application:didRegisterForRemoteNotificationsWithDeviceToken:",
+        "getNotificationSettingsWithCompletionHandler:"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "Snagit.ScreencastNotificationsHostingView",
+        "Snagit.ScreencastNotificationsModel",
+        "_TtC6Snagit28ScreencastNotificationsModel",
+        "_TtC6Snagit34ScreencastNotificationsHostingView",
+        "_ignoreDocumentAddedNotifications",
+        "_notifications",
+        "application:didFailToRegisterForRemoteNotificationsWithError:",
+        "application:didRegisterForRemoteNotificationsWithDeviceToken:",
+        "bannerNotificationsChanged",
+        "fetchNotifications",
+        "ignoreDocumentAddedNotifications",
+        "notificationSettingsButtonPressed:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "InboxBanner",
+        "autosave_unlock_notifications",
+        "e.AutosaveUnlockNotifications",
+        "e.NotificationScreen",
+        "e.Notifications",
+        "e.SettingsNotifications",
+        "ettingsNotifications",
+        "inbox",
+        "kr.Notifications",
+        "notifications",
+        "notifications:",
+        "settingsNotifications"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        ".batchNotifications",
+        "W0.getAllInBox",
+        "inBoxSelection",
+        "inbox:",
+        "n.batchNotifications",
+        "n.notificationsEnabled",
+        "notifications:o",
+        "r.notificationsEnabled",
+        "r.notificationsEnabled:",
+        "t.getAllInBox",
+        "thinbox",
+        "this.notifications"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "grok_bot_agent_mail_multiple_inboxes:",
+        "inbox",
+        "inbox-two",
+        "inbox:f",
+        "inbox:i",
+        "inbox:u",
+        "inboxTwo:f",
+        "inboxTwo:i",
+        "inboxTwo:u",
+        "inbox_section_runs_only",
+        "local_interactive_child_inbox:",
+        "origin_inbox_osp_watch:"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "SystemNotificationNewInboxMessage",
+        "copilot.systemNotification.newInboxMessage",
+        "inbox",
+        "inbox:C",
+        "inbox:d",
+        "inbox:f",
+        "inbox:m",
+        "inbox:p",
+        "inbox:v",
+        "new_inbox_",
+        "new_inbox_message",
+        "send_inbox"
+      ]
+    }
+  ],
+  "app-settings": [
+    {
+      "app": "Telegram",
+      "members": [
+        "$__lazy_storage_$_preferences",
+        "(0x104d94110) preferencesAction:",
+        "(0x104d94170) webView:decidePolicyForNavigationAction:preferences:decisionHandler:",
+        "(0x104d95bf0) setCodecPreferences:",
+        "InAppSettings.AutoplayMediaPreferences",
+        "Postbox.MutablePreferencesPrefixView",
+        "Postbox.MutablePreferencesView",
+        "Postbox.PreferencesEntry",
+        "Postbox.PreferencesPrefixView",
+        "Postbox.PreferencesTable",
+        "Postbox.PreferencesView",
+        "TelegramCore.TelegramEngine.Preferences"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "SS_PreferencesControllerProtocol",
+        "cloudLibraryPreferences",
+        "createPreferencesController",
+        "createPreferencesWindow",
+        "createPreferencesWindowAndDisplay:",
+        "destroyPreferencesWindow",
+        "preferences",
+        "preferencesBeingClosed:",
+        "preferencesKey",
+        "preferencesWithBundleExtension:",
+        "preferencesWithPanesSearchPath:",
+        "preferencesWithPanesSearchPath:bundleExtension:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "...e.browserWindowOptions.webPreferences",
+        "...t.webPreferences",
+        ".TestUserPreferences",
+        "Ps.systemPreferences.getMediaAccessStatus",
+        "Ps.systemPreferences.getUserDefault",
+        "Ps.systemPreferences.subscribeNotification",
+        "e.TestUserPreferences",
+        "testUserPreferences",
+        "webPreferences:",
+        "x-apple.systempreferences:com.apple.Touch-ID-Settings.extension",
+        "x-apple.systempreferences:com.apple.preference.notifications",
+        "x-apple.systempreferences:com.apple.preference.security"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "Assets.setPreferences",
+        "Preferences",
+        "Preferences...",
+        "a.remote.systemPreferences.getUserDefault",
+        "disablePreferences:",
+        "e.remote.systemPreferences",
+        "e.remote.systemPreferences.getUserDefault",
+        "preferences-section",
+        "setPreferences",
+        "t.preferences",
+        "this.setPreferences",
+        "webPreferences:"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "accountPreferences",
+        "mPreferences",
+        "manageAccountPreferencesForExtensionAction",
+        "miPreferences",
+        "miPreferencesExtensions",
+        "noPreferences",
+        "pasteAs.preferences",
+        "preferences",
+        "preferences.contribution",
+        "preferences.view.contribution",
+        "preferencesActions",
+        "preferencesIcons"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "accountPreferences",
+        "mPreferences",
+        "manageAccountPreferencesForExtensionAction",
+        "manageAccountPreferencesForMcpServerAction",
+        "miPreferences",
+        "miPreferencesExtensions",
+        "noPreferences",
+        "pasteAs.preferences",
+        "preferences",
+        "preferences.",
+        "sessionsChanges.createPR.preferences",
+        "workspacePicker.locationPreferenceSavedNoProvider"
+      ]
+    }
+  ],
+  "brand-microcopy": [
+    {
+      "app": "Telegram",
+      "members": [
+        "(0x104d8c0d0) copyRenderedPixelBuffer:",
+        "(0x104d8d7c0) copy:",
+        "(0x104d8ec60) copy",
+        "TelegramApi.Api.InlineButtonType.Cons_inlineButtonTypeCopy",
+        "TelegramCore.(MediaResourceDataCopyFile in _8CC4D96FB5CC97F78938AD5D69408D3A)",
+        "copy:",
+        "copyAuthInfoFrom:toTempKeychain:",
+        "copyCGImageAtTime:actualTime:error:",
+        "copyItemAtPath:toPath:error:",
+        "copyItemAtURL:toURL:error:",
+        "copyTextWithRTF:",
+        "dataWithBytesNoCopy:length:freeWhenDone:"
+      ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "_is_rcs_copy_mode:",
+        "copy:",
+        "copyAdvanced:",
+        "copyInstance:fromInstance:ignoring:",
+        "copyItemAtPath:toPath:error:",
+        "copyWithZone:",
+        "dataWithBytesNoCopy:length:freeWhenDone:",
+        "mutableCopyWithZone:"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "NSCopying",
+        "_copyEnabled",
+        "_isCopying",
+        "_smallCopyAllButton",
+        "_theCopyAllButton",
+        "animateCopyAllButton",
+        "canCopyAll",
+        "canMakeACopyOfSourceFileWhenSavingToURL:",
+        "copy:",
+        "copyAll:",
+        "copyAndBindEffectsControllerEffect:toDocumentAppliedEffect:",
+        "copyCGImageAtTime:actualTime:error:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "copy:",
+        "copy_environment_id",
+        "copy_link",
+        "copy_run_command_butto",
+        "copy_run_command_button",
+        "copy_secret_reference",
+        "copy_snippet",
+        "e.CopyEnvironmentId",
+        "e.CopyLink",
+        "e.CopyRunCommandButton",
+        "e.CopySecretReference",
+        "e.CopySnippet"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "COPY",
+        "COPY:",
+        "book-copy",
+        "clipboard-copy",
+        "copy",
+        "copy-check",
+        "copy:",
+        "copysr:",
+        "f.copy",
+        "onCopy:",
+        "onCopy:null",
+        "oncopy"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "actions.clipboard.copyLabel",
+        "copy",
+        "copyAll",
+        "copyLabel",
+        "copyWithSyntaxHighlighting",
+        "diff.clipboard.copyChangedLineContent.label",
+        "diff.clipboard.copyChangedLinesContent.label",
+        "diff.clipboard.copyChangedLinesContent.single.label",
+        "diff.clipboard.copyDeletedLineContent.label",
+        "diff.clipboard.copyDeletedLinesContent.label",
+        "diff.clipboard.copyDeletedLinesContent.single.label",
+        "miCopy"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "Copyright",
+        "copy",
+        "copy-codicons",
+        "copy.",
+        "copyfiles",
+        "copykind",
+        "e.copy",
+        "fs-copyfile",
+        "i.copy",
+        "interactiveSessionCopy",
+        "t.copy",
+        "this._buff.copy"
+      ]
+    }
+  ],
+  "calls": [
+    {
+      "app": "Telegram",
+      "members": [
+        "$__lazy_storage_$_calls",
+        "(0x104d8b2c8) randomCallsEmoji",
+        "OngoingGroupCallSsrcGroup",
+        "OngoingGroupCallStats",
+        "PrivateCallScreen.(ActiveCallView in _CABF240ACFDB7448C67CE622CC436EF4)",
+        "PrivateCallScreen.(BundleFinder in _5270665077B680B2E9F74D505B5904A4)",
+        "PrivateCallScreen.(InfoHelpView in _7E46FC7E3B3F6DAAAA1FA92B473E8A5B)",
+        "PrivateCallScreen.(ShadowView in _7E46FC7E3B3F6DAAAA1FA92B473E8A5B)",
+        "PrivateCallScreen.(SignalControl in _CABF240ACFDB7448C67CE622CC436EF4)",
+        "PrivateCallScreen.Arguments",
+        "PrivateCallScreen.PeerCallActionView",
+        "PrivateCallScreen.PeerCallArguments"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "Calling",
+        "calling",
+        "calling:",
+        "calls",
+        "fixtureCallString:h",
+        "fixtureCallString:o"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "CallHierarchyIncomingCallsRequest",
+        "CallHierarchyOutgoingCallsRequest",
+        "Calls",
+        "Ce.CallHierarchyIncomingCallsReq",
+        "Ce.CallHierarchyIncomingCallsRequest",
+        "Ce.CallHierarchyOutgoingCallsRequest",
+        "cV.CallHierarchyIncomingCallsRequest",
+        "incomingCalls",
+        "outgoingCalls",
+        "tp.CallHierarchyIncomingCallsReq",
+        "tp.CallHierarchyIncomingCallsRequest",
+        "tp.CallHierarchyOutgoingCallsRequest"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "callStack",
+        "callStackAriaLabel",
+        "callStackBottom",
+        "callStackEditorContribution",
+        "callStackTop",
+        "callStackUp",
+        "callStackView",
+        "callStackWidget",
+        "callsTo",
+        "empt.callsFrom",
+        "empt.callsTo",
+        "omingCallsIcons"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "CallstackOrExce",
+        "CallstackOrException",
+        "agentHost.toolCallStalled",
+        "calls",
+        "calls.",
+        "callsite",
+        "callstac",
+        "callstack",
+        "callstack.",
+        "numtoolcalls",
+        "providercallstate",
+        "roottoolcallsbeforefirsttext"
+      ]
+    }
+  ],
+  "channel": [
+    {
+      "app": "Telegram",
+      "members": [
+        "(0x104d8b250) encrypt:channelId:plaintextPrefixLength:",
+        "(0x104d8d578) channels",
+        "(0x104d8d750) setRequestedVideoChannels:",
+        "(0x104d8e018) _audioChannelsCountForPreset:",
+        "(0x104d8e890) channelId",
+        "(0x104d8ee80) dataChannelStateForNativeState:",
+        "(0x104d8fdd8) initWithFactory:nativeDataChannel:",
+        "(0x104d90e48) nativeDataChannelInit",
+        "(0x104d91b00) resetContextForChannelCount:",
+        "(0x104d92030) setChannelId:",
+        "Telegram.(BoostRowItemView in _B49B4D75345D015CF2FBD8F5ADA60A94).ChannelView",
+        "Telegram.(ChannelAdminControllerArguments in _2FFDA69D44869DB43631F731FB69050E)"
+      ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "branchShortUrlWithParams:andChannel:andFeature:andTags:andAlias:andCallback:",
+        "peripheralManager:didOpenL2CAPChannel:error:",
+        "peripheralManager:didPublishL2CAPChannel:error:",
+        "peripheralManager:didUnpublishL2CAPChannel:error:",
+        "setChannel:"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "RWSampleBufferChannel",
+        "RWSampleBufferChannelDelegate",
+        "_audio2SampleBufferChannel",
+        "_audioSampleBufferChannel",
+        "_videoSampleBufferChannel",
+        "allowedChannelsForUpdater:",
+        "createRWChannelForAudioTrack:",
+        "createRWChannelForMixedAudioTracks:",
+        "sampleBufferChannel:didReadSampleBuffer:",
+        "sampleBufferChannelCancelled"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "Channel",
+        "MessageChannel",
+        "activeChannelUuid:d",
+        "activeChannelUuid:e",
+        "channel",
+        "channelClosed",
+        "channelStartRetr",
+        "channelStartRetryCount:0",
+        "channelStartRetryCount:u",
+        "e.ChannelClosed",
+        "e.activeChannelUuid",
+        "e.channelStartRetryCount"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "AudioChannels",
+        "ChannelPositions",
+        "Channels",
+        "channel",
+        "channel:DH",
+        "channels",
+        "ir.channel.hsl2rgb",
+        "ir.channel.rgb2hsl",
+        "xChannelSelector:null",
+        "xchannelselector",
+        "yChannelSelector:null",
+        "ychannelselector"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "channel",
+        "channelName:s",
+        "channels",
+        "e.channelName",
+        "e.outputChannel",
+        "registerChannel",
+        "renderChannelName",
+        "showOutputChannels",
+        "this.channels",
+        "this.channels.get",
+        "this.channels.set",
+        "update.channel"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "Channel",
+        "agentHost.mcpServer.outputChannel",
+        "agentHostLogs.channel",
+        "channel",
+        "channel.",
+        "channel:",
+        "channels",
+        "dataChannels",
+        "devContainerOutputChannel",
+        "mainThreadDataChannels",
+        "per-channel",
+        "renderChannelName"
+      ]
+    }
+  ],
+  "clean-ux": [
+    {
+      "app": "Telegram",
+      "members": [
+        "(0x104d90770) isWhitespaceDisabled",
+        "(0x104d95210) setIsWhitespaceDisabled:",
+        "(0x104d97180) parser:foundIgnorableWhitespace:",
+        "+ 0x105175de5 _swift_deletedMethodError _isWhitespaceDisabled",
+        "_isWhitespaceDisabled",
+        "isWhitespaceDisabled",
+        "parser:foundIgnorableWhitespace:",
+        "setIsWhitespaceDisabled:"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "hasNonWhiteSpaceText:",
+        "parser:foundIgnorableWhitespace:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "e.style.whiteSpace",
+        "e.style.whiteSpace.startsWith",
+        "r.whiteSpace",
+        "sprinkles_whiteSpace_nowrap__o",
+        "sprinkles_whiteSpace_nowrap__omrdfn2fw",
+        "sprinkles_whiteSpace_pre__omrdfn2fx",
+        "t.style.whiteSpace",
+        "whiteSpace",
+        "whiteSpace:",
+        "whiteSpace:f"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "ATTR_WHITESPACE:B",
+        "ATTR_WHITESPACE:DF",
+        "ATTR_WHITESPACE:O7e",
+        "PF.ATTR_WHITESPACE",
+        "deleteTrailingWhitespace:",
+        "highlightTrailingWhitespace:",
+        "highlightWhitespace:",
+        "ingWhitespace:",
+        "n.whiteSpace",
+        "whiteSpace:",
+        "whiteSpace_fallback:",
+        "whitespace"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "ditor.autoClosingQuotes.beforeWhitespace",
+        "editor.renderWhitespace",
+        "experimentalWhitespaceR",
+        "experimentalWhitespaceRe",
+        "experimentalWhitespaceRendering.font",
+        "experimentalWhitespaceRendering.off",
+        "experimentalWhitespaceRendering.svg",
+        "ignoreTrimWhitespace",
+        "selectLeadingAndTrailingWhitespace",
+        "tor.autoClosingBrackets.beforeWhitespace",
+        "tor.autoClosingComments.beforeWhitespace",
+        "trimAutoWhitespace"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        ":n.code.isWhiteSpace",
+        "ignoreTrimWhitespace",
+        "ignoreWhitespace",
+        "isWhiteSpace:C",
+        "isWhiteSpace:function",
+        "n.code.isWhiteSpace",
+        "nonwhitespace",
+        "protectWhitespace",
+        "r.Character.isWhiteSpace",
+        "this.protectWhitespace",
+        "whitespace",
+        "whitespace-only"
+      ]
+    }
+  ],
+  "document-analysis": [
+    {
+      "app": "Telegram",
+      "members": [
+        "(0x104d8f240) documentNumber",
+        "(0x104d8f250) documentSubtype",
+        "(0x104d8f258) documentType",
+        "(0x104d8f260) documentVisibleRect",
+        "(0x104d8f268) documentsDirectory",
+        "(0x104d93ba8) moveToBeginningOfDocument:",
+        "(0x104d93bb0) moveToEndOfDocument:",
+        "(0x104d93bb8) moveToBeginningOfDocumentAndModifySelection:",
+        "(0x104d93bc0) moveToEndOfDocumentAndModifySelection:",
+        "(0x104d960c8) window:shouldPopUpDocumentPathMenu:",
+        "RichTextEditorCore.RTFDocumentParser",
+        "RichTextEditorUI.DocumentCanvasView"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "$__lazy_storage_$_documentTable",
+        "AnimatedGIFDocument",
+        "DocumentAddRemoveProtocol",
+        "DocumentFactory",
+        "EditorDocumentController",
+        "ImageDocument",
+        "ImageDocumentData",
+        "ImageDocumentRenderer",
+        "SaveDialogDocumentProtocol",
+        "SmacitDocumentPboardReader",
+        "Snagit.CollectionImageDocument",
+        "Snagit.CombinedVideoTrayDocument"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "document",
+        "document:",
+        "documentEmpty:",
+        "documentIma",
+        "documentImage",
+        "documentSp",
+        "documentSpreadsheet",
+        "documentTex",
+        "e.Document",
+        "e.DocumentImage",
+        "e.DocumentSpreadsh",
+        "e.DocumentSpreadsheet"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "Document.prototype",
+        "DocumentFragment",
+        "DocumentFragment.prototype",
+        "DocumentFragment.prototype.find",
+        "DocumentFragment.prototype.findAll",
+        "document",
+        "document.createDocumentFragment",
+        "document.createElement",
+        "document.createTextNode",
+        "document.querySelector",
+        "document.querySelectorAll",
+        "this.ownerDocument"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "documentFiltersExclusive",
+        "editorHasDocumentFormattingProvider",
+        "editorHasDocumentHighlightProvider",
+        "editorHasDocumentSe",
+        "editorHasDocumentSym",
+        "editorHasDocumentSymbolProvider",
+        "multiDocumentHighlightProvider",
+        "notebookReplDocument",
+        "wordBasedSuggestions.allDocuments",
+        "wordBasedSuggestions.currentDocument",
+        "wordBasedSuggestions.matchingDocument",
+        "wordBasedSuggestions.matchingDocuments"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "ai-document-intelligence",
+        "ai-document-translator",
+        "document",
+        "document.",
+        "documented",
+        "documents",
+        "e.gradle.azure-ai-translation-document",
+        "isforanotherdocument",
+        "setUntitledDocumentLanguage",
+        "workspace.gradle.azure-ai-documentintelligence",
+        "workspace.gradle.azure-ai-documenttranslator",
+        "workspace.gradle.azure-search-documents"
+      ]
+    }
+  ],
+  "file-system": [
+    {
+      "app": "Telegram",
+      "members": [
+        "$__lazy_storage_$_ensureDirectoryCreated",
+        "(0x104d8f268) documentsDirectory",
+        "(0x104d8f8d8) getSRCDirectoryPath",
+        "Postbox.TempBoxDirectory",
+        "URLsForDirectory:inDomains:",
+        "_TtC7Postbox16TempBoxDirectory",
+        "contentsOfDirectoryAtPath:error:",
+        "contentsOfDirectoryAtURL:includingPropertiesForKeys:options:error:",
+        "createDirectoryAtPath:withIntermediateDirectories:attributes:error:",
+        "createDirectoryAtURL:withIntermediateDirectories:attributes:error:",
+        "directory",
+        "documentsDirectory"
+      ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "URLByAppendingPathComponent:isDirectory:",
+        "URLForDirectory:inDomain:appropriateForURL:create:error:",
+        "URLsForDirectory:inDomains:",
+        "createDirectoryAtPath:withIntermediateDirectories:attributes:error:",
+        "createDirectoryAtURL:withIntermediateDirectories:attributes:error:",
+        "fileURLWithPath:isDirectory:",
+        "setCurrentDirectoryPath:",
+        "setDirectoryURL:"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "Snagit.TrayDirectoryWatcher",
+        "URLsForDirectory:inDomains:",
+        "_$s12TechSmithKit19TSKFolderPermissionC6folderSo21NSSearchPathDirectoryVvg",
+        "_TtC6Snagit20TrayDirectoryWatcher",
+        "_previousAutosaveDirectory",
+        "addDirectoryItemWithBasePath:andCategorySubpath:andName:intoArray:",
+        "copyFileToAutosaveDirectory:",
+        "copyVideoToMoviesDirectory:",
+        "createDirectoryAtPath:",
+        "createDirectoryAtPath:withIntermediateDirectories:attributes:error:",
+        "createDirectoryAtURL:",
+        "createDirectoryAtURL:withIntermediateDirectories:attributes:error:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "OpenLogsDirectory",
+        "createDirectory",
+        "directory",
+        "directory."
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        ".isDirectory",
+        ":n.isDirectory",
+        "S.isDirectory",
+        "c.isDirectory",
+        "createDirectory",
+        "directory",
+        "directory.",
+        "e.isDirectory",
+        "i.isDirectory",
+        "n.isDirectory",
+        "openDirectory",
+        "optionChoiceSubdirectory:"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "ToRecentDirectory",
+        "captureDebuggingDataUserDirectory",
+        "captureDebuggingDataUserDirectoryDeta",
+        "entDirectoryMac",
+        "fileIsDirectory",
+        "fileIsDirectoryReadError",
+        "fileIsDirectoryWriteError",
+        "goToRecentDirectory",
+        "goToRecentDirectory.metadata",
+        "launchFail.cwdNotDirectory",
+        "nch.action.terminal.goToRecentDirectory",
+        "selectRecentDirectory"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "--one-file-system",
+        "A.Directory",
+        "Directory",
+        "Gs.Directory",
+        "K.isDirectory",
+        "directory",
+        "directory.",
+        "isDirectory",
+        "sendstageworkingdirectoryms",
+        "subdirectory",
+        "wicg-file-system-access",
+        "workingDirectoryMissing"
+      ]
+    }
+  ],
+  "fork-session": [
+    {
+      "app": "Telegram",
+      "members": [
+        "(0x104d8c678) setColor:forKeyPath:",
+        "(0x104d8c6f0) needsDisplayForKey:",
+        "(0x104d8cd58) didChangeValueForKey:",
+        "(0x104d8de30) automaticallyNotifiesObserversForKey:",
+        "(0x104d8ee28) currentStatsForKeys:",
+        "(0x104d8f110) dictionaryForKey:group:",
+        "(0x104d90b30) mediaTypeForKind:",
+        "(0x104d90e68) nativeEncryptionKeyTypeForKeyType:",
+        "(0x104d910b8) numberForKey:group:",
+        "boolForKey:",
+        "decodeBoolForKey:",
+        "decodeIntForKey:"
+      ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "decodeIntegerForKey:",
+        "decodeObjectOfClass:forKey:",
+        "encodeBool:forKey:",
+        "objectForKey:",
+        "objectForKeyedSubscript:",
+        "removeObjectForKey:",
+        "removeObserver:forKeyPath:",
+        "setBool:forKey:",
+        "setObject:forKey:",
+        "setObject:forKeyedSubscript:",
+        "setProperty:forKey:inRequest:",
+        "setValue:forKey:"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "account:isOnKeyPromptExclusionListForKeyList:",
+        "actionForKey:",
+        "actionForLayer:forKey:",
+        "addAccount:toKeyPromptExclusionListForKeyList:",
+        "animationForKey:",
+        "arrayForKey:",
+        "captureModeForKeyCodeKey:",
+        "childGraphicForKnobUnderPoint:withCurrentHitGraphic:",
+        "controlsForKeys:",
+        "cursorForKnob:",
+        "decodeBoolForKey:",
+        "decodeObjectOfClass:forKey:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "DOwgZeOJkAQFORkv2NHYmyRRv9MRG7"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "e.getFrontmatterPropertyValuesForKey",
+        "e.prototype.fork",
+        "fork-knife",
+        "fork-knife-crossed",
+        "fork:",
+        "forklift:",
+        "forkv:",
+        "git-fork",
+        "lucide-git-fork",
+        "pitchfork:",
+        "topfork:",
+        "u.fork"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        ".fork",
+        "bootstrap-fork",
+        "bootstrap-fork.js",
+        "e.fork",
+        "fork",
+        "gist-fork",
+        "gistFork:f",
+        "glass_cloud_agent_fork_from_turn:",
+        "i8e.fork",
+        "isable_context_ast_typescript_fork__",
+        "repoForked:f",
+        "searchForKernels"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "Fork",
+        "SessionsForkRequest",
+        "SessionsForkResult",
+        "agentHost.forkedChatFallback",
+        "agentHost.forkedTitlePr",
+        "child_process.fork",
+        "fork",
+        "fork:",
+        "forked",
+        "forking",
+        "forkpty",
+        "sessions.fork"
+      ]
+    }
+  ],
+  "game-mode": [
+    {
+      "app": "Telegram",
+      "members": [
+        "_currentHelloResponse",
+        "colorEditor"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "_$s12TechSmithKit21ColoredBackgroundViewC11strokeColorSo7NSColorCSgvs",
+        "_$s12TechSmithKit21ColoredBackgroundViewC11strokeWidth12CoreGraphics7CGFloatVvs",
+        "_$s12TechSmithKit21ColoredBackgroundViewC12cornerRadius12CoreGraphics7CGFloatVvM",
+        "_coloredHeaderView",
+        "colorEditing",
+        "coloredBackgroundView",
+        "coloredHeaderView",
+        "setColoredBackgroundView:",
+        "setColoredHeaderView:",
+        "textRegionsInImage:colored:completion:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        ".coloredEmphasized",
+        "Colore",
+        "Jg.coloredEmphasizedText",
+        "Valore",
+        "colorError:",
+        "coloredEmphasized:",
+        "coloredEmphasizedText",
+        "coloredEmphasizedText--",
+        "coloredEmphasizedText--PartitionedText_UTRGC",
+        "coloredEmphasizedText:",
+        "valore",
+        "verloren."
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        ":l.optionRevealVaultInExplorer",
+        "Explorer",
+        "explorer",
+        "file-explorer-glyph",
+        "file-explorer:new-file",
+        "file-explorer:new-file-in-new-pane",
+        "fileExplorer:",
+        "l.optionRevealVaultInExplorerMac",
+        "lphabetical:bd.plugins.fileExplorer.labelSortAToZ",
+        "optionRevealVaultInExplorer:",
+        "optionRevealVaultInExplorerMac:",
+        "plorer"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "ceProcessExplorer",
+        "cursorBlame.explorerContextMenu",
+        "cursorOrigin.copyCodeLinkExplorer.menu",
+        "explorer.openInTerminalKind",
+        "explorerOpenWith",
+        "focusFilesExplorer",
+        "focusFilesExplorerMetadata",
+        "ms-vscode.remote-explorer",
+        "openExplorerOnEnd",
+        "processExplorer",
+        "processExplorerMain",
+        "views.explorer"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "explorer",
+        "install-local-component-explorer",
+        "js-component-explorer",
+        "symlink-local-component-explorer",
+        "vscode-component-explorer-0.1.0.t",
+        "vscode-component-explorer-0.1.0.tgz",
+        "vscode-component-explorer-cli-0.1",
+        "vscode-component-explorer-cli-0.1.0.tgz",
+        "vscode-component-explorer-vite-pl",
+        "vscode-component-explorer-vite-plugin-0.1.0.tgz",
+        "vscode-component-explorer-webpack",
+        "vscode-component-explorer-webpack-plugin-0.1.0.tgz"
+      ]
+    }
+  ],
+  "image-markup": [
+    {
+      "app": "Telegram",
+      "members": [
+        "+ 0x104321f1e _OBJC_METACLASS_$_NSObject markup",
+        "+ 0x104325980 _$sBoWV replyMarkupModel",
+        "Telegram.ReplyMarkupButtonLayout",
+        "Telegram.ReplyMarkupInteractions",
+        "Telegram.ReplyMarkupNode",
+        "TelegramApi.Api.ReplyMarkup.Cons_replyInlineMarkup",
+        "TelegramApi.Api.ReplyMarkup.Cons_replyKeyboardForceReply",
+        "TelegramApi.Api.ReplyMarkup.Cons_replyKeyboardHide",
+        "TelegramApi.Api.ReplyMarkup.Cons_replyKeyboardMarkup",
+        "TelegramApi.Api.VideoSize.Cons_videoSizeEmojiMarkup",
+        "TelegramApi.Api.VideoSize.Cons_videoSizeStickerMarkup",
+        "TelegramCore.ReplyMarkupMessageAttribute"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "Prism.languages.markup",
+        "Prism.languages.markup.doctype.i",
+        "Prism.languages.markup.doctype.inside",
+        "Prism.languages.markup.entity",
+        "Prism.languages.markup.tag.addAttribute",
+        "Prism.languages.markup.tag.addInlined",
+        "Prism.languages.markup.tag.inside",
+        "ages.markup",
+        "e.languages.markup",
+        "e.languages.markup.tag.pattern.source",
+        "markup",
+        "markup.entity"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        ".toMarkup",
+        "Markup",
+        "MarkupContent:",
+        "MarkupKind:",
+        "Prism.languages.markup",
+        "div.body.markup",
+        "markup",
+        "markup-templating",
+        "orgModeMarkup:",
+        "t.Markup",
+        "this.markup",
+        "toMarkup"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "Markup",
+        "MarkupAnnotation",
+        "e.Markup",
+        "include_markup_input",
+        "include_markup_preview",
+        "markUpdateInstallation",
+        "markup",
+        "markupCell",
+        "notebook.find.filter.findInMarkupInput",
+        "notebook.find.filter.findInMarkupPreview",
+        "notebook.markup.fontFamily",
+        "notebook.markup.fontSize"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        ".includeMarkupInput",
+        ".markup.fontFamily",
+        "Markup",
+        "e.Markup",
+        "e.notebookSearchConfig.includeMarkupInput",
+        "markup",
+        "markupCell",
+        "notebook.find.filter.findInMarkupInput",
+        "notebook.find.filter.findInMarkupPreview",
+        "notebook.markup.fontFamily",
+        "notebook.markup.fontSi",
+        "notebook.markup.fontSize"
+      ]
+    }
+  ],
+  "marketplace": [
+    {
+      "app": "Telegram",
+      "members": [
+        "openMarketplace",
+        "showCraftMarketplace",
+        "showMarketplace"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "MarketPlaceDisabled",
+        "Marketplace",
+        "browseColorThemeInMarketPlace.label",
+        "cursor-marketplace.com",
+        "extensionInfoVSMarketplaceLink",
+        "marketPlace",
+        "marketplace",
+        "marketplace.cursorapi.com",
+        "marketplace.visualstudio.com",
+        "searchMarketplace",
+        "themes.selectMarketplaceTheme",
+        "vsmarketplacebadge.apphb.com"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "Marketplace",
+        "armmarketplace",
+        "extensionsView:MarketplaceSearchFinished",
+        "extra-marketplaces",
+        "extramarketplacesset",
+        "galleryservice:custom:marketplace",
+        "marketplace",
+        "marketplace:auth:checked",
+        "marketplaces",
+        "strict-marketplaces",
+        "strictmarketplaceslockdown",
+        "strictmarketplacesset"
+      ]
+    }
+  ],
+  "member-chat": [
+    {
+      "app": "Telegram",
+      "members": [
+        "(0x104d8ae68) viewDidMoveToSuperview",
+        "Postbox.(CachedMediaResourceRepresentationContext in _74DF378459E89D55D555FD1A1A5F6A27)",
+        "Postbox.CombinedMutableView",
+        "Postbox.DeletedMessagesView",
+        "Postbox.EngineMessageHistorySavedMessagesThread",
+        "Postbox.EngineMessageHistorySavedMessagesThread.Item",
+        "Postbox.FailedMessageIdsView",
+        "Postbox.InvalidatedMessageHistoryTagSummariesView",
+        "Postbox.InvalidatedMessageHistoryTagsSummaryTable",
+        "Postbox.MessageHistorySavedMessagesIndexView",
+        "_dataForEncryptedMessage:authKey:sessionInfo:quickAckId:address:extendedPadding:",
+        "modMulInto:a:b:mod:"
+      ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "addMediaServicesWereResetObserver:",
+        "addMediaServicesWereResetObserverOn:usingBlock:",
+        "branchErrorWithCode:error:localizedMessage:",
+        "branchErrorWithCode:localizedMessage:",
+        "cpuLoadMonitorThread:",
+        "sendMessage:completionHandler:",
+        "setCpuLoadMonitorRunLoop:",
+        "setCpuLoadMonitorThread:",
+        "setLastReportedMainThreadLatencyMeasurerSequenceNumber:",
+        "setLoadMeasurementEnabled:",
+        "setShouldStopCPULoadMonitorThread:"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "PasteboardManager",
+        "Snagit.DMGChecker",
+        "_TtC6Snagit10DMGChecker",
+        "_antsShouldMarch",
+        "_cachedModificationDate",
+        "_downloadMoreButton",
+        "_searchFailedMessage",
+        "_swift_deletedMethodError",
+        "endModifyingGraphic:withEvent:",
+        "insertGraphics:atIndexes:andModifySelection:",
+        "loadMessageWithData:",
+        "modifyGraphicWithTarget:andModifierSelector:andNewPoint:andDragEvent:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "7PoHf9rKGb4kuLgz6sBpzgi6uwFn9pDMgM1z",
+        "9cm406dvWx1fezbyXUSjthstZ2DmNJh1NfIPBwP1HOT2tlup8JQak1Wm54K758kxSBig",
+        "Afbtg2JdREW1j6CLdAdMfFE9IMs5qbWuDxqYmcDY2Fc1ISRlsMBq4q6m5eRs",
+        "MDIh9rjpzv81xu6oS5Dm",
+        "OUpC09hYfgaoNMEkR5NFaBsujS9DBCdmMgTQCecaeuYJAVcmViCMgUGSgb5fmdyJw7ey4AbP",
+        "OtvtyBbVaAy0tLpidmQFSEjLITgFF755j8pd1s",
+        "VMSnVlflvrO6AkY3tcYgDdA7GiFNL1dmgMe",
+        "W5wBZBkuxH5UmcXEnBOTM1rMf6PVmcdmBXGlHI4UPZkYgOiyfn5Uc",
+        "WfXquHCDGsbAwDyRFNDY2YlVMP1AOPdmz9UmBkhgATd7l5SWIxaK8qBYOh7E8rfhrnNhOe36",
+        "YorhViG5pedGRGDaVBthQmsCrMiNDMBRVv0LJWEAywd5",
+        "d8KM9YpSL9KkgDMeg08drgDduPkkjoQIzgy2ASDbVb4x9PjMI",
+        "dmJIJqyGmGc"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "a.prototype.addMomentFormat",
+        "doubleQuotedMinMultiLineLength:40",
+        "hdmi-port",
+        "landmark:",
+        "onLoadedMetadata:",
+        "onLoadedMetadata:null",
+        "onloadedmetadata",
+        "optionRestrictedMo",
+        "optionRestrictedMode:",
+        "ordm",
+        "ordm:",
+        "spreadMethod:null"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "Podman",
+        "contribCommentsViewThreadMenus",
+        "david-dm.org",
+        "findMatchA",
+        "findMatchAction.i",
+        "findMatchAction.inputPlaceHolder",
+        "findMatchAction.noResults",
+        "indMatchAction.noResults",
+        "nstanceAdmin",
+        "podman",
+        "secondInstanceAdmin",
+        "secondInstanceAdminDetail"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "admitted",
+        "backgroundmodels",
+        "backgroundmodels_modifiededitskeepalive",
+        "backgroundmodels_otherholders",
+        "hasuserselectedmodel",
+        "selectedmodel",
+        "skippedmissingdescription",
+        "skippedmissingname",
+        "timesincefirstobservedms",
+        "timetoauthenticationsettledms",
+        "totalelapsedms",
+        "turnelapsedms"
+      ]
+    }
+  ],
+  "message-menu": [
+    {
+      "app": "Telegram",
+      "members": [
+        "(0x104d8d6a8) initWithTimestampMilliseconds:responseTimestamp:status:oggData:",
+        "(0x104d8e470) applyPixelBuffer:timeStampNs:",
+        "(0x104d8e5d0) authMessageServiceCompletedWithAuthKey:timestamp:",
+        "(0x104d8e8c8) checkIpData:timestamp:source:",
+        "(0x104d8ea28) completeWithAuthKey:timestamp:",
+        "(0x104d8fc08) initWithAuthKey:authKeyId:validUntilTimestamp:notBound:",
+        "(0x104d8fc10) initWithAuthKey:authKeyId:validUntilTimestamp:saltSet:authKeyAttributes:",
+        "(0x104d8fc68) initWithBuffer:rotation:timeStampNs:",
+        "(0x104d8ff18) initWithIp:timestamp:",
+        "Postbox.MutablePeerNotificationSettingsBehaviorTimestampView",
+        "Postbox.MutableTimestampBasedMessageAttributesView",
+        "Postbox.PeerNotificationSettingsBehaviorTimestampView"
+      ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "centralManager:didDisconnectPeripheral:timestamp:isReconnecting:error:",
+        "setClickTimestamp:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "_TIMESTAMP",
+        "__TIMESTAMP__",
+        "content.timestampString",
+        "e.content.timestamp",
+        "e.content.timestampString",
+        "e.timestamps",
+        "eTimestamp",
+        "this.firstCaptureTimestamp",
+        "timeDelta:f-this.firstCaptureTimestamp",
+        "timeDelta:t-this.firstCaptureTimestamp",
+        "timestamp",
+        "timestamps:h"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "2002:timestamp",
+        "Timestamp",
+        "Timestamp.",
+        "e.timeStamp",
+        "e.timeStamp-this.lastMoveTime",
+        "e.timeStamp-this.swipeMoveTime",
+        "this.timestamp",
+        "timestamp",
+        "timestamp.",
+        "timestamp:jt",
+        "timestamp:vx",
+        "timestamps"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "e.endTimestamp",
+        "e.startTimestamp",
+        "e.start_timestamp",
+        "e.timestamp",
+        "e.timestamp-e.started",
+        "start_timestamp:0",
+        "start_timestamp:dd",
+        "start_timestamp:this._startTime",
+        "t.timestamp",
+        "timestamp:Date.now",
+        "timestamp:dd",
+        "timestamp:vC"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "A.timestamp-A.startTi",
+        "A.timestamp-A.startTimestamp",
+        "A.timestamp-t",
+        "Timestamp",
+        "Timestamps",
+        "startTimestamp:i",
+        "timestamp",
+        "timestamp-t",
+        "timestamp.",
+        "timestamp:Date.now",
+        "timestamp:r",
+        "timestampms"
+      ]
+    }
+  ],
+  "notebook": [
+    {
+      "app": "Telegram",
+      "members": [
+        "_chat_my_notes",
+        "updateNotes"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "updater:shouldDownloadReleaseNotesForUpdate:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "Notes",
+        "handleOpenReleaseNotes",
+        "notebook",
+        "releaseNotes:i"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "Mi.DidChangeNotebookDocumentNotification",
+        "Mi.DidCloseNotebookDocumentNotification",
+        "Mi.DidOpenNotebookDocume",
+        "Mi.DidOpenNotebookDocumentNotification",
+        "Mi.DidSaveNotebookD",
+        "Mi.DidSaveNotebookDocumentNotification",
+        "Mi.NotebookCellArra",
+        "Mi.NotebookCellArrayChange",
+        "Mi.NotebookDocument",
+        "notebook-pen",
+        "notebook-tabs",
+        "notebook-text"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "contribNotebookStaticPreloads",
+        "notebookCellExecutionState",
+        "notebookControllerAffinityHidden",
+        "notebookDeprecated",
+        "notebookKernelSource",
+        "notebookLiveSha",
+        "notebookLiveShare",
+        "notebookMessaging",
+        "notebookMime",
+        "notebookReplDocument",
+        "notebookVariableProvi",
+        "notebookVariableProvider"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "NotebookCellOutputRender",
+        "contribNotebookStaticPreloads",
+        "ms-vscode.vscode-github-issue-notebooks",
+        "notebook",
+        "notebookDeprecated",
+        "notebookKernelSource",
+        "notebookLiveShare",
+        "notebookMessaging",
+        "notebookReplDocument",
+        "notebookVariableProvider",
+        "notebookstatsloaded",
+        "vscode-notebook-renderer"
+      ]
+    }
+  ],
+  "profile-page": [
+    {
+      "app": "Telegram",
+      "members": [
+        "(0x104d92880) setProfile:",
+        "(0x104d95538) initWithProfile:level:",
+        "(0x104d95540) profile",
+        "(0x104d961b0) windowDidChangeScreenProfile:",
+        "+ 0x104516c59 _swift_deletedMethodError _profile_level_id",
+        "+ 0x104fc3e20 __objc_empty_cache profileMusicContext",
+        "RTCH264ProfileLevelId",
+        "Telegram.(ProfilePreviewRowItem in _6ACD2D18A32C9126FFD0D1E41D519BCD)",
+        "Telegram.(ProfilePreviewRowView in _6ACD2D18A32C9126FFD0D1E41D519BCD)",
+        "Telegram.APProfileSavedController",
+        "TelegramApi.Api.InlineButtonType.Cons_inlineButtonTypeUserProfile",
+        "TelegramApi.Api.InlineButtonType.Cons_inputInlineButtonTypeUserProfile"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "Snagit.IdentityProfileButtonHostingView",
+        "Snagit.LibraryAnalyticsProfiler",
+        "_TtC6Snagit24LibraryAnalyticsProfiler",
+        "_TtC6Snagit32IdentityProfileButtonHostingView",
+        "_currentProfileViewController",
+        "_outputProfileContainer",
+        "_profileContainerHeightConstraint",
+        "_profileContainerWidthConstraint",
+        "addNewOutputProfile:",
+        "allowedSystemProfileKeysForUpdater:",
+        "announceCancelForProfile:",
+        "announceCompletionMessage:forProfileTitle:forProfileGuid:forCaptureInfo:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "e.HomeScreenBillboardProfileTransparent",
+        "e.Profile",
+        "e.ProfileCard",
+        "e.WorkProfileAutofillBlocked",
+        "e.WorkProfilePresent",
+        "homeScreenBillboardProfileT",
+        "kProfileAutofillBlocked",
+        "profile_card",
+        "profile_view",
+        "work_profile_autofill_b",
+        "work_profile_autofill_blocked",
+        "work_profile_present"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        ".zprofile",
+        "Le.USE_PROFILES:",
+        "USE_PROFILES",
+        "baseProfile:null",
+        "color-profile",
+        "colorProfile:",
+        "colorProfile:null",
+        "e.USE_PROFILES",
+        "e.shared.profilers.LangiumProfiler",
+        "e.shared.profilers.LangiumProfiler.createTask",
+        "profile:null",
+        "workspace-sidedock-vault-profile"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "USERPROFILE",
+        "darwinProfilePayloadUUID",
+        "darwinProfileUUID",
+        "erminalProfile.args",
+        "erminalProfile.icon",
+        "ms-vscode.vscode-js-profile-table",
+        "profileName",
+        "terminalProfile.args",
+        "terminalProfile.color",
+        "terminalProfile.env",
+        "terminalProfile.icon",
+        "terminalProfile.overrideName"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "defaultprofile",
+        "isprofile",
+        "profile",
+        "profileSettingChanged",
+        "profileSettingState",
+        "profiles",
+        "profiles:count",
+        "profiletype",
+        "userDataProfile.createFromTemplate",
+        "window.newWindowProfile",
+        "workspace.gradle.microprofile",
+        "workspaceProfileInfo"
+      ]
+    }
+  ],
+  "reactions": [
+    {
+      "app": "Telegram",
+      "members": [
+        "+ 0x1043142c4 _OBJC_METACLASS_$_NSObject reactions",
+        "+ 0x104317414 __objc_empty_cache reactionsView",
+        "+ 0x104317414 _swift_deletedMethodError reactionsView",
+        "+ 0x104317460 _OBJC_METACLASS_$_NSObject reactionsContainer",
+        "+ 0x104f771b4 _OBJC_METACLASS_$_NSObject reactionsView",
+        "+ 0x104f77200 _swift_deletedMethodError reactionsContainer",
+        "+ 0x104f858b0 _swift_deletedMethodError _reactionsLayout",
+        "+ 0x104f8dcf9 __objc_empty_cache updateReactions",
+        "Reactions.Reactions",
+        "Telegram.(PremiumReactionsView in _24B05E0CE72C535FB2E576E3C054392E)",
+        "Telegram.(PremiumReactionsView in _24B05E0CE72C535FB2E576E3C054392E).AcceptView",
+        "Telegram.(ReactionsRowItem in _3BF0D5F5328B345CADA59531D1252258)"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "bv.hasMoreActions",
+        "bv.moreActionsMenuOpen",
+        "className:bv.moreActions",
+        "hasMoreActions--Field_zWhk-",
+        "hasMoreActions:",
+        "moreActions--Field_nZLM0",
+        "moreActions:",
+        "moreActionsMenuOpen--DocumentField_R1rJH",
+        "moreActionsMenuOpen--Field_9Si",
+        "moreActionsMenuOpen--Field_9SiWC",
+        "moreActionsMenuOpen:",
+        "sMoreActions"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        ".comments-comment-social-bar__reactions-count--cr",
+        ".react-issue-comment",
+        ".react-syntax-highlighter-line-number",
+        "e.fireAction",
+        "e.prototype.fireAction",
+        "kbReact",
+        "reaction_force_x",
+        "reaction_force_y",
+        "reaction_to",
+        "reaction_torque",
+        "reactions",
+        "this.fireAction"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "auxiliaryBarMoreActions",
+        "coreActions",
+        "coreActionsCommon",
+        "hideMoreActions",
+        "moreActions",
+        "moreActionsTitlebarMaximized",
+        "notebookActions.cellFailureActions",
+        "pickReactions",
+        "reactionsAction",
+        "scmInputMoreActions",
+        "showMoreActions",
+        "viewsAndMoreActions"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "customizationMigrationMoreActions",
+        "customizationMoreActionsAria",
+        "hideMoreActions",
+        "mcpMoreActionsAria",
+        "moreActions",
+        "moreActionsForAutomation",
+        "newSessionForWorkspaceMoreActions",
+        "pluginMoreActionsAria",
+        "sessionInputBanner.moreActionsFor",
+        "showMoreActions",
+        "viewsAndMoreActions",
+        "wireActions"
+      ]
+    }
+  ],
+  "rich-data-cards": [
+    {
+      "app": "Telegram",
+      "members": [
+        "$__lazy_storage_$_stickers",
+        "+ 0x1042f9500 _OBJC_METACLASS_$_NSObject inlineStickerItemViews",
+        "+ 0x1042f9500 _swift_deletedMethodError inlineStickerItemViews",
+        "+ 0x1043212a0 _OBJC_METACLASS_$_NSObject stickerFile",
+        "+ 0x10432c3c0 _OBJC_CLASS_$__TtCs12_SwiftObject stickerView",
+        "+ 0x10432c3c0 _OBJC_METACLASS_$__TtCs12_SwiftObject stickerView",
+        "+ 0x10432c3c0 __objc_empty_cache stickerView",
+        "+ 0x10432c3c0 _swift_deletedMethodError stickerView",
+        "+ 0x104338180 _OBJC_METACLASS_$_NSObject sticker",
+        "+ 0x104338ad0 __objc_empty_cache loadedStickerPackDisposable",
+        "Telegram.(AnimtedStickerHeaderView in _ACA8ACCC9D44042E0C10DEBECE9F621F)",
+        "Telegram.(ArchivedStickerPacksControllerArguments in _797D3F3DDB8DC0F15778014F807F6509)"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "Ticker.targetFPMS",
+        "sharedTicker:",
+        "sticker:",
+        "t.sharedTicker",
+        "this._ticker",
+        "this._ticker.rem",
+        "this._ticker.remove",
+        "this._ticker.st",
+        "this._ticker.start",
+        "this._ticker.stop",
+        "this.ticker",
+        "ticker"
+      ]
+    }
+  ],
+  "rich-rendering": [
+    {
+      "app": "Telegram",
+      "members": [
+        "(0x104d8e888) changeFontMarkdown:makeBold:makeItalic:",
+        "(0x104d90a50) markdownItems",
+        "(0x104d925f0) setMarkdownItems:",
+        "MarkdownUndoItem",
+        "TGUIKit.MarkdownAttributeSet",
+        "TGUIKit.MarkdownAttributes",
+        "Telegram.(MarkdownConversionBudget in _B73300BD0DE4C2E90153F7F6DB073157)",
+        "Telegram.(MarkdownConversionContext in _B73300BD0DE4C2E90153F7F6DB073157)",
+        "Telegram.(MarkdownIntentNode in _B73300BD0DE4C2E90153F7F6DB073157)",
+        "TelegramApi.Api.InputRichMessage.Cons_inputRichMessageMarkdown",
+        "_TtC7TGUIKit18MarkdownAttributes",
+        "_TtC7TGUIKit20MarkdownAttributeSet"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "Snagit.MarkdownExporter",
+        "_TtC6Snagit16MarkdownExporter",
+        "exportMarkdown",
+        "markdownExport",
+        "markdownExport:",
+        "translateXBy:yBy:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "MarkdownPlugin",
+        "e.languages.markdown",
+        "markdown",
+        "markdown--Markdown_UTy2p",
+        "markdown:",
+        "markdown:s",
+        "markdown:t",
+        "parseMarkdown:h",
+        "parseMarkdown:m",
+        "parseMarkdown:t",
+        "parseMarkdown:x",
+        "tf.markdown"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "Markdown",
+        "insertMarkdownLink:",
+        "markdownFormatImporter:",
+        "msgMarkdownCopyInstructions:",
+        "nChoiceLinkStyleMarkdownLink:",
+        "onAutoPairMarkdown:",
+        "optionAutoPairMarkdown:",
+        "optionAutoPairMarkdownDescripti",
+        "optionAutoPairMarkdownDescription:",
+        "optionChoiceLinkStyleMarkdownLink:",
+        "optionMarkdownLink:",
+        "optionSavedMarkdown"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "DavidAnson.vscode-markdownlint",
+        "Markdown",
+        "emMarkdownLabel",
+        "hnw.vscode-auto-open-markdown-preview",
+        "markdownAlertSyntax",
+        "markdownHoverParticipant",
+        "scope.markdownDescription",
+        "scope.markdownEnumDescriptions",
+        "shd101wyy.markdown-preview-enhanced",
+        "treeItemMarkdownLabel",
+        "treeViewMarkdownMessage",
+        "yzhang.markdown-all-in-one"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "DavidAnson.vscode-markdownlint",
+        "Markdown",
+        "check-markdown-ed",
+        "check-markdown-editor-package-json",
+        "custommarkdownloaded",
+        "markdown",
+        "markdown-editor-package-json-check",
+        "markdown-language-features",
+        "markdownAlertSyntax",
+        "markdownlength",
+        "treeItemMarkdownLabel",
+        "treeViewMarkdownMessage"
+      ]
+    }
+  ],
+  "session-header": [
+    {
+      "app": "Telegram",
+      "members": [
+        "(0x104d8ee90) dataForHttpUrl:headers:",
+        "(0x104d8fa28) headers",
+        "(0x104d8faa8) icmpHeaderOffsetInIPv4Packet:",
+        "(0x104d8fe90) initWithHeaders:data:",
+        "(0x104d90080) initWithNativeRtpHeaderExtensionCapability:",
+        "(0x104d90ec8) nativeRtpHeaderExtensionCapability",
+        "(0x104d912a8) parseOpusHeader:length:",
+        "(0x104d92e70) srtpEnableEncryptedRtpHeaderExtensions",
+        "(0x104d954c0) headerExtensions",
+        "(0x104d954c8) setHeaderExtensions:",
+        "(0x104d95838) setSrtpEnableEncryptedRtpHeaderExtensions:",
+        "TGUIKit.(ModalHeaderView in _F214F8FD9AD80F351992A884BD31D32B)"
+      ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "_header_and_checksums:",
+        "addValue:forHTTPHeaderField:",
+        "initWithFrame:inWindowHeader:",
+        "setValue:forHTTPHeaderField:"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "ToolbarCustomizeHeaderViewController",
+        "_coloredHeaderView",
+        "_headerLabel",
+        "_headerText",
+        "anchorToHeader:",
+        "collectionView:layout:referenceSizeForHeaderInSection:",
+        "coloredHeaderView",
+        "createRepeatableHeader:",
+        "headerLabel",
+        "headerText",
+        "initWithName:filterType:andIsHeader:",
+        "outlineView:mouseDownInHeaderOfTableColumn:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "Kg.Header",
+        "headerLg--Text",
+        "headerLg--Text_4U0bI",
+        "headerLg:",
+        "headerMd--Text",
+        "headerMd--Text_oMtNs",
+        "headerMd:",
+        "headerSm--Text",
+        "headerSm:",
+        "headerXl--Text_dDMLy",
+        "headerXl:",
+        "popup-header-new-item-category"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        ".workspace-tab-header",
+        ".workspace-tab-header-inner-close-button",
+        "block-scalar-header",
+        "c.setRequestHeader",
+        "header",
+        "header:",
+        "headers:u",
+        "parseBlockScalarHeader",
+        "t.headers",
+        "this.headerEl",
+        "this.headerInnerEl",
+        "this.parseBlockScalarHeader"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "colorPickerHeader",
+        "header",
+        "minimap.markSectionHeaderRegex",
+        "minimap.sectionHeaderFontSize",
+        "minimap.sectionHeaderLetterSp",
+        "minimap.sectionHeaderLetterSpacing",
+        "minimap.showMarkSectionHeaders",
+        "minimap.showRegionSectionHeaders",
+        "multiDiffEditor.headerBackground",
+        "nHeaderRegex",
+        "nHeaders",
+        "showCodeActionHeaders"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "A.sensitiveHeaders",
+        "eslint-plugin-header",
+        "flushHeaders",
+        "getHeader",
+        "header",
+        "this._currentRequest.removeHeader",
+        "this._currentRequest.setHeader",
+        "this._headerFilter",
+        "this._options.header",
+        "this._options.headers",
+        "xt.prototype.removeHeader",
+        "xt.prototype.setHeader"
+      ]
+    }
+  ],
+  "shortcuts": [
+    {
+      "app": "Telegram",
+      "members": [
+        "openShortcuts",
+        "shortcuts"
+      ]
+    },
+    {
+      "app": "Spotify",
+      "members": [
+        "setHiddenKeyboardShortcutsMenu:"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "showHelpForKeyboardShortcuts:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        ".KeyboardShortcutsQX",
+        "Shortcuts",
+        "_.ariaKeyShortcuts",
+        "aria-keyshortcuts",
+        "ariaKeyShortcuts:null",
+        "conflicting_shortcuts",
+        "e.KeyboardShortcutsQX",
+        "e.WatchtowerConflictingShortcuts",
+        "eyShortcuts:null",
+        "keyboardShortcutsQX",
+        "lictingShortcuts",
+        "showKeyboardShortcutsQX:"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "CPACK_DESKTOP_SHORTCUTS",
+        "CPACK_STARTUP_SHORTCUTS",
+        "CPACK_START_MENU_SHORTCUTS",
+        "UP_SHORTCUTS",
+        "ariaKeyShortcuts:null",
+        "getShortcuts",
+        "github-keyboard-shortcuts",
+        "shortcuts",
+        "shortcuts.F",
+        "t.setIgnoreMenuShortcuts",
+        "this.shortcuts",
+        "this.shortcuts.F"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "boardShortcuts",
+        "browserViewKeyboardShortcuts.js",
+        "doNotIgnoreMenuShortcuts",
+        "importKeyboardShortcutsFroms",
+        "keyboardShortcuts",
+        "le_backend_selection_keyboard_shortcuts__",
+        "n.setIgnoreMenuShortcuts",
+        "setIgnoreMenuShortcuts",
+        "setupKeyboardShortcuts",
+        "shortcuts",
+        "shortcuts.",
+        "this.setupKeyboardShortcuts"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "aiCustomizationShortcutsWidget",
+        "gettingStarted.keyboardShortcuts.description.interpolated",
+        "gettingStarted.keyboardShortcuts.title",
+        "gettingStarted.shortcuts.description.interpolated",
+        "importKeyboardShortcutsFroms",
+        "keyboardShortcuts",
+        "keyboardShortcutsUrlLinux",
+        "keyboardShortcutsUrlMac",
+        "keyboardShortcutsUrlWin",
+        "miKeyboardShortcuts",
+        "shortcuts",
+        "shortcuts."
+      ]
+    }
+  ],
+  "social-feed": [
+    {
+      "app": "Telegram",
+      "members": [
+        "+ 0x1042feed0 __objc_empty_cache remove",
+        "Telegram.(CallFeedbackControllerArguments in _69F5F84EA3CD14CDE79A83CCCEC4FFF7)",
+        "Telegram.(ConferenceCallE2EContextStateImpl in _201134FB499D0821353AC0FFEED67EB9)",
+        "Telegram.(PendingConferenceInvitationContext in _201134FB499D0821353AC0FFEED67EB9)",
+        "Telegram.ChatPresentationInterfaceState.RemovePaidMessageFeeData",
+        "_TtC8TelegramP33_201134FB499D0821353AC0FFEED67EB933ConferenceCallE2EContextStateImpl",
+        "_TtC8TelegramP33_201134FB499D0821353AC0FFEED67EB934PendingConferenceInvitationContext",
+        "_TtC8TelegramP33_69F5F84EA3CD14CDE79A83CCCEC4FFF731CallFeedbackControllerArguments",
+        "_TtCC8Telegram30ChatPresentationInterfaceState24RemovePaidMessageFeeData",
+        "initializedGroupFeedIndexIds",
+        "performFeedbackPattern:performanceTime:",
+        "removePaidMessageFeeData"
+      ]
+    },
+    {
+      "app": "Snagit",
+      "members": [
+        "_sendFeedbackMenuItem",
+        "createSnagitUpdaterWithSnagitFullVersion:feedUrl:delegate:",
+        "devSparkleFeedURL",
+        "feedParametersForUpdater:sendingSystemProfile:",
+        "feedURLStringForUpdater:",
+        "feedUrl",
+        "feedbackButton",
+        "feedbackMenuPressed:",
+        "feedbackPressed:",
+        "initWithSnagitFullVersion:feedUrl:delegate:",
+        "openFeedbackURL:",
+        "setFeedUrl:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "VVXV3wSws3AuzPfEeDtl0tM4cJcgCKAokKPtNKY9ny",
+        "_71cfeeda_0",
+        "_71cfeeda_1",
+        "_71cfeeda_2",
+        "_71cfeeda_3",
+        "_71cfeeda_4",
+        "actionFeedback--QuickAccessItemRow",
+        "actionFeedback--QuickAccessItemRow_In6ri",
+        "actionFeedback:",
+        "e.Feedback",
+        "feedback",
+        "feedbackLabel:r"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "Feedback",
+        "bd.interface.mobile.feedback",
+        "didProvideMobileFeedback",
+        "feed",
+        "feedback-banner",
+        "feedback-banner-container",
+        "feedback-banner-title",
+        "feedback:",
+        "feedface",
+        "labelFeed",
+        "labelFeedback:",
+        "labelFeedbackDesc:"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "LineFeed",
+        "RemoteHelpInformationExtPoint.feedback",
+        "RemoteHelpInformationExtPoint.feedback.deprecated",
+        "Ye.LineFeed:case",
+        "aiFeedbackActions",
+        "cursorAiFeedback",
+        "e.LineFeed",
+        "endOfLineCarriageReturnLineFeed",
+        "endOfLineLineFeed",
+        "feedback.js",
+        "feedbackIcon",
+        "miGiveFeedback"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "feed",
+        "feedback",
+        "feedbackAdded",
+        "feedbackConverted",
+        "feedbackReplyAdded",
+        "feedbackSubmitted",
+        "feedbackadded",
+        "feedbackconverted",
+        "feedbackkind",
+        "feedbackreplyadded",
+        "feedbacksubmitted",
+        "hasexistingfeedbackforfile"
+      ]
+    }
+  ],
+  "harness-actions": [
+    {
+      "app": "Snagit",
+      "members": [
+        "_regenerateFinishBlock",
+        "promptToRegenerateCompletion:",
+        "regenerateAutoSimplify",
+        "regenerateFinishBlock",
+        "regenerateThumbnail",
+        "setRegenerateFinishBlock:"
+      ]
+    },
+    {
+      "app": "1Password",
+      "members": [
+        "e.LinkedAppEnrollmentCodeRegenerated",
+        "linked_app_enrollment_code_regenerate",
+        "linked_app_enrollment_code_regenerated"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "e.prototype.regenerateLocal",
+        "e.regenerateLocal",
+        "session_regenerate_id"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "Regenerate",
+        "regenerate",
+        "regenerate-uuid",
+        "regenerates",
+        "storePreGeneratedHashes"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "Regenerate",
+        "regenerate-uuid",
+        "regenerates"
+      ]
+    }
+  ],
+  "connection-manager": [
+    {
+      "app": "1Password",
+      "members": [
+        "Integrations",
+        "integrations",
+        "integrations."
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        ".integrations.read",
+        "ManageTeamIntegrations:",
+        "ReadTeamIntegrations:",
+        "connectors:",
+        "connectors:h.array",
+        "defaultIntegrations:",
+        "grok_bot_gkw_connectors:",
+        "integrations",
+        "integrations:",
+        "listCustomDeploymentRuleIntegrations:",
+        "team.integrations.manage",
+        "team.integrations.read"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "integrations",
+        "integrations.",
+        "third-party-integrations",
+        "this._activeShellIntegrations",
+        "this._activeShellIntegrations.clear",
+        "this._activeShellIntegrations.delete",
+        "this._activeShellIntegrations.get",
+        "this._activeShellIntegrations.has",
+        "this._activeShellIntegrations.set",
+        "this._terminalShellIntegrationService",
+        "this._terminalShellIntegrationService.onDidChangeTerminalShellIntegrati",
+        "this._terminalShellIntegrationService.onDidEndTerminalShellExecution"
+      ]
+    }
+  ],
+  "overflow-menu": [
+    {
+      "app": "1Password",
+      "members": [
+        "item-overflow-menu"
+      ]
+    },
+    {
+      "app": "Obsidian",
+      "members": [
+        "vertical-three-dots"
+      ]
+    }
+  ],
+  "ai-presence": [
+    {
+      "app": "Obsidian",
+      "members": [
+        "companion",
+        "selectCompanionObject"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "callCompanion",
+        "companion",
+        "companion:",
+        "companion:h.string",
+        "companionScope:e",
+        "his.companionSessionId",
+        "ms-vscode.js-debug-companion",
+        "n.callCompanion",
+        "n.callCompanion.bind",
+        "n.companionDefault",
+        "this.companionSessionId",
+        "vscode-js-debug-companion"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "Companion",
+        "companion",
+        "companions.",
+        "js-debug-companion",
+        "ms-vscode.js-debug-companion",
+        "onCommand:js-debug-companion.d",
+        "onCommand:js-debug-companion.kill",
+        "onCommand:js-debug-companion.lau",
+        "onCommand:js-debug-companion.launch",
+        "onCommand:js-debug-companion.launchAndAttach",
+        "vscode-js-debug-companion",
+        "vscode-js-debug-companion.git"
+      ]
+    }
+  ],
+  "composer": [
+    {
+      "app": "Obsidian",
+      "members": [
+        "bd.plugins.noteComposer",
+        "bd.plugins.noteComposer.labelNoFiles",
+        "composer",
+        "e.prototype.decomposeRight",
+        "note-composer",
+        "note-composer:merge-file",
+        "noteComposer:",
+        "t.prototype.decomposeRight",
+        "this.decomposeRight",
+        "this.left.decomposeRigh",
+        "this.left.decomposeRight",
+        "this.right.decomposeRight"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "E_BEFORE_COMPILING____disable_composer_handle_debugging__",
+        "E_BEFORE_COMPILING____disable_composer_migration_warning__",
+        "agents.chatHistory.composerAria",
+        "agents.mru.composerAria",
+        "cursor.composer.conversationDensity.toolSummary",
+        "cursor.composer.planTextSizeScale.defaultSize",
+        "cursor.composer.planTextSizeScale.extraLarge",
+        "cursor.composer.planTextSizeScale.large",
+        "cursor.composer.planTextSizeScale.matchAgentChat",
+        "cursor.composer.planTextSizeScale.small",
+        "label.composer",
+        "mru.composerAria"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "Composer",
+        "comment-composer",
+        "composer",
+        "composer.",
+        "in-composer",
+        "inChatComposer",
+        "noComposer.",
+        "ntCommentingAccessibilityHelp.composer",
+        "s.chat.experimental.newSessionComposerLayout",
+        "this._closeCommentComposer",
+        "this._commentComposer",
+        "this._showCommentComposer"
+      ]
+    }
+  ],
+  "design-assimilation": [
+    {
+      "app": "Obsidian",
+      "members": [
+        "incorporated"
+      ]
+    },
+    {
+      "app": "Cursor",
+      "members": [
+        "Incorporates",
+        "incorporate",
+        "incorporates"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "Incorporates",
+        "incorporate",
+        "incorporates"
+      ]
+    }
+  ],
+  "ambient-sight": [
+    {
+      "app": "Cursor",
+      "members": [
+        "insight",
+        "redisinsight."
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "BusinessInsight",
+        "FeatureInsight",
+        "Insights",
+        "applicationinsights",
+        "armapplicationinsights",
+        "armcustomerinsights",
+        "ationinsights",
+        "customerinsights",
+        "insight",
+        "insights",
+        "insights.",
+        "sight"
+      ]
+    }
+  ],
+  "financial-dashboard": [
+    {
+      "app": "Cursor",
+      "members": [
+        "banking",
+        "dashboards.",
+        "f.DashboardService"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "banking"
+      ]
+    }
+  ],
+  "super-app": [
+    {
+      "app": "Cursor",
+      "members": [
+        "yzhang.markdown-all-in-one"
+      ]
+    },
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "yzhang.markdown-all-in-one"
+      ]
+    }
+  ],
+  "session-list": [
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "session-list"
+      ]
+    }
+  ],
+  "voice-mode": [
+    {
+      "app": "Visual Studio Code",
+      "members": [
+        "voice-mode",
+        "voice-mode-",
+        "voice-mode-compact",
+        "voice-mode-download",
+        "voice-mode-download-compact"
       ]
     }
   ]

@@ -1,7 +1,7 @@
 {
   "name": "Comar",
   "meaning": "confluence — where every app's name for a feature flows into one canonical term",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "terms": [
     {
       "id": "sidebar",
