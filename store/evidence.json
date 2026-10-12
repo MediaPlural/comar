@@ -2622,6 +2622,24 @@
         "s.chat.experimental.newSessionComposerLayout",
         "this._closeCommentComposer"
       ]
+    },
+    {
+      "app": "ChatGPT/Grok (web)",
+      "members": [
+        "Composer",
+        "composer-btn",
+        "composer-speech-button",
+        "data-composer",
+        "unified-composer",
+        "composer_suggestions",
+        "enable_tool_composer",
+        "composer-first-prompt-input",
+        "deep-research-composer-extra-height",
+        "composer-submit-button",
+        "show-selected-model-in-composer",
+        "expanded_composer_mode",
+        "composer_send_paperplane_icon"
+      ]
     }
   ],
   "fork-session": [
@@ -2764,6 +2782,28 @@
         "voice-mode-compact",
         "voice-mode-download",
         "voice-mode-download-compact"
+      ]
+    },
+    {
+      "app": "ChatGPT (web)",
+      "members": [
+        "Voice Mode",
+        "voice_mode",
+        "voice_mode_config",
+        "enable_voice_mode",
+        "disable_voice_mode",
+        "enable_voice_mode_pill",
+        "new_voice_mode_1.0.36",
+        "incall_voice_model_picker_available"
+      ]
+    }
+  ],
+  "message-actions": [
+    {
+      "app": "X (web)",
+      "members": [
+        "ContextMenu",
+        "x.ContextMenu"
       ]
     }
   ]
