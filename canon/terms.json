@@ -89,7 +89,7 @@
     {
       "id": "quest-board",
       "category": "productivity",
-      "description": "Kanban-style board of tasks/quests (estate term for kanban).",
+      "description": "Kanban-style board of tasks/quests (canonical term for kanban).",
       "aliases": [
         "kanban",
         "task board",

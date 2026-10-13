@@ -33,6 +33,6 @@ store/evidence.json reverse-engineered evidence keyed by canonical term
   canonical term (aliases never become terms).
 - **Evidence-backed.** A canonical term may have no evidence yet, but never
   fabricated evidence. Evidence carries the source app + extracted classes/methods.
-- **Platform-agnostic** (estate law). The taxonomy is tool-independent.
+- **Platform-agnostic** (design law). The taxonomy is tool-independent.
 
-Repo: https://github.com/MediaPlural/comar (MIT). Local: /Users/sharpe/mp-repos/comar.
+Repo: https://github.com/MediaPlural/comar (MIT).
