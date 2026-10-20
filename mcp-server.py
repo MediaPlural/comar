@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Comar MCP server — agents drive the feature/UI-UX bank via MCP (stdio JSON-RPC).
 
-Tools: list, canonicalize, show, synth, synth_all
+Tools: list, canonicalize, show, synth, synth_all, synthesize
 Run: python3 mcp-server.py
 Protocol: MCP stdio — JSON-RPC 2.0 over line-delimited messages. No external deps.
 """
@@ -32,6 +32,10 @@ TOOLS = [
     {"name": "synth_all",
      "description": "Emit the full synthesized spec (all backed canonical terms).",
      "inputSchema": {"type": "object", "properties": {}}},
+    {"name": "synthesize",
+     "description": "FULL synthesis for one term: cross-app comparison, extracted design pattern, ranked evidence-cited build recommendations.",
+     "inputSchema": {"type": "object",
+                     "properties": {"term": {"type": "string"}}, "required": ["term"]}},
 ]
 
 
@@ -47,6 +51,8 @@ def call_tool(name, args):
         cmd += ["synth", args.get("term", "")]
     elif name == "synth_all":
         cmd += ["synth", "--all"]
+    elif name == "synthesize":
+        cmd += ["synthesize", args.get("term", "")]
     else:
         return {"isError": True, "content": [{"type": "text", "text": f"unknown tool: {name}"}]}
     proc = subprocess.run(cmd, capture_output=True, text=True, timeout=120)
