@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Bank enumerates canonical terms
+        run: python3 comar.py list | grep -q sidebar
+      - name: Canonicalizer maps a known alias to 'sidebar'
+        run: python3 comar.py canonicalize LeftSidebarView | grep -q sidebar
+      - name: Synthesis produces an evidence-cited card
+        run: python3 comar.py synth sidebar | grep -q sidebar
